@@ -4,7 +4,7 @@
 
 快捷键: O=打开棋谱,C=显示坐标,M=显示手数,X=切换计算量/目差,V=试下,A=自动前进变化图
 
-[Lizzie Player](http://lizzieyzy.cn) is an extension of [WGo.js](http://wgo.waltheri.net/player), a HTML5 library for purposes of game of go.Lizzie Player can display analyzed sgf from [Lizzie](https://github.com/featurecat/lizzie) or [LizzieYzy](https://pan.baidu.com/s/1q615GHD62F92mNZbTYfcxA) or open a sgf from local device,you can also upload you sgf from LizzieYzy's share menu and view it from any device.
+[Lizzie Player](http://lizzieyzy.cn) is an extension of [WGo.js](http://wgo.waltheri.net/player), a HTML5 library for purposes of game of go.Lizzie Player can display analyzed SGF from [Lizzie](https://github.com/featurecat/lizzie) or [LizzieYzy](https://pan.baidu.com/s/1q615GHD62F92mNZbTYfcxA).You can open a SGF from local device or upload you SGF from LizzieYzy's share menu and view it at any device.
 
 Short cut: O=Open,C=Toggle coordinates,M=Toggle moveNumber,X=Toggle playouts/score,V=Try play,A=Auto variation
 
