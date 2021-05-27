@@ -1,0 +1,1678 @@
+(;DT[2020-06-04]KM[7.5]PB[李世石]RE[黑中盘胜]DZ[G]SZ[19]PW[韩豆]CA[]AP[Lizzie: yzy1.1]C[蹭豆侠：插嘴明天是插不上了，随便扯几句。“韩豆”是韩国NHN公司研发的围棋人工智能，曾在2019中信证券杯世界AI公开赛上获得第三名（仅次于绝艺和星阵）。李世石1983年3月2日出生，师从权甲龙，1995年入段。我对李世石的记忆只能追溯到那盘四劫循环和古李十番棋，再之后，狂妄叛逆的（我觉得他喜欢这个词）李世石被年轻的（   ）打败了，但他仍然屹立不倒。这次告别赛是他的谢幕演出，不论结果如何，都是一个平淡的句点，却在他无数次的荣耀中，熠熠生辉。
+佐为传人：第一盘李世石执黑受让两子，然后黑需要贴3又3/4子。若李世石胜则第二盘分先，若败则第二盘受让三子贴3又3/4子（即所有对局数子结果黑185子获胜）。比赛时间12月18日北京时间11点，用时是每方2小时，3次1分钟读秒。
+大家好，我是Sai Runner,昔日的“飞禽岛不败少年”迎来了他职业生涯最后的比赛，祝福他能够享受最后的三盘棋。静静等待直播源，比赛即将开始。现场棋盘上目前空无一子，裁判正在宣读规则];B[pd]FIT[0.0]LZ[ 50.0 0
+];B[dp]FIT[0.0]C[]LZ[ 50.0 0
+](;W[qp]FIT[0.0]C[白棋 胜率: 5.9% 
+(40b_etyy / 1.9k 计算量)
+贴目: 7.5]LZ[40b_etyy 5.9 1.9k
+move D16 visits 410 winrate 9411 pv D16 O4 M3 C17 C16 D17 F17 E17 E16 F18 Q4 Q5 R3 Q3 P4 P3 info move D17 visits 289 winrate 9409 pv D17 O4 D15 F3 C6 R14 O17 R16 R17 S17 R15 S16 info move C16 visits 344 winrate 9405 pv C16 O4 E16 F3 C6 R14 O17 R16 R17 S17 R15 info move C17 visits 191 winrate 9409 pv C17 O4 M3 R17 R16 Q17 O17 P17 P16 O18 info move D15 visits 101 winrate 9398 pv D15 D17 C17 O4 H17 F3 C6 R14 O16 P15 info move P4 visits 216 winrate 9363 pv P4 C16 R3 F16 R8 O17 Q14 C6 F3 C4 info move Q3 visits 68 winrate 9366 pv Q3 R3 D16 O3 F3 C17 C16 D17 F17 E17 info move P3 visits 192 winrate 9316 pv P3 D17 D15 C15 C14 C16 D14 F17 Q6 C3 D3 C4 C6 info move E16 visits 47 winrate 9366 pv E16 C16 C17 O4 C12 F3 D6 R14 O17 info move Q4 visits 40 winrate 9330 pv Q4 Q3 P3 Q5 P4 R3 D16 M4 P5 Q6 info ];B[dd]FIT[0.0]C[黑棋 胜率: 94.1% 
+(40b_etyy / 4.0k 计算量)
+
+豆腐：带好耳机，一边听一边插嘴。李世石自己也表示，韩豆思考时间在40s以上的时候真的很厉害，按照AI的习性估计是喜欢先守角？
+佐为传人：看看韩豆是会守角还是点角
+贴目: 7.5]LZ[40b_etyy 94.1 4.0k
+move O4 visits 3507 winrate 595 pv O4 M3 C17 C16 D17 F17 F18 Q4 Q5 R3 Q3 P4 P3 P5 R5 O5 info move O3 visits 207 winrate 581 pv O3 Q4 Q3 R5 S4 Q5 P4 P5 O5 O6 N5 N6 S5 M5 M6 N3 P6 N4 info move C17 visits 161 winrate 571 pv C17 D17 C16 C14 C15 D15 B14 P3 Q6 C18 B18 B15 B16 B13 A15 info move P4 visits 59 winrate 613 pv P4 O4 P3 R5 Q5 R6 S4 Q10 C17 D17 C16 info move R17 visits 36 winrate 570 pv R17 R16 Q17 O17 P17 P16 O18 S17 S18 N18 S16 info move C3 visits 28 winrate 580 pv C3 D3 C4 C6 C5 D5 B6 C2 B2 B7 info move P3 visits 22 winrate 604 pv P3 R14 C17 D17 C16 info ];W[np]FIT[100.0]C[白棋 胜率: 9.9% 
+盘面: 26.4 不确定度: 0.0
+(KataGo_20b_etyy / 5.9k 计算量)
+
+白棋 胜率: 9.9% 
+盘面: 26.4 局面复杂度: 24.4
+(KataGo_20b_etyy / 6.8k 计算量)
+
+星阵：黑棋 99.2%，黑领先18.4目
+贴目: 7.5]LZ[KataGo_20b_etyy 9.9 5.9k 18.9
+move M3 visits 1984 winrate 9014 scoreMean 18.9189 pv M3 R17 R16 Q17 P17 P18 O18 O17 P16 N18 Q18 O19 R18 S17 S18 C3 D3 C4 C5 B5 B6 C6 D5 B7 B4 A6 B3 C2 B2 F17 E17 F16 D14 C12 info move F3 visits 1168 winrate 9121 scoreMean 19.4496 pv F3 C17 C16 D17 F17 E17 E16 F18 R14 G4 G3 J4 B17 info move R14 visits 1082 winrate 9114 scoreMean 19.5285 pv R14 C17 D17 C16 C14 C15 D15 B14 F3 C13 D14 C18 K17 Q13 R11 info move C14 visits 331 winrate 9105 scoreMean 19.1965 pv C14 R17 R16 Q17 P17 P18 O18 O17 P16 N18 Q18 O19 R18 S17 S18 C3 D3 C4 C5 B5 B6 C6 D5 B7 B4 A6 B3 C2 B2 F17 E18 F18 info move F17 visits 296 winrate 9095 scoreMean 19.0834 pv F17 C3 D3 C4 C5 B5 B6 C6 D5 B7 B4 A6 B3 C2 B2 R17 R16 Q17 P17 P18 O18 O17 P16 N18 Q18 O19 R18 S17 S18 C14 B15 B14 C15 info move O17 visits 257 winrate 9099 scoreMean 18.9923 pv O17 C17 C16 D17 E17 E18 F18 F17 E16 G18 D18 F19 C18 B17 B18 C3 D3 C4 C5 B5 B6 C6 info move P3 visits 238 winrate 8954 scoreMean 18.4713 pv P3 P4 F3 R17 R16 Q17 P17 P18 O18 O17 info move C6 visits 209 winrate 9073 scoreMean 18.7824 pv C6 R17 R16 Q17 P17 P18 O18 O17 P16 N18 Q18 O19 R18 S17 S18 C17 C16 D17 E17 E18 info move Q4 visits 172 winrate 8907 scoreMean 18.3148 pv Q4 Q3 R3 Q5 P4 P3 P5 R5 P6 N3 R7 S3 R2 S2 info move Q3 visits 128 winrate 9006 scoreMean 18.9513 pv Q3 Q4 R14 C17 D17 C16 info ](;B[lq]FIT[100.0]C[黑棋 胜率: 89.4% 
+盘面: 25.9 不确定度: 0.0
+(KataGo_20b_etyy / 2.8k 计算量)
+
+黑棋 胜率: 89.4% 
+盘面: 25.9 局面复杂度: 24.4
+(KataGo_20b_etyy / 2.8k 计算量)
+
+豆腐：积极。我个人真的很佩服赛豆三番棋对AI发起的最后的冲锋。
+星阵：黑棋 99.2%，黑领先18.4目
+佐为传人：李世石非常积极，直接挂上来，显然表明今天不畏惧和AI掰手腕
+贴目: 7.5]LZ[KataGo_20b_etyy 89.4 2.8k -18.4
+move R17 visits 1376 winrate 1059 scoreMean -18.4224 pv R17 R16 Q17 P17 P18 O18 O17 P16 N18 Q18 O19 R18 S17 S18 C3 D3 C4 C5 B5 B6 C6 D5 B7 B4 A6 B3 C2 B2 F17 E17 F16 D14 info move C17 visits 714 winrate 1024 scoreMean -18.6884 pv C17 D17 C16 C14 C15 D15 B14 R14 C3 D3 C4 C5 B5 B6 C6 D5 info move C3 visits 383 winrate 986 scoreMean -19.042 pv C3 D3 C4 D5 B6 R14 C17 D17 C16 D15 B14 C6 info move F3 visits 338 winrate 977 scoreMean -19.2454 pv F3 J3 C6 D6 D7 E6 C3 C5 D3 C7 info move D3 visits 6 winrate 899 scoreMean -19.7858 pv D3 C3 E3 C4 H3 info move R14 visits 2 winrate 872 scoreMean -19.8988 pv R14 O17 info move R16 visits 1 winrate 825 scoreMean -20.6777 pv R16 info move O17 visits 1 winrate 852 scoreMean -19.9077 pv O17 info move C14 visits 1 winrate 799 scoreMean -20.2734 pv C14 info move N3 visits 1 winrate 813 scoreMean -21.4472 pv N3 info ](;W[fq]FIT[100.0]C[白棋 胜率: 9.0% 
+盘面: 28.2 不确定度: 0.0
+(KataGo_20b_etyy / 6.8k 计算量)
+
+白棋 胜率: 9.0% 
+盘面: 28.2 局面复杂度: 25.1
+(KataGo_20b_etyy / 7.3k 计算量)
+
+豆腐：突然发现摆出了一样的图😂
+星阵：黑棋 99.2%，黑领先18.5目
+佐为传人：感觉上来就要战斗了，这是李世石原本最喜欢的战斗格局
+贴目: 7.5]LZ[KataGo_20b_etyy 9.0 6.8k 20.7
+move Q4 visits 5425 winrate 9103 scoreMean 20.711 pv Q4 Q5 Q3 R3 R2 P5 P2 R7 R8 Q8 R9 O2 N2 O3 O1 info move J3 visits 299 winrate 9022 scoreMean 19.2843 pv J3 C6 D6 D7 C5 E6 D5 C7 E7 F6 E8 C10 E2 info move Q3 visits 249 winrate 8978 scoreMean 18.809 pv Q3 Q4 O3 P3 P2 P4 N2 Q2 J3 C17 D17 C16 C14 C15 D15 info move E3 visits 220 winrate 8994 scoreMean 19.1424 pv E3 F4 C6 K3 R14 C17 D17 C16 C15 B15 B14 info move P3 visits 172 winrate 8814 scoreMean 18.0872 pv P3 P4 O3 Q3 N4 C6 D6 D7 info move H3 visits 130 winrate 9046 scoreMean 19.4089 pv H3 R17 R16 Q17 O17 P17 P16 O18 S17 S18 P18 S16 R18 info move C6 visits 124 winrate 9053 scoreMean 19.1183 pv C6 R17 R16 Q17 O17 P17 P16 O18 S17 S18 P18 Q18 N18 info move E2 visits 62 winrate 9000 scoreMean 19.1065 pv E2 K3 Q3 Q4 O3 P3 info move R14 visits 62 winrate 9053 scoreMean 19.9681 pv R14 C6 D6 D7 E6 C4 C3 C5 F4 D5 E4 B3 info move C7 visits 62 winrate 9079 scoreMean 19.4796 pv C7 C17 C16 D17 F17 E17 E16 F18 E3 info ](;B[pp]FIT[62.28197674418605]C[黑棋 胜率: 90.3% 
+盘面: 27.3 不确定度: 0.0
+(KataGo_20b_etyy / 5.0k 计算量)
+
+黑棋 胜率: 90.3% 
+盘面: 27.3 局面复杂度: 24.9
+(KataGo_20b_etyy / 5.0k 计算量)
+
+星阵：黑棋 98.8%，黑领先19.2目
+佐为传人：直接靠上白棋！这个一般腾挪时是很常用的，李世石现在直接来寻求借用，看白应手
+星阵这个图，就是开始有战斗了。白上扳黑可以扳角里
+贴目: 7.5]LZ[KataGo_20b_etyy 90.3 5.0k -19.8
+move Q5 visits 3990 winrate 967 scoreMean -19.7865 pv Q5 Q3 R3 R2 P5 P2 R7 R8 Q8 R9 O2 N2 O3 info move Q3 visits 839 winrate 869 scoreMean -21.5021 pv Q3 P3 P4 Q5 R3 O3 N4 M4 Q6 E3 F4 J3 info move R3 visits 93 winrate 745 scoreMean -21.9235 pv R3 Q6 O2 H3 C17 C16 info move R5 visits 68 winrate 827 scoreMean -21.7019 pv R5 Q3 N3 Q5 Q6 P6 Q7 M4 P5 O5 P4 info ](;W[pq]FIT[100.0]C[白棋 胜率: 8.3% 
+盘面: 29.7 不确定度: 0.0
+(KataGo_20b_etyy / 2.8k 计算量)
+
+白棋 胜率: 8.3% 
+盘面: 29.7 局面复杂度: 25.6
+(KataGo_20b_etyy / 2.8k 计算量)
+贴目: 7.5]LZ[KataGo_20b_etyy 8.3 2.8k 22.2
+move P3 visits 2701 winrate 9173 scoreMean 22.1745 pv P3 P4 Q5 R3 P2 Q6 R5 R6 P5 S5 S4 S3 S6 T4 P6 P7 N5 N4 O7 M4 R7 L3 L4 M5 K3 info move R5 visits 17 winrate 7362 scoreMean 10.2222 pv R5 Q5 J3 R6 C3 info move R3 visits 14 winrate 8747 scoreMean 17.175 pv R3 P3 J3 R5 D3 info move Q5 visits 9 winrate 8886 scoreMean 18.1021 pv Q5 P3 J3 R17 info move J3 visits 8 winrate 8813 scoreMean 17.0955 pv J3 Q5 C3 C17 info move H3 visits 4 winrate 8632 scoreMean 15.8375 pv H3 Q5 F4 C17 info move H4 visits 4 winrate 8780 scoreMean 16.8837 pv H4 Q5 F4 R17 info move R14 visits 4 winrate 8767 scoreMean 17.0979 pv R14 Q5 J3 C17 info move F4 visits 4 winrate 8772 scoreMean 17.6254 pv F4 G4 F5 D3 info move G3 visits 4 winrate 8781 scoreMean 17.4487 pv G3 G4 H3 info ];B[oq]FIT[48.53050747022595]C[黑棋 胜率: 92.0% 
+盘面: 29.6 不确定度: 0.0
+(KataGo_20b_etyy / 17k 计算量)
+
+黑棋 胜率: 92.0% 
+盘面: 29.6 局面复杂度: 25.4
+(KataGo_20b_etyy / 17k 计算量)
+贴目: 7.5]LZ[KataGo_20b_etyy 92.0 17k -22.1
+move P4 visits 15239 winrate 796 scoreMean -22.0525 pv P4 Q5 R3 P2 S6 J3 C6 D6 D7 E6 C3 C5 D3 C7 C17 D17 C16 C14 C15 D15 B14 Q7 R17 R16 Q17 O17 P17 P16 O18 S17 S18 P18 S16 info move Q5 visits 1914 winrate 823 scoreMean -22.3866 pv Q5 P4 P5 R3 O3 P2 O2 Q2 N6 H3 S4 S3 F5 D6 R17 R16 info move O3 visits 123 winrate 608 scoreMean -25.741 pv O3 P4 P2 Q2 R3 O2 Q6 P1 P5 O5 Q5 info move P2 visits 12 winrate 707 scoreMean -22.4897 pv P2 R3 Q2 R5 S4 Q5 info move Q2 visits 8 winrate 659 scoreMean -23.183 pv Q2 P4 R5 P2 P6 J3 info move R3 visits 5 winrate 606 scoreMean -24.2565 pv R3 P4 Q6 Q2 info ];W[op]FIT[100.0]C[白棋 胜率: 7.9% 
+盘面: 29.6 不确定度: 0.0
+(KataGo_20b_etyy / 14k 计算量)
+
+白棋 胜率: 7.9% 
+盘面: 29.6 局面复杂度: 25.4
+(KataGo_20b_etyy / 14k 计算量)
+贴目: 7.5]LZ[KataGo_20b_etyy 7.9 14k 22.1
+move Q5 visits 13638 winrate 9209 scoreMean 22.1475 pv Q5 R3 P2 S6 J3 C6 D6 D7 E6 C3 C5 D3 C7 C17 D17 C16 C14 C15 D15 B14 Q7 R17 R16 Q17 O17 P17 P16 O18 S17 S18 info move F4 visits 1 winrate 7562 scoreMean 10.9163 pv F4 info move E3 visits 1 winrate 7328 scoreMean 10.1358 pv E3 info move H3 visits 1 winrate 7117 scoreMean 9.8679 pv H3 info move J3 visits 1 winrate 7823 scoreMean 12.0057 pv J3 info move Q2 visits 1 winrate 7581 scoreMean 10.5116 pv Q2 info move G4 visits 1 winrate 7145 scoreMean 9.57729 pv G4 info move H4 visits 1 winrate 7264 scoreMean 10.0369 pv H4 info move R3 visits 1 winrate 5650 scoreMean 4.81954 pv R3 info move G3 visits 1 winrate 7747 scoreMean 12.0002 pv G3 info ];B[po]FIT[61.39788060266946]C[黑棋 胜率: 92.0% 
+盘面: 29.8 不确定度: 0.0
+(KataGo_20b_etyy / 6.4k 计算量)
+
+黑棋 胜率: 92.0% 
+盘面: 29.8 局面复杂度: 25.6
+(KataGo_20b_etyy / 6.4k 计算量)
+贴目: 7.5]LZ[KataGo_20b_etyy 92.0 6.4k -22.3
+move R5 visits 3765 winrate 801 scoreMean -22.3209 pv R5 R3 Q2 Q6 S3 N5 O3 R2 S2 H3 C17 C16 D17 info move R3 visits 2249 winrate 794 scoreMean -22.4947 pv R3 P2 S6 J3 C6 D6 D7 E6 C3 C5 D3 C7 R17 info move O3 visits 255 winrate 673 scoreMean -23.1643 pv O3 R3 P2 Q2 C6 D6 D7 E6 C5 C4 J3 P3 info move P2 visits 82 winrate 681 scoreMean -23.0992 pv P2 R3 O3 Q2 C6 D6 D7 E6 C5 C4 J3 info move Q2 visits 23 winrate 585 scoreMean -25.3975 pv Q2 R5 S4 O3 N4 N3 S5 R7 Q7 info move R2 visits 7 winrate 656 scoreMean -23.9736 pv R2 O3 N4 R5 N3 N2 info move N3 visits 1 winrate 482 scoreMean -28.5396 pv N3 info move R16 visits 1 winrate 623 scoreMean -26.1041 pv R16 info move D17 visits 1 winrate 645 scoreMean -26.1815 pv D17 info move Q7 visits 1 winrate 717 scoreMean -24.8462 pv Q7 info ];W[qq]FIT[100.0]C[白棋 胜率: 7.8% 
+盘面: 29.7 不确定度: 0.0
+(KataGo_20b_etyy / 7.6k 计算量)
+
+白棋 胜率: 7.8% 
+盘面: 29.7 局面复杂度: 25.4
+(KataGo_20b_etyy / 7.6k 计算量)
+
+佐为传人：韩豆的下棋速度也并不是完全恒定
+贴目: 7.5]LZ[KataGo_20b_etyy 7.8 7.6k 22.2
+move P2 visits 6746 winrate 9218 scoreMean 22.2403 pv P2 S6 J3 C6 D6 D7 E6 C3 C5 D3 C7 C17 D17 C16 C14 C15 D15 B14 Q7 R17 R16 Q17 O17 P17 P16 O18 S17 info move O3 visits 797 winrate 9061 scoreMean 20.3664 pv O3 N4 M4 N6 M6 M7 L6 N3 info move O2 visits 37 winrate 9080 scoreMean 20.8565 pv O2 P6 R5 R7 S5 Q2 P2 info move J3 visits 4 winrate 8836 scoreMean 17.6872 pv J3 N3 M4 info move E3 visits 4 winrate 8949 scoreMean 18.6008 pv E3 O3 F4 info move H3 visits 3 winrate 8855 scoreMean 17.385 pv H3 O3 F4 info move F4 visits 3 winrate 8909 scoreMean 18.339 pv F4 G4 F5 info move G3 visits 3 winrate 8852 scoreMean 17.8203 pv G3 G4 H3 info move C6 visits 2 winrate 8644 scoreMean 15.6702 pv C6 O3 info move H4 visits 2 winrate 8985 scoreMean 18.763 pv H4 N3 info ];B[or]FIT[61.06518363220198]C[黑棋 胜率: 92.2% 
+盘面: 29.4 不确定度: 0.0
+(KataGo_20b_etyy / 3.1k 计算量)
+
+黑棋 胜率: 92.2% 
+盘面: 29.4 局面复杂度: 25.2
+(KataGo_20b_etyy / 3.1k 计算量)
+贴目: 7.5]LZ[KataGo_20b_etyy 92.2 3.1k -21.9
+move S6 visits 387 winrate 776 scoreMean -21.9381 pv S6 J3 C6 D6 D7 E6 C3 C5 D3 C7 R17 R16 info move Q6 visits 1800 winrate 819 scoreMean -23.3536 pv Q6 R5 R6 P5 S5 S6 S7 S4 T6 O5 S3 N4 C17 D17 C16 D15 B14 info move R6 visits 903 winrate 681 scoreMean -23.1864 pv R6 Q6 R7 N5 C17 C16 D17 F17 E17 E16 F18 E3 F4 D6 K3 O5 C8 info move P6 visits 42 winrate 717 scoreMean -24.8537 pv P6 R5 R7 S5 Q2 O3 S4 S7 S8 info move R5 visits 6 winrate 580 scoreMean -24.3648 pv R5 Q6 R7 Q7 R8 info ];W[rn]FIT[100.0]C[白棋 胜率: 8.2% 
+盘面: 28.9 不确定度: 0.0
+(KataGo_20b_etyy / 4.3k 计算量)
+
+白棋 胜率: 8.2% 
+盘面: 28.9 局面复杂度: 25.1
+(KataGo_20b_etyy / 4.3k 计算量)
+贴目: 7.5]LZ[KataGo_20b_etyy 8.2 4.3k 21.4
+move J3 visits 3006 winrate 9181 scoreMean 21.4057 pv J3 C6 D6 D7 E6 C3 C5 D3 C7 C17 D17 C16 C14 C15 D15 B14 C18 B18 B15 D18 B17 info move K3 visits 425 winrate 9215 scoreMean 21.6696 pv K3 C6 D6 D7 C5 E6 D5 C7 E7 F6 E8 C10 info move Q7 visits 385 winrate 9173 scoreMean 22.3839 pv Q7 K3 L4 O6 K4 J3 J4 H4 H5 G4 info move E3 visits 152 winrate 9111 scoreMean 20.902 pv E3 F4 K3 D5 C5 C6 E5 D6 E4 C4 C3 info move N5 visits 111 winrate 9183 scoreMean 20.6789 pv N5 P6 O6 P5 P7 Q7 J3 C17 info move K4 visits 67 winrate 9214 scoreMean 21.4756 pv K4 P6 E3 F4 D6 C17 C16 info move P6 visits 60 winrate 9142 scoreMean 21.5694 pv P6 N5 K3 L4 L3 J5 H4 info move R7 visits 42 winrate 9051 scoreMean 20.2714 pv R7 Q6 P5 R6 N5 O5 info move H3 visits 25 winrate 9108 scoreMean 20.3601 pv H3 C17 C16 D17 info move R14 visits 18 winrate 9033 scoreMean 19.8825 pv R14 K3 K4 J4 L4 J5 Q7 info ];B[iq]FIT[67.55431969350164]C[黑棋 胜率: 91.1% 
+盘面: 28.2 不确定度: 0.0
+(KataGo_20b_etyy / 2.1k 计算量)
+
+黑棋 胜率: 91.1% 
+盘面: 28.2 局面复杂度: 25.1
+(KataGo_20b_etyy / 2.1k 计算量)
+
+豆腐：这个就比较坚实
+佐为传人：李世石非常迅速的打下拆二
+贴目: 7.5]LZ[KataGo_20b_etyy 91.1 2.1k -20.7
+move C6 visits 931 winrate 894 scoreMean -20.7154 pv C6 B5 E5 D5 D6 E6 F5 E3 B6 E7 info move C17 visits 338 winrate 749 scoreMean -21.8951 pv C17 C16 D17 F17 E17 E16 F18 Q7 C3 D3 C4 D5 D2 E2 C2 B17 info move C3 visits 331 winrate 784 scoreMean -21.7925 pv C3 D3 C4 D5 D2 E2 C2 E3 C6 Q7 R17 R16 Q17 O17 P17 P16 O18 info move R17 visits 291 winrate 741 scoreMean -22.1296 pv R17 R16 Q17 P16 O18 C3 C17 C16 D17 E16 info move K4 visits 103 winrate 806 scoreMean -21.1235 pv K4 K3 N3 N2 M4 L3 C3 D3 C4 D5 D2 E2 C2 info move P6 visits 75 winrate 722 scoreMean -21.5535 pv P6 R14 C17 D17 C16 C14 C15 D15 info move R14 visits 11 winrate 688 scoreMean -23.7562 pv R14 Q7 O17 O16 N16 O15 info move L3 visits 11 winrate 765 scoreMean -21.7105 pv L3 L4 N3 M2 M4 info ];W[cq]FIT[100.0]C[白棋 胜率: 8.1% 
+盘面: 28.8 不确定度: 0.0
+(KataGo_20b_etyy / 9.0k 计算量)
+
+白棋 胜率: 8.1% 
+盘面: 28.8 局面复杂度: 25.0
+(KataGo_20b_etyy / 9.0k 计算量)
+贴目: 7.5]LZ[KataGo_20b_etyy 8.1 9.0k 21.3
+move D3 visits 8849 winrate 9188 scoreMean 21.3251 pv D3 C4 D5 D2 E2 C2 E3 C6 Q7 R17 R16 Q17 P16 O18 N5 C17 D17 C16 C15 info move Q7 visits 48 winrate 9118 scoreMean 20.7743 pv Q7 D3 C14 R17 R16 Q17 O17 P17 info move C4 visits 26 winrate 8962 scoreMean 19.1122 pv C4 D3 E4 G2 Q7 R17 R16 Q17 O17 P17 P16 info move R14 visits 12 winrate 9130 scoreMean 20.4863 pv R14 C4 D6 C17 info move O17 visits 12 winrate 9079 scoreMean 20.0516 pv O17 C4 D6 D5 info move C14 visits 11 winrate 9124 scoreMean 20.3079 pv C14 C4 D6 R17 info move N5 visits 9 winrate 9044 scoreMean 18.9215 pv N5 C4 D6 D5 info move E2 visits 6 winrate 8833 scoreMean 18.2223 pv E2 C4 D5 B6 info move P6 visits 5 winrate 9024 scoreMean 19.2126 pv P6 C4 D6 info move R7 visits 3 winrate 8871 scoreMean 18.1039 pv R7 Q6 D3 info ];B[dq]FIT[62.98272668526931]C[黑棋 胜率: 91.8% 
+盘面: 28.7 不确定度: 0.0
+(KataGo_20b_etyy / 11k 计算量)
+
+黑棋 胜率: 91.8% 
+盘面: 28.7 局面复杂度: 25.0
+(KataGo_20b_etyy / 11k 计算量)
+
+星阵：黑棋 98.9%，黑领先21.5目
+佐为传人：白棋迅速捞角这个定式后续好像黑棋一般都是粘的，一间低夹喜欢爬
+贴目: 7.5]LZ[KataGo_20b_etyy 91.8 11k -21.2
+move C4 visits 10576 winrate 819 scoreMean -21.1966 pv C4 D5 D2 E2 C2 Q7 E3 R14 C17 G3 G4 F2 G2 H3 E1 D17 C16 C15 B15 info move D2 visits 43 winrate 638 scoreMean -23.6054 pv D2 C4 B2 B3 C2 Q7 R17 R16 Q17 O17 P17 info ](;W[cp]FIT[100.0]C[白棋 胜率: 8.1% 
+盘面: 28.8 不确定度: 0.0
+(KataGo_20b_etyy / 8.6k 计算量)
+
+白棋 胜率: 8.1% 
+盘面: 28.8 局面复杂度: 25.0
+(KataGo_20b_etyy / 8.6k 计算量)
+贴目: 7.5]LZ[KataGo_20b_etyy 8.1 8.6k 21.3
+move D5 visits 8559 winrate 9187 scoreMean 21.2739 pv D5 D2 E2 C2 Q7 E3 R14 C17 D17 C16 C15 B15 B14 C14 D15 B13 B16 A14 B17 C18 B18 K4 N5 P6 info move C5 visits 41 winrate 8738 scoreMean 18.1083 pv C5 D5 C2 B2 D2 B5 C6 B6 E5 D6 C7 D7 C8 info move C2 visits 6 winrate 8831 scoreMean 17.6337 pv C2 B2 E2 C1 info move R5 visits 4 winrate 8839 scoreMean 17.2004 pv R5 S5 D5 D2 info move Q7 visits 3 winrate 8587 scoreMean 16.4122 pv Q7 D5 C2 info move E5 visits 3 winrate 8707 scoreMean 16.1204 pv E5 D6 E6 info move E2 visits 2 winrate 8519 scoreMean 15.4637 pv E2 D5 info move D6 visits 1 winrate 8632 scoreMean 16.2276 pv D6 info move C6 visits 1 winrate 8946 scoreMean 18.4369 pv C6 info move R6 visits 1 winrate 8883 scoreMean 17.6882 pv R6 info ];B[do]FIT[67.60988584961066]C[黑棋 胜率: 91.8% 
+盘面: 28.7 不确定度: 0.0
+(KataGo_20b_etyy / 6.0k 计算量)
+
+黑棋 胜率: 91.8% 
+盘面: 28.7 局面复杂度: 25.0
+(KataGo_20b_etyy / 6.0k 计算量)
+
+佐为传人：李世石开局下得很快，这样也可以后半盘有足够时间来应对
+贴目: 7.5]LZ[KataGo_20b_etyy 91.8 6.0k -21.2
+move D2 visits 5056 winrate 822 scoreMean -21.1686 pv D2 E2 C2 Q7 E3 G3 G4 F2 G2 H3 E1 F4 F1 F5 R17 R16 Q17 O17 P17 info move B6 visits 713 winrate 724 scoreMean -22.2811 pv B6 Q7 R17 Q17 R16 R14 R15 Q15 S14 N7 C17 info move C5 visits 210 winrate 713 scoreMean -22.4539 pv C5 D6 D2 E2 C2 Q7 C17 C16 D17 F17 E17 info move C6 visits 4 winrate 646 scoreMean -22.9053 pv C6 C5 B5 B4 info ];W[dr]FIT[100.0]C[白棋 胜率: 8.3% 
+盘面: 28.6 不确定度: 0.0
+(KataGo_20b_etyy / 6.1k 计算量)
+
+白棋 胜率: 8.3% 
+盘面: 28.6 局面复杂度: 24.9
+(KataGo_20b_etyy / 6.1k 计算量)
+贴目: 7.5]LZ[KataGo_20b_etyy 8.3 6.1k 21.1
+move E2 visits 5909 winrate 9173 scoreMean 21.0723 pv E2 C2 Q7 E3 G3 G4 F2 G2 H3 E1 F4 F1 F5 R17 R16 Q17 O17 P17 P16 O18 info move Q7 visits 106 winrate 9108 scoreMean 20.7339 pv Q7 E2 C9 R17 R16 Q17 O17 P17 P16 O18 info move C5 visits 40 winrate 9026 scoreMean 19.8248 pv C5 E2 C9 C17 C16 D17 E17 E18 info move R14 visits 33 winrate 9093 scoreMean 20.5028 pv R14 E2 Q7 C17 C16 D17 F17 E17 info move C14 visits 14 winrate 9060 scoreMean 20.3196 pv C14 E2 R14 D9 Q7 info move P6 visits 12 winrate 8966 scoreMean 19.0528 pv P6 E2 C14 R17 R16 Q17 info move R7 visits 6 winrate 8962 scoreMean 18.9723 pv R7 E2 P7 Q6 info move N5 visits 5 winrate 8888 scoreMean 17.8692 pv N5 E2 Q7 R17 info ];B[er]FIT[71.20878742187614]C[黑棋 胜率: 91.8% 
+盘面: 28.7 不确定度: 0.0
+(KataGo_20b_etyy / 1.5k 计算量)
+
+黑棋 胜率: 91.8% 
+盘面: 28.7 局面复杂度: 24.9
+(KataGo_20b_etyy / 1.5k 计算量)
+贴目: 7.5]LZ[KataGo_20b_etyy 91.8 1.5k -21.2
+move C2 visits 1520 winrate 817 scoreMean -21.1729 pv C2 Q7 E3 G3 G4 F2 G2 H3 E1 F4 F1 F5 R17 R16 info move C5 visits 4 winrate 638 scoreMean -23.4638 pv C5 C2 B2 D1 info ];W[cr]FIT[100.0]C[白棋 胜率: 8.4% 
+盘面: 28.4 不确定度: 0.0
+(KataGo_20b_etyy / 8.3k 计算量)
+
+白棋 胜率: 8.4% 
+盘面: 28.4 局面复杂度: 25.0
+(KataGo_20b_etyy / 8.3k 计算量)
+
+星阵：黑棋 99.1%，黑领先22目
+佐为传人：前面的这些时间，李九段可以充分用来调整心情。黑棋左下是否要脱先，这是要抉择的一点
+贴目: 7.5]LZ[KataGo_20b_etyy 8.4 8.3k 20.9
+move Q7 visits 5723 winrate 9156 scoreMean 20.8914 pv Q7 E3 R14 C17 G3 G4 F2 G2 H3 E1 D17 C16 C15 B15 B14 C14 info move E3 visits 884 winrate 9217 scoreMean 21.6069 pv E3 C6 Q7 R17 R16 Q17 O17 P17 P16 O18 S17 S18 P18 S16 R18 T17 Q18 S17 N18 O16 N17 R14 info move R14 visits 484 winrate 9193 scoreMean 21.0844 pv R14 E3 Q7 C17 D17 C16 C14 C15 D15 B14 C18 B18 B15 D18 info move F2 visits 323 winrate 9154 scoreMean 21.0546 pv F2 C6 Q7 H3 J4 R17 R16 Q17 P17 P18 O18 info move C14 visits 317 winrate 9187 scoreMean 21.0835 pv C14 E3 R14 P6 K17 D9 C11 Q13 info move P6 visits 150 winrate 9126 scoreMean 20.3036 pv P6 E3 G3 G4 F2 G2 H3 E1 F4 F1 N5 info move F17 visits 135 winrate 9174 scoreMean 20.8204 pv F17 E3 Q7 R17 R16 Q17 P17 P18 O18 O17 P16 N18 Q18 O19 R18 S17 info move O17 visits 117 winrate 9144 scoreMean 20.6507 pv O17 E3 Q7 C17 C16 D17 F17 E17 E16 F18 B17 B18 E18 B16 C18 A17 info move N5 visits 109 winrate 9067 scoreMean 19.1982 pv N5 E3 P6 C17 C16 D17 E17 E18 F18 info move C5 visits 41 winrate 8894 scoreMean 18.7719 pv C5 E3 Q7 C9 G4 G3 F4 C12 info ](;B[pm]FIT[74.08790867968852]C[黑棋 胜率: 91.4% 
+盘面: 28.2 不确定度: 0.0
+(KataGo_20b_etyy / 8.3k 计算量)
+
+黑棋 胜率: 91.4% 
+盘面: 28.2 局面复杂度: 24.9
+(KataGo_20b_etyy / 8.3k 计算量)
+
+佐为传人：小李果然直接跳出！
+贴目: 7.5]LZ[KataGo_20b_etyy 91.4 8.3k -20.7
+move E3 visits 7366 winrate 858 scoreMean -20.6686 pv E3 R14 C17 G3 G4 F2 G2 H3 E1 D17 C16 C14 C15 D15 B14 C18 B18 info move C6 visits 627 winrate 750 scoreMean -22.0764 pv C6 R14 C17 D17 C16 D15 B14 L17 K4 K3 N3 info move K4 visits 114 winrate 771 scoreMean -22.6066 pv K4 N5 E3 G3 G4 F2 G2 H3 info move R17 visits 41 winrate 737 scoreMean -22.5271 pv R17 R16 Q17 O17 P17 P16 O18 S17 S18 P18 Q18 info move C17 visits 37 winrate 748 scoreMean -22.5723 pv C17 C16 D17 F17 E17 E16 F18 E3 C6 B17 info move R7 visits 25 winrate 717 scoreMean -21.8229 pv R7 Q8 E3 G3 F2 info move O7 visits 22 winrate 815 scoreMean -21.7777 pv O7 Q9 E3 G3 F2 info move N3 visits 16 winrate 730 scoreMean -22.2801 pv N3 N2 M4 L3 E3 R8 C17 info move J4 visits 15 winrate 670 scoreMean -23.2248 pv J4 H4 K3 K4 J5 K2 H3 L3 info move M4 visits 11 winrate 608 scoreMean -24.2023 pv M4 N3 N4 L4 L5 K4 E3 N7 info ];W[eq]FIT[100.0]C[白棋 胜率: 8.3% 
+盘面: 28.4 不确定度: 0.0
+(KataGo_20b_etyy / 5.5k 计算量)
+
+白棋 胜率: 8.3% 
+盘面: 28.4 局面复杂度: 24.8
+(KataGo_20b_etyy / 5.9k 计算量)
+
+豆腐：菇老师：摆四个子输了，那还是李世石吗？
+星阵：黑棋 98.9%，黑领先21.4目
+佐为传人：白棋也自然先把左下角给拿住，左下角白非常实惠
+就看黑棋右边怎么经营了
+星阵想要直接封住左下角，不过我觉得人不会现在这么下，毕竟你如果要封住，那当初就会左下角先接住了
+贴目: 7.5]LZ[KataGo_20b_etyy 8.3 5.5k 20.9
+move R14 visits 572 winrate 9169 scoreMean 20.9069 pv R14 C17 G3 G4 F2 G2 H3 E1 D17 C16 C15 B15 B14 info move C14 visits 2707 winrate 9141 scoreMean 20.6589 pv C14 R17 G3 F2 R16 Q17 P17 P18 O18 O17 P16 N18 Q18 O19 R18 S17 S18 F17 N15 Q9 M17 L17 info move G3 visits 1040 winrate 9140 scoreMean 20.704 pv G3 G4 F2 G2 H3 E1 R14 C17 D17 C16 C15 B15 B14 C14 info move O17 visits 203 winrate 9118 scoreMean 20.5926 pv O17 C17 C16 D17 F17 E17 E16 F18 B17 B18 E18 B16 C18 A17 D18 B17 G18 F16 G17 E15 F15 G16 E14 C14 info move F2 visits 200 winrate 9177 scoreMean 21.3573 pv F2 G2 G3 G4 H3 E1 F4 F1 F5 R17 R16 Q17 O17 P17 info move R8 visits 198 winrate 9099 scoreMean 20.4914 pv R8 C17 D17 C16 C15 B15 B14 C14 D15 B13 info move F17 visits 193 winrate 9165 scoreMean 20.7879 pv F17 R17 R16 Q17 P17 P18 O18 O17 P16 N18 Q18 O19 R18 S17 S18 R8 Q8 R9 Q9 Q10 info move R7 visits 160 winrate 9157 scoreMean 20.884 pv R7 C17 C16 D17 F17 E17 E16 F18 B17 B18 info move D9 visits 89 winrate 9142 scoreMean 20.7298 pv D9 R17 R16 Q17 O17 P17 P16 O18 S17 S18 P18 S16 R18 T17 Q18 info move C9 visits 89 winrate 9140 scoreMean 20.7175 pv C9 R17 R16 Q17 O17 P17 P16 O18 S17 S18 P18 S16 R18 T17 Q18 info ](;B[cf]FIT[76.44355334517138]C[黑棋 胜率: 91.3% 
+盘面: 28.0 不确定度: 0.0
+(KataGo_20b_etyy / 3.5k 计算量)
+
+黑棋 胜率: 91.3% 
+盘面: 28.0 局面复杂度: 24.8
+(KataGo_20b_etyy / 3.5k 计算量)
+
+佐为传人：黑棋守角，看来就先当下面告一段落了，先捞空
+贴目: 7.5]LZ[KataGo_20b_etyy 91.3 3.5k -20.5
+move R17 visits 3338 winrate 869 scoreMean -20.5451 pv R17 G3 G4 F2 G2 H3 E1 R16 Q17 O17 P17 P16 O18 F4 F1 S17 S18 P18 info move K4 visits 78 winrate 782 scoreMean -22.1972 pv K4 N5 P6 Q6 O6 S7 S5 O8 N7 info move N3 visits 40 winrate 688 scoreMean -22.738 pv N3 N2 M4 L3 R17 R16 Q17 O17 P17 info move M4 visits 22 winrate 691 scoreMean -23.1527 pv M4 N3 N4 L4 L5 K4 N8 Q9 R16 R15 info move R7 visits 14 winrate 653 scoreMean -22.553 pv R7 Q8 R17 R16 Q17 P17 info move O7 visits 11 winrate 731 scoreMean -22.5432 pv O7 Q9 R16 R17 info move Q9 visits 9 winrate 733 scoreMean -22.0473 pv Q9 O7 R17 Q17 info move Q6 visits 7 winrate 725 scoreMean -21.6857 pv Q6 P6 R6 P5 R17 Q17 info move D9 visits 5 winrate 718 scoreMean -22.4276 pv D9 R14 Q13 G3 info move P6 visits 4 winrate 608 scoreMean -24.4944 pv P6 Q6 S8 R8 info ];W[qf]FIT[100.0]C[白棋 胜率: 8.6% 
+盘面: 28.4 不确定度: 0.0
+(KataGo_20b_etyy / 3.1k 计算量)
+
+白棋 胜率: 8.6% 
+盘面: 28.4 局面复杂度: 25.1
+(KataGo_20b_etyy / 3.7k 计算量)
+
+豆腐：我估计还是会小飞吧
+星阵：黑棋 99.3%，黑领先21.4目
+佐为传人：这现在又是黑棋的选择题了，围棋真是治强迫症，尤其是目前这种怎么走都行的情况下你怎么选择
+星阵的图，在那么一瞬间，让我想起了ALPHAGO和小李的第二盘棋
+贴目: 7.5]LZ[KataGo_20b_etyy 8.6 3.1k 20.9
+move O17 visits 2107 winrate 9138 scoreMean 20.9207 pv O17 R16 R17 S17 R15 S16 Q15 S15 R18 Q14 R12 Q9 S13 S14 info move G3 visits 212 winrate 9196 scoreMean 21.9299 pv G3 G4 F2 G2 H3 E1 F4 F1 Q10 K4 L3 K3 info move Q10 visits 161 winrate 9194 scoreMean 21.9169 pv Q10 O17 G3 G4 F2 G2 H3 E1 O16 N16 info move F2 visits 121 winrate 9170 scoreMean 21.7408 pv F2 G2 G3 G4 H3 E1 F4 F1 Q10 K4 K3 N3 info move Q11 visits 102 winrate 9189 scoreMean 21.6524 pv Q11 O17 O16 N16 O15 R17 P17 R16 N17 D9 info move R15 visits 93 winrate 9158 scoreMean 21.5843 pv R15 Q14 O16 Q10 P9 Q9 O6 P18 M17 info move O16 visits 87 winrate 9206 scoreMean 21.7705 pv O16 R16 R17 S17 Q18 S15 Q15 R18 Q17 O7 info move Q14 visits 80 winrate 9190 scoreMean 21.9038 pv Q14 Q13 P14 R16 R17 R15 Q17 P13 Q11 O13 R12 R13 info move N17 visits 74 winrate 9180 scoreMean 21.4219 pv N17 R17 R16 Q17 P16 S16 S15 S17 R15 O18 R8 O17 O16 info move R12 visits 59 winrate 9197 scoreMean 21.7402 pv R12 P14 R15 S14 O16 Q9 P12 O8 O14 info ](;B[nc]FIT[70.07325723307376]C[黑棋 胜率: 90.6% 
+盘面: 27.7 不确定度: 0.0
+(KataGo_20b_etyy / 3.8k 计算量)
+
+黑棋 胜率: 90.6% 
+盘面: 27.7 局面复杂度: 24.9
+(KataGo_20b_etyy / 3.9k 计算量)
+
+佐为传人：小飞正常
+贴目: 7.5]LZ[KataGo_20b_etyy 90.6 3.8k -20.2
+move R16 visits 3006 winrate 936 scoreMean -20.1609 pv R16 R17 S17 R15 S16 Q15 S15 R18 Q14 R12 Q9 S13 S14 info move O7 visits 201 winrate 877 scoreMean -20.5441 pv O7 Q9 R16 R17 S17 R15 S16 Q15 S15 R18 R12 Q11 Q14 info move O6 visits 185 winrate 911 scoreMean -20.8131 pv O6 Q10 L3 M4 N2 M2 N3 R15 Q14 info move R17 visits 125 winrate 796 scoreMean -22.1181 pv R17 R16 S16 S15 S17 R15 P18 O18 P17 P16 O16 Q14 N17 N18 M17 info move K4 visits 75 winrate 833 scoreMean -22.2653 pv K4 N5 P6 Q6 O6 S7 K3 N3 S5 info move S16 visits 74 winrate 758 scoreMean -22.0967 pv S16 Q13 Q14 R13 P13 S14 S15 info move Q9 visits 55 winrate 753 scoreMean -21.7603 pv Q9 P8 P9 O8 N10 M8 info move M4 visits 36 winrate 808 scoreMean -21.8786 pv M4 N3 N4 L4 L5 K4 N8 Q9 R16 R17 info move N3 visits 25 winrate 753 scoreMean -21.9496 pv N3 N2 M4 L3 R16 R17 S17 R15 info move R7 visits 22 winrate 732 scoreMean -21.6974 pv R7 Q8 R16 R17 S17 R15 S16 info ];W[nn]FIT[100.0]C[白棋 胜率: 9.7% 
+盘面: 27.8 不确定度: 0.0
+(KataGo_20b_etyy / 3.7k 计算量)
+
+白棋 胜率: 9.7% 
+盘面: 27.8 局面复杂度: 25.2
+(KataGo_20b_etyy / 3.9k 计算量)
+
+佐为传人：白棋直接拉出，我们可以学习学习白棋是如何治孤的。李世石陷入了本局第一次长考
+这个形状，黑棋下面会有一点点薄，白棋有L3碰之类的骚扰。
+星阵是直接来了，我总是不甘心让白棋就这么直接吃掉
+从黑角度，我觉得头是不能被白封的，就看黑选择了，尖对白棋右上压力小
+贴目: 7.5]LZ[KataGo_20b_etyy 9.7 3.7k 20.3
+move Q10 visits 3102 winrate 9031 scoreMean 20.2576 pv Q10 O8 R15 L3 M4 N2 M2 N3 Q14 Q13 R13 info move P8 visits 203 winrate 9060 scoreMean 20.831 pv P8 L3 N2 K3 M5 N7 G3 info move Q9 visits 119 winrate 9042 scoreMean 20.6866 pv Q9 L3 M4 N2 M2 N3 R15 Q14 Q12 info move G3 visits 73 winrate 9111 scoreMean 21.0443 pv G3 G4 F2 G2 H3 E1 P8 F5 N8 info move R10 visits 51 winrate 8990 scoreMean 19.7891 pv R10 L3 M4 N2 M2 N3 R15 Q14 info move R11 visits 49 winrate 9071 scoreMean 20.3562 pv R11 L3 M4 N2 M2 N3 R16 N16 info move F2 visits 37 winrate 9128 scoreMean 20.9683 pv F2 G2 G3 G4 H3 E1 P8 F5 N8 info move P9 visits 32 winrate 9040 scoreMean 20.2109 pv P9 L3 M2 L5 M4 K3 info move Q11 visits 30 winrate 9098 scoreMean 20.9241 pv Q11 R16 R17 S17 R15 S16 Q15 S15 R18 info move R12 visits 29 winrate 9080 scoreMean 20.9062 pv R12 L3 L2 N3 info ](;B[pj]FIT[65.15641882674232]C[黑棋 胜率: 89.8% 
+盘面: 27.5 不确定度: 0.0
+(KataGo_20b_etyy / 3.2k 计算量)
+
+黑棋 胜率: 89.7% 
+盘面: 27.5 局面复杂度: 25.3
+(KataGo_20b_etyy / 3.2k 计算量)
+
+佐为传人：李世石选择 拆二，这样对增加对白孤子的压力，可以理解为下面3子不好攻，先增加对白棋那个必定薄弱的子施加压力，看情况再对下面动手
+贴目: 7.5]LZ[KataGo_20b_etyy 89.8 3.2k -20.0
+move L3 visits 1132 winrate 1025 scoreMean -19.9876 pv L3 M4 O8 G3 G4 F2 G2 H3 E1 info move R16 visits 1035 winrate 994 scoreMean -20.0682 pv R16 G3 G4 F2 G2 H3 E1 R17 S17 R15 S16 Q14 S15 Q15 R13 Q13 O8 info move O8 visits 809 winrate 991 scoreMean -19.7903 pv O8 R15 L3 M4 N2 M2 N3 Q14 Q13 R13 info move O9 visits 57 winrate 863 scoreMean -20.7544 pv O9 R8 R16 R17 S17 R15 S16 Q15 S15 info move S16 visits 51 winrate 777 scoreMean -22.367 pv S16 Q13 R13 Q12 R17 O8 info move R7 visits 41 winrate 736 scoreMean -22.3695 pv R7 Q8 R16 R17 S17 R15 S16 Q14 S15 Q15 info move Q9 visits 36 winrate 844 scoreMean -21.4818 pv Q9 R9 R8 Q8 P9 R7 R10 S8 info move K4 visits 33 winrate 877 scoreMean -20.6744 pv K4 L3 R16 R17 S17 R15 S16 Q15 S15 info move Q8 visits 8 winrate 852 scoreMean -21.8457 pv Q8 P7 R8 P8 P9 info move L5 visits 7 winrate 710 scoreMean -22.7504 pv L5 N3 R16 R17 info ](;W[nl]FIT[100.0]C[白棋 胜率: 10.6% 
+盘面: 26.8 不确定度: 0.0
+(KataGo_20b_etyy / 3.9k 计算量)
+
+白棋 胜率: 10.6% 
+盘面: 26.8 局面复杂度: 24.6
+(KataGo_20b_etyy / 4.0k 计算量)
+
+核桃：那必然进攻右上。尖顶夹差不多就行了
+贴目: 7.5]LZ[KataGo_20b_etyy 10.6 3.9k 19.3
+move R15 visits 2711 winrate 8940 scoreMean 19.2642 pv R15 L3 M4 M2 N2 L2 O3 K4 M6 K6 M8 Q9 G3 info move R8 visits 497 winrate 8911 scoreMean 19.598 pv R8 R16 G3 G4 R17 S17 R15 S16 Q15 S15 R18 R12 R11 Q12 info move R12 visits 198 winrate 8986 scoreMean 19.0273 pv R12 R16 R17 S17 S18 S15 T17 Q15 S16 P16 Q17 info move G3 visits 107 winrate 9102 scoreMean 20.6301 pv G3 G4 F2 G2 H3 E1 R15 Q14 R12 Q12 info move R16 visits 85 winrate 8962 scoreMean 19.3269 pv R16 L3 L2 N3 N2 M4 M2 R12 P11 info move R7 visits 70 winrate 8939 scoreMean 19.7638 pv R7 L3 L2 N3 N2 M4 M2 S7 info move S16 visits 54 winrate 9011 scoreMean 19.2877 pv S16 L3 L4 N3 M2 N2 info move N7 visits 50 winrate 8988 scoreMean 19.9311 pv N7 O7 R8 R16 R17 S17 R15 S16 Q15 S15 R18 info move P9 visits 49 winrate 8855 scoreMean 18.707 pv P9 L3 M4 N2 M2 N3 R15 Q14 info move O9 visits 32 winrate 8829 scoreMean 18.2212 pv O9 P8 R15 Q14 R12 R9 info ](;B[qe]FIT[65.60713398878976]C[黑棋 胜率: 88.6% 
+盘面: 26.2 不确定度: 0.0
+(KataGo_20b_etyy / 2.6k 计算量)
+
+黑棋 胜率: 88.6% 
+盘面: 26.2 局面复杂度: 24.7
+(KataGo_20b_etyy / 2.6k 计算量)
+贴目: 7.5]LZ[KataGo_20b_etyy 88.6 2.6k -18.7
+move L3 visits 1770 winrate 1139 scoreMean -18.7405 pv L3 M4 M2 N2 L2 O3 K4 M6 K6 M8 Q9 info move Q14 visits 557 winrate 936 scoreMean -20.8921 pv Q14 R12 L3 L2 N3 N2 M4 M2 R8 Q8 R9 Q9 info move Q8 visits 136 winrate 787 scoreMean -20.3922 pv Q8 Q14 D9 R8 Q9 R9 R7 R11 L3 L4 info move Q9 visits 127 winrate 944 scoreMean -19.0337 pv Q9 R9 R8 R10 Q8 Q14 Q13 R13 D9 info move R8 visits 23 winrate 772 scoreMean -20.9509 pv R8 Q14 P9 N7 O7 info move K4 visits 15 winrate 889 scoreMean -20.6266 pv K4 K3 N3 N2 M4 L3 info move P14 visits 6 winrate 773 scoreMean -22.3239 pv P14 S14 R13 S13 info move O10 visits 6 winrate 826 scoreMean -20.7207 pv O10 Q14 Q13 R13 info move S15 visits 5 winrate 766 scoreMean -21.3108 pv S15 S16 Q8 R8 info ];W[pf]FIT[100.0]C[白棋 胜率: 11.2% 
+盘面: 26.9 不确定度: 0.0
+(KataGo_20b_etyy / 2.4k 计算量)
+
+白棋 胜率: 11.2% 
+盘面: 26.9 局面复杂度: 25.2
+(KataGo_20b_etyy / 2.7k 计算量)
+贴目: 7.5]LZ[KataGo_20b_etyy 11.2 2.4k 19.4
+move Q12 visits 918 winrate 8884 scoreMean 19.3751 pv Q12 L3 M4 M2 N2 L2 L4 N3 O2 J2 info move R12 visits 548 winrate 9075 scoreMean 20.7422 pv R12 Q9 R10 R9 O14 L3 L4 M4 info move R8 visits 285 winrate 9042 scoreMean 21.3936 pv R8 L3 L2 N3 N2 M4 M2 O10 R12 Q12 Q11 info move O11 visits 166 winrate 9078 scoreMean 20.8524 pv O11 L3 M4 N2 M2 N3 O14 P15 N15 info move O10 visits 107 winrate 8958 scoreMean 19.8042 pv O10 P9 P10 R8 R9 N14 M16 L15 M15 info move G3 visits 106 winrate 9104 scoreMean 21.1575 pv G3 G4 F2 G2 H3 E1 R12 Q12 Q11 info move P9 visits 72 winrate 8853 scoreMean 19.2044 pv P9 L3 L2 N3 N2 M4 M2 N10 R12 R8 info move O9 visits 60 winrate 8844 scoreMean 18.8698 pv O9 P8 R12 R9 R10 S9 O14 L3 info move R7 visits 50 winrate 8938 scoreMean 20.51 pv R7 S7 R12 L3 L4 N3 info move F2 visits 50 winrate 9137 scoreMean 21.8318 pv F2 G2 G3 G4 H3 E1 R12 Q12 Q11 info ];B[ph]FIT[63.33125349311527]C[黑棋 胜率: 87.3% 
+盘面: 25.9 不确定度: 0.0
+(KataGo_20b_etyy / 2.8k 计算量)
+
+黑棋 胜率: 87.3% 
+盘面: 25.9 局面复杂度: 25.4
+(KataGo_20b_etyy / 2.8k 计算量)
+
+核桃：摆一个直播的图。直接靠断看上去还可以吧
+星阵：黑棋 96.9%，黑领先19.6目
+贴目: 7.5]LZ[KataGo_20b_etyy 87.3 2.8k -18.4
+move L3 visits 1272 winrate 1266 scoreMean -18.4072 pv L3 M4 M2 O3 N2 N3 K4 M6 Q8 info move O14 visits 716 winrate 1118 scoreMean -19.5388 pv O14 R8 L3 L2 N3 N2 M4 M2 O10 S12 S13 S15 P11 Q11 info move Q9 visits 283 winrate 1131 scoreMean -19.0536 pv Q9 N7 O7 P9 R10 R9 Q8 R11 S10 S9 info move Q8 visits 272 winrate 953 scoreMean -19.9926 pv Q8 R8 Q9 R9 R7 R11 N14 O9 P8 N16 N12 info move N14 visits 112 winrate 1060 scoreMean -19.7568 pv N14 R8 L3 M2 L5 M4 info move O15 visits 72 winrate 951 scoreMean -21.2517 pv O15 R8 L3 L2 N3 N2 M4 info move N15 visits 18 winrate 994 scoreMean -21.0654 pv N15 R8 L3 L2 N3 info move R8 visits 17 winrate 911 scoreMean -21.6591 pv R8 Q8 R9 Q9 O10 O11 N10 O13 O14 info move K4 visits 8 winrate 936 scoreMean -20.3804 pv K4 L3 Q8 R8 info move R7 visits 5 winrate 800 scoreMean -21.1049 pv R7 O9 Q8 O14 info ](;W[nf]FIT[100.0]C[白棋 胜率: 12.6% 
+盘面: 26.4 不确定度: 0.0
+(KataGo_20b_etyy / 2.4k 计算量)
+
+白棋 胜率: 12.6% 
+盘面: 26.4 局面复杂度: 25.9
+(KataGo_20b_etyy / 2.6k 计算量)
+
+佐为传人：现在我慢慢感受到了黑棋的压力，黑棋其实全盘没有很确定的目数，三块空都是不确定的，如果攻击不奏效，白棋慢慢就能追上。李世石现在离席了，可能想要调整一下心情。Q9有靠，L3有靠，所以白棋看上去3个跳，其实都是盯着黑棋弱点的，目前黑棋只能挑一个点出头吧，重心放在攻击白棋右上
+贴目: 7.5]LZ[KataGo_20b_etyy 12.6 2.4k 18.9
+move M16 visits 807 winrate 8737 scoreMean 18.9122 pv M16 L3 M4 L4 L2 K2 M2 K3 L5 K5 K6 J5 M6 Q8 info move R8 visits 649 winrate 8899 scoreMean 19.9375 pv R8 L3 N2 K3 M5 K5 M7 O3 L4 info move N11 visits 273 winrate 8813 scoreMean 18.623 pv N11 Q9 R10 R9 M16 M14 N13 N14 K16 info move O12 visits 136 winrate 8860 scoreMean 19.1346 pv O12 P11 P12 Q9 R9 Q8 info move R7 visits 95 winrate 8815 scoreMean 19.3783 pv R7 S7 R9 O10 O11 N11 info move O10 visits 92 winrate 8854 scoreMean 18.8549 pv O10 L3 L2 N3 N2 M4 M2 Q8 R8 info move N12 visits 83 winrate 8883 scoreMean 19.2826 pv N12 L3 L2 N3 N2 M4 M2 info move P13 visits 79 winrate 8881 scoreMean 19.2877 pv P13 P14 N12 O10 S12 S13 info move O9 visits 78 winrate 8779 scoreMean 18.8869 pv O9 P8 R8 L3 M4 N2 M2 N3 info move O11 visits 74 winrate 8771 scoreMean 18.0558 pv O11 Q9 R9 R8 P9 Q8 M16 info ](;B[ld]FIT[62.891131910801846]C[黑棋 胜率: 87.2% 
+盘面: 27.1 不确定度: 0.0
+(KataGo_20b_etyy / 5.6k 计算量)
+
+黑棋 胜率: 87.2% 
+盘面: 27.1 局面复杂度: 26.4
+(KataGo_20b_etyy / 5.6k 计算量)
+
+佐为传人：哇，很拼啊，先捞下一大票，由此一手，P16毛病补住了，黑棋拿到了很多实惠。把攻击交给白棋了，很有勇气
+星阵：黑棋 96.5%，黑领先19.3目
+贴目: 7.5]LZ[KataGo_20b_etyy 87.2 5.6k -19.6
+move L3 visits 3831 winrate 1278 scoreMean -19.5612 pv L3 M4 Q9 N7 O7 P9 Q8 R10 S9 P8 P7 info move R8 visits 579 winrate 1274 scoreMean -18.5229 pv R8 O12 P9 M13 M14 L14 N13 N12 info move Q9 visits 279 winrate 1293 scoreMean -17.7417 pv Q9 G3 G4 F2 G2 H3 E1 R9 R8 info move O10 visits 243 winrate 1048 scoreMean -20.1662 pv O10 O11 N11 O12 P10 Q11 M15 N12 L16 M17 L14 info move M15 visits 219 winrate 1128 scoreMean -19.3239 pv M15 L15 M14 R8 O10 S12 S13 info move O11 visits 213 winrate 1054 scoreMean -19.845 pv O11 P13 Q15 R16 O13 R8 O16 N16 info move Q8 visits 117 winrate 965 scoreMean -20.1164 pv Q8 R8 Q9 R9 P10 Q11 R7 O10 M15 L16 info move N11 visits 76 winrate 1032 scoreMean -19.8908 pv N11 P13 Q15 R16 O16 N16 O15 P17 info move P16 visits 31 winrate 872 scoreMean -21.7469 pv P16 P17 R17 R16 O16 Q17 N16 M17 M15 info move K4 visits 18 winrate 984 scoreMean -20.1011 pv K4 K3 N3 N2 M4 L3 info ](;W[le]FIT[100.0]C[白棋 胜率: 12.0% 
+盘面: 26.5 不确定度: 0.0
+(KataGo_20b_etyy / 2.7k 计算量)
+
+白棋 胜率: 12.0% 
+盘面: 26.5 局面复杂度: 25.5
+(KataGo_20b_etyy / 2.7k 计算量)
+
+核桃：很拼，但是对AI来说是常态
+贴目: 7.5]LZ[KataGo_20b_etyy 12.0 2.7k 19.0
+move L15 visits 2297 winrate 8802 scoreMean 18.9876 pv L15 M14 P13 Q15 R16 N16 O16 O15 M17 O10 R8 S12 S13 info move L16 visits 194 winrate 8815 scoreMean 19.015 pv L16 R8 N11 P9 P10 P16 P17 R17 info move R8 visits 66 winrate 8872 scoreMean 19.2992 pv R8 L3 L2 N3 N2 M4 M2 info move G3 visits 27 winrate 8939 scoreMean 19.8353 pv G3 G4 F2 G2 H3 E1 L15 M14 L16 info move N15 visits 25 winrate 8747 scoreMean 18.4044 pv N15 N14 L15 M14 L16 O10 S7 R6 info move P13 visits 24 winrate 8893 scoreMean 18.8329 pv P13 Q15 R16 N16 N17 L16 M17 info move O9 visits 23 winrate 8705 scoreMean 18.1563 pv O9 P8 R8 N16 N17 info move O10 visits 21 winrate 8875 scoreMean 19.0744 pv O10 N16 N17 L16 M17 L14 info move N11 visits 20 winrate 8868 scoreMean 18.9141 pv N11 N16 N17 L16 M17 L14 info move O11 visits 20 winrate 8790 scoreMean 18.2054 pv O11 N16 N17 L16 M17 L14 info ](;B[ke]FIT[59.52791962787339]C[黑棋 胜率: 87.7% 
+盘面: 26.3 不确定度: 0.0
+(KataGo_20b_etyy / 2.3k 计算量)
+
+黑棋 胜率: 87.7% 
+盘面: 26.3 局面复杂度: 25.5
+(KataGo_20b_etyy / 2.3k 计算量)
+
+佐为传人：李世石：真男人从不退缩！
+豆腐：韩豆：给赛豆个面子，我先退。
+贴目: 7.5]LZ[KataGo_20b_etyy 87.7 2.3k -18.8
+move M14 visits 1784 winrate 1234 scoreMean -18.7859 pv M14 R8 L3 M2 L5 M4 K3 info move N16 visits 342 winrate 1109 scoreMean -19.4687 pv N16 M14 N15 N17 L16 M17 L14 K15 K14 J15 J14 H15 M13 R8 L3 info move L14 visits 49 winrate 1032 scoreMean -19.9919 pv L14 K15 N16 N15 M14 O16 info move O10 visits 35 winrate 1060 scoreMean -19.7997 pv O10 R8 M14 S12 S13 S15 info move L3 visits 17 winrate 1069 scoreMean -20.2111 pv L3 L4 N3 N2 M4 info move P16 visits 15 winrate 1115 scoreMean -19.8551 pv P16 P17 R17 S15 Q17 S14 O16 info move R8 visits 11 winrate 1151 scoreMean -20.057 pv R8 Q8 R9 Q9 O10 O11 info move L16 visits 8 winrate 944 scoreMean -21.3732 pv L16 K16 L17 M17 K17 K15 info ];W[lf]FIT[100.0]C[白棋 胜率: 12.5% 
+盘面: 26.4 不确定度: 0.0
+(KataGo_20b_etyy / 3.3k 计算量)
+
+白棋 胜率: 12.5% 
+盘面: 26.4 局面复杂度: 25.6
+(KataGo_20b_etyy / 3.3k 计算量)
+
+豆腐：韩豆：给赛豆个面子，我先退。白棋头更铁了，只能往外小飞了，大飞太薄。
+贴目: 7.5]LZ[KataGo_20b_etyy 12.5 3.3k 18.9
+move O10 visits 2659 winrate 8750 scoreMean 18.9319 pv O10 N16 N17 L16 M17 Q9 L14 L13 M13 P16 P17 K13 J14 info move L16 visits 167 winrate 8758 scoreMean 18.7061 pv L16 R8 N11 P9 P10 L14 N9 J14 H15 info move R8 visits 124 winrate 8820 scoreMean 18.9551 pv R8 O10 S12 S13 S15 N16 N17 info move N11 visits 87 winrate 8815 scoreMean 19.2331 pv N11 N16 N17 L16 M17 O10 O11 info move P13 visits 47 winrate 8872 scoreMean 19.0245 pv P13 Q15 R16 N16 O16 O15 M17 O10 R8 S12 info move O9 visits 40 winrate 8665 scoreMean 17.9708 pv O9 P8 R8 N9 S12 S15 S16 info move G3 visits 37 winrate 8912 scoreMean 19.5926 pv G3 G4 F2 G2 H3 E1 L16 O10 info move L14 visits 31 winrate 8756 scoreMean 18.6468 pv L14 N16 N17 L16 M17 L13 R8 O10 info move S7 visits 31 winrate 8747 scoreMean 17.6151 pv S7 R6 L16 L3 L4 M4 N4 info move O11 visits 29 winrate 8719 scoreMean 18.3238 pv O11 N16 N17 L16 M17 Q8 R8 Q9 info ](;B[nj]FIT[61.77636853743598]C[黑棋 胜率: 86.9% 
+盘面: 26.0 不确定度: 0.0
+(KataGo_20b_etyy / 3.7k 计算量)
+
+黑棋 胜率: 86.8% 
+盘面: 26.0 局面复杂度: 25.3
+(KataGo_20b_etyy / 3.8k 计算量)
+
+佐为传人：黑棋还是赶紧右边出头了，这应该是李世石最初的想法，上面撑一手，回到右边，我全都要
+星阵：黑棋 95.5%，黑领先19.3目
+贴目: 7.5]LZ[KataGo_20b_etyy 86.9 3.7k -18.5
+move Q9 visits 1681 winrate 1315 scoreMean -18.4809 pv Q9 S7 R10 P9 P8 S5 R6 R5 Q6 T6 info move N16 visits 814 winrate 1296 scoreMean -18.3267 pv N16 N17 L16 M17 Q9 L14 L13 M13 P16 P17 L12 info move L3 visits 543 winrate 1288 scoreMean -18.9208 pv L3 M4 L4 L2 K2 M2 K3 L5 K5 K6 info move L16 visits 191 winrate 1100 scoreMean -20.5664 pv L16 M17 L3 M4 N2 M2 N3 K15 K13 N12 info move P11 visits 111 winrate 1131 scoreMean -19.4613 pv P11 P10 L3 M4 N2 M2 N3 info move P16 visits 100 winrate 1264 scoreMean -18.2619 pv P16 P17 N16 M17 O16 N17 Q8 R8 Q9 info move R8 visits 93 winrate 1122 scoreMean -20.0577 pv R8 Q8 R9 Q9 L3 M4 N2 M2 N3 L16 L14 M10 info move Q8 visits 73 winrate 950 scoreMean -20.9025 pv Q8 R8 Q9 R9 R7 L14 M13 L13 M12 K11 M10 info move P9 visits 67 winrate 952 scoreMean -21.9945 pv P9 Q9 L3 M4 N2 M2 N3 L16 L14 K14 info move L14 visits 21 winrate 1077 scoreMean -19.8281 pv L14 L16 L3 L2 N3 info ](;W[oi]FIT[100.0]C[白棋 胜率: 13.6% 
+盘面: 25.6 不确定度: 0.0
+(KataGo_20b_etyy / 5.9k 计算量)
+
+白棋 胜率: 13.6% 
+盘面: 25.6 局面复杂度: 25.8
+(KataGo_20b_etyy / 5.9k 计算量)
+
+核桃：黑棋只能粘住P10。局势愈发危险，但是菇老师的预言到好像落空了
+贴目: 7.5]LZ[KataGo_20b_etyy 13.6 5.9k 18.1
+move P10 visits 4015 winrate 8644 scoreMean 18.0667 pv P10 R8 P8 M10 N9 L3 M4 N2 M2 N3 L16 L14 K14 K13 J13 J14 info move P8 visits 435 winrate 8654 scoreMean 17.127 pv P8 P10 P9 O9 Q11 N10 P13 Q15 O11 N11 P12 P16 Q17 L16 N16 K16 info move P13 visits 412 winrate 8779 scoreMean 18.4245 pv P13 Q15 R16 N16 O16 O15 M17 P10 P9 O9 S7 R6 Q11 info move G3 visits 281 winrate 8767 scoreMean 18.7153 pv G3 P10 P9 O9 Q11 O11 S7 R6 R7 P8 Q9 G4 info move O9 visits 170 winrate 8304 scoreMean 15.8188 pv O9 Q8 P13 Q15 R16 N16 O16 O15 M17 P8 N12 info move O11 visits 162 winrate 8592 scoreMean 17.5779 pv O11 Q9 R9 R8 P9 Q8 P8 P7 P12 N16 N17 info move Q11 visits 136 winrate 8699 scoreMean 18.3979 pv Q11 L3 M4 N2 M2 N3 L16 info move O12 visits 95 winrate 8627 scoreMean 17.6928 pv O12 N16 N17 L16 M17 P16 P17 R17 info move R7 visits 85 winrate 8684 scoreMean 18.0061 pv R7 L3 L2 N3 N2 M4 M2 S7 O9 N8 info move P9 visits 80 winrate 8625 scoreMean 17.616 pv P9 L3 M4 N2 M2 N3 L16 L14 P13 info ](;B[oj]FIT[58.872518213022886]C[黑棋 胜率: 85.9% 
+盘面: 25.1 不确定度: 0.0
+(KataGo_20b_etyy / 5.1k 计算量)
+
+黑棋 胜率: 85.9% 
+盘面: 25.1 局面复杂度: 25.8
+(KataGo_20b_etyy / 5.1k 计算量)
+贴目: 7.5]LZ[KataGo_20b_etyy 85.9 5.1k -17.6
+move R8 visits 4189 winrate 1409 scoreMean -17.6485 pv R8 P8 M10 N9 L3 M4 N2 M2 N3 L16 L14 K14 K13 J13 J14 K15 info move R7 visits 215 winrate 1011 scoreMean -20.0567 pv R7 P8 M10 L16 L3 L4 N3 info move L3 visits 175 winrate 1179 scoreMean -19.6369 pv L3 M4 L4 L5 M2 N2 K2 N5 P6 info move Q8 visits 173 winrate 1160 scoreMean -19.6275 pv Q8 P8 P7 R8 P9 R7 L3 L2 N3 N2 M4 M2 N16 N17 info move L16 visits 170 winrate 1057 scoreMean -20.9194 pv L16 M17 R8 P8 M10 K15 M8 R9 S8 info move N16 visits 123 winrate 1142 scoreMean -19.2652 pv N16 N17 L16 M17 P16 P17 R17 P15 S15 K15 L3 info move M10 visits 24 winrate 919 scoreMean -21.2922 pv M10 L16 R8 Q8 info move P16 visits 21 winrate 1080 scoreMean -19.5147 pv P16 P17 R17 Q17 S15 S16 R16 info move R9 visits 20 winrate 863 scoreMean -21.8698 pv R9 P8 R7 L16 L3 info move S8 visits 13 winrate 947 scoreMean -21.3333 pv S8 R7 R9 P8 R5 L16 info ];W[md]FIT[100.0]C[白棋 胜率: 13.9% 
+盘面: 25.0 不确定度: 0.0
+(KataGo_20b_etyy / 6.5k 计算量)
+
+白棋 胜率: 13.9% 
+盘面: 25.0 局面复杂度: 25.3
+(KataGo_20b_etyy / 6.5k 计算量)
+贴目: 7.5]LZ[KataGo_20b_etyy 13.9 6.5k 17.5
+move N17 visits 5621 winrate 8608 scoreMean 17.5166 pv N17 L16 M17 P16 P17 R17 Q15 R8 S15 Q8 P14 P13 P15 Q13 info move M17 visits 530 winrate 8604 scoreMean 17.274 pv M17 R8 P8 N17 N18 O16 P17 L3 L2 N3 N2 M4 info move G3 visits 273 winrate 8779 scoreMean 18.6292 pv G3 G4 F2 G2 H3 F1 N17 L16 M17 P16 P17 R17 Q17 info move O16 visits 30 winrate 7779 scoreMean 12.4574 pv O16 N17 N18 M17 M18 L16 K17 K16 J16 J15 H16 info move R7 visits 1 winrate 7892 scoreMean 13.2367 pv R7 info ];B[mc]FIT[56.075705384252856]C[黑棋 胜率: 85.7% 
+盘面: 24.8 不确定度: 0.0
+(KataGo_20b_etyy / 4.4k 计算量)
+
+黑棋 胜率: 85.7% 
+盘面: 24.8 局面复杂度: 25.3
+(KataGo_20b_etyy / 4.4k 计算量)
+
+佐为传人：回到了上面，白棋刺重黑棋后，以后可以从右边R8飞整体攻击了
+贴目: 7.5]LZ[KataGo_20b_etyy 85.7 4.4k -17.3
+move L16 visits 3716 winrate 1433 scoreMean -17.2592 pv L16 M17 P16 P17 R17 Q15 L3 M4 N2 M2 N3 S15 P15 P13 info move R8 visits 390 winrate 1414 scoreMean -17.2367 pv R8 P8 L16 M17 M10 N9 L8 M7 N8 M8 info move P16 visits 152 winrate 1266 scoreMean -18.8147 pv P16 O16 P17 Q17 P18 P15 Q15 O15 Q18 S17 R18 S15 info move L3 visits 74 winrate 1178 scoreMean -19.0156 pv L3 M4 N2 M2 N3 L16 L14 K14 K13 J13 info move R7 visits 24 winrate 991 scoreMean -19.4579 pv R7 L16 Q8 M11 L14 K14 K13 J14 L12 info move R9 visits 21 winrate 858 scoreMean -22.1313 pv R9 P8 L16 M17 M10 K15 M8 info move Q8 visits 20 winrate 1240 scoreMean -18.6503 pv Q8 R8 P8 S7 R6 R7 Q6 S12 info move K4 visits 11 winrate 1030 scoreMean -19.9978 pv K4 K3 N3 N2 M4 info move M10 visits 2 winrate 994 scoreMean -21.4936 pv M10 L16 info ];W[kd]FIT[100.0]C[白棋 胜率: 14.4% 
+盘面: 24.7 不确定度: 0.0
+(KataGo_20b_etyy / 3.5k 计算量)
+
+白棋 胜率: 14.4% 
+盘面: 24.7 局面复杂度: 25.3
+(KataGo_20b_etyy / 3.5k 计算量)
+贴目: 7.5]LZ[KataGo_20b_etyy 14.4 3.5k 17.2
+move M17 visits 3440 winrate 8558 scoreMean 17.2151 pv M17 P16 P17 R17 Q15 S15 S16 S13 T15 S14 Q17 Q8 R8 P8 S11 R9 S9 S8 R10 R7 info move R5 visits 2 winrate 7851 scoreMean 12.8087 pv R5 S5 info move R6 visits 2 winrate 7894 scoreMean 13.2325 pv R6 S7 info move G3 visits 1 winrate 6102 scoreMean 5.99834 pv G3 info move F2 visits 1 winrate 5936 scoreMean 5.13554 pv F2 info move S7 visits 1 winrate 7180 scoreMean 9.70412 pv S7 info move G2 visits 1 winrate 4871 scoreMean 1.18882 pv G2 info move S5 visits 1 winrate 7178 scoreMean 9.59628 pv S5 info move R8 visits 1 winrate 5514 scoreMean 3.82795 pv R8 info move H2 visits 1 winrate 5038 scoreMean 2.08066 pv H2 info ];B[lc]FIT[58.1673384611932]C[黑棋 胜率: 85.1% 
+盘面: 24.4 不确定度: 0.0
+(KataGo_20b_etyy / 5.3k 计算量)
+
+黑棋 胜率: 85.1% 
+盘面: 24.4 局面复杂度: 25.5
+(KataGo_20b_etyy / 5.3k 计算量)
+
+佐为传人：白棋现在上面有很多先手
+星阵：黑棋 93.6%，黑领先18.1目
+贴目: 7.5]LZ[KataGo_20b_etyy 85.1 5.3k -16.9
+move R8 visits 4121 winrate 1487 scoreMean -16.861 pv R8 P8 P16 P17 R17 Q15 M10 S15 S14 N9 L8 M7 N8 info move P16 visits 723 winrate 1431 scoreMean -17.2087 pv P16 P17 R17 Q15 S15 S16 S13 T15 S14 Q17 L3 L4 N3 M2 info move L3 visits 143 winrate 1179 scoreMean -19.1441 pv L3 M4 N2 M2 O2 K15 P16 P17 R17 Q17 info move K16 visits 95 winrate 942 scoreMean -21.7498 pv K16 K15 J16 J15 H15 K13 G16 H17 info move R7 visits 90 winrate 1013 scoreMean -19.8078 pv R7 P8 M10 K15 M12 N9 L8 M7 info move Q8 visits 51 winrate 1190 scoreMean -19.5299 pv Q8 P8 P7 R8 P9 R7 L3 L2 K2 info move M10 visits 38 winrate 1047 scoreMean -20.1467 pv M10 R8 L3 M4 N2 M2 info move K4 visits 13 winrate 989 scoreMean -20.3006 pv K4 K3 N3 N2 M4 info move R9 visits 8 winrate 826 scoreMean -22.5744 pv R9 P8 M10 K15 info move S8 visits 7 winrate 871 scoreMean -22.2684 pv S8 R7 R9 P8 info ](;W[ql]FIT[100.0]C[白棋 胜率: 14.9% 
+盘面: 24.3 不确定度: 0.0
+(KataGo_20b_etyy / 5.4k 计算量)
+
+白棋 胜率: 14.9% 
+盘面: 24.3 局面复杂度: 25.4
+(KataGo_20b_etyy / 5.4k 计算量)
+
+佐为传人：开始搜根了
+星阵直接弃掉，我觉得人未必能接受
+贴目: 7.5]LZ[KataGo_20b_etyy 14.9 5.4k 16.8
+move P8 visits 4495 winrate 8510 scoreMean 16.8278 pv P8 P16 P17 R17 Q15 M10 P14 P13 P15 Q13 S15 M8 R12 S14 info move Q8 visits 513 winrate 8333 scoreMean 15.9883 pv Q8 R9 Q9 L3 M4 N2 M2 O2 K15 P16 P17 info move G3 visits 204 winrate 8635 scoreMean 17.6004 pv G3 G4 F2 G2 H3 E1 Q8 R9 Q9 M10 N9 info move K15 visits 133 winrate 8544 scoreMean 16.0516 pv K15 Q8 M11 L12 L11 J12 K11 K12 H15 J11 info move P15 visits 29 winrate 8377 scoreMean 16.1392 pv P15 P14 P8 M10 N9 L8 M7 info move L14 visits 27 winrate 8375 scoreMean 16.5112 pv L14 L13 M13 P16 P17 K13 info move P13 visits 12 winrate 8279 scoreMean 15.0577 pv P13 Q15 R16 Q8 M11 M12 info move P7 visits 7 winrate 8241 scoreMean 15.9233 pv P7 O7 R9 Q8 info move R7 visits 6 winrate 7072 scoreMean 10.6603 pv R7 Q8 P7 P8 info ](;B[ol]FIT[60.0688230765935]C[黑棋 胜率: 84.7% 
+盘面: 24.0 不确定度: 0.0
+(KataGo_20b_etyy / 3.4k 计算量)
+
+黑棋 胜率: 84.7% 
+盘面: 24.0 局面复杂度: 25.4
+(KataGo_20b_etyy / 3.4k 计算量)
+
+佐为传人：还是补回来，局部白棋多了O9先手
+贴目: 7.5]LZ[KataGo_20b_etyy 84.7 3.4k -16.5
+move P16 visits 2508 winrate 1533 scoreMean -16.5249 pv P16 P17 R17 Q15 L3 M4 N2 M2 N3 S15 P15 P13 P14 Q17 info move M10 visits 459 winrate 1427 scoreMean -17.2702 pv M10 N9 L3 M4 N2 M2 N3 K15 K13 H15 P16 info move L3 visits 294 winrate 1421 scoreMean -17.5397 pv L3 M4 N2 M2 N3 K15 P16 P17 R17 P15 S15 info move M9 visits 38 winrate 1079 scoreMean -19.7678 pv M9 M10 L10 M11 L11 L12 K12 K13 info move L5 visits 30 winrate 1244 scoreMean -18.536 pv L5 N3 M10 N9 L8 M7 info move K4 visits 28 winrate 1216 scoreMean -18.6751 pv K4 L3 M10 N9 L8 M7 N8 info move O9 visits 26 winrate 951 scoreMean -20.9679 pv O9 Q8 N10 N11 M11 M10 N9 info move K16 visits 20 winrate 1011 scoreMean -21.2126 pv K16 K15 J16 J15 H15 K13 info move M11 visits 5 winrate 960 scoreMean -20.0434 pv M11 M10 L10 M9 L9 info move K3 visits 3 winrate 1055 scoreMean -21.0046 pv K3 K4 L3 info ];W[od]FIT[100.0]C[白棋 胜率: 16.1% 
+盘面: 23.7 不确定度: 0.0
+(KataGo_20b_etyy / 2.1k 计算量)
+
+白棋 胜率: 16.1% 
+盘面: 23.7 局面复杂度: 25.5
+(KataGo_20b_etyy / 2.1k 计算量)
+
+核桃：白棋还在加强，只能理解为收起拳头，为了接下来的重拳出击。已经接近90胜率了啊，哎
+星阵：黑棋 92.4%，黑领先17.1目
+贴目: 7.5]LZ[KataGo_20b_etyy 16.1 2.1k 16.2
+move P17 visits 1788 winrate 8390 scoreMean 16.2474 pv P17 R17 Q15 L3 M4 N2 M2 N3 S14 S13 S15 R12 Q11 info move Q17 visits 143 winrate 8273 scoreMean 15.1525 pv Q17 L3 M4 N2 M2 N3 K15 K13 H15 M10 info move O16 visits 90 winrate 8311 scoreMean 15.5394 pv O16 Q15 Q17 R16 R17 S15 R7 S7 R5 S5 info move R5 visits 10 winrate 8129 scoreMean 14.5039 pv R5 S5 P17 R17 R7 Q17 P15 info move P15 visits 8 winrate 7956 scoreMean 13.491 pv P15 Q15 O16 R16 P17 info move R6 visits 6 winrate 8081 scoreMean 14.3395 pv R6 R7 P17 info move R7 visits 2 winrate 7570 scoreMean 12.3096 pv R7 P17 info move Q18 visits 2 winrate 7617 scoreMean 12.1562 pv Q18 M10 info move G3 visits 1 winrate 6891 scoreMean 9.60307 pv G3 info move F2 visits 1 winrate 6302 scoreMean 7.06511 pv F2 info ](;B[oc]FIT[61.804961203698134]C[黑棋 胜率: 84.4% 
+盘面: 24.1 不确定度: 0.0
+(KataGo_20b_etyy / 5.7k 计算量)
+
+黑棋 胜率: 84.4% 
+盘面: 24.1 局面复杂度: 25.6
+(KataGo_20b_etyy / 5.7k 计算量)
+
+星阵：黑棋 92.2%，黑领先17.1目
+贴目: 7.5]LZ[KataGo_20b_etyy 84.4 5.7k -16.6
+move R17 visits 4980 winrate 1559 scoreMean -16.6318 pv R17 Q15 L3 M4 N2 M2 N3 S15 P15 P13 P14 Q17 info move M10 visits 550 winrate 1506 scoreMean -16.6432 pv M10 N9 L3 M4 N2 M2 N3 K15 M6 M9 K5 info move L3 visits 66 winrate 1373 scoreMean -17.4467 pv L3 M4 N2 M2 N3 K15 R17 P15 S15 info move K4 visits 33 winrate 1237 scoreMean -17.779 pv K4 K3 M10 K15 M8 R9 info move L5 visits 12 winrate 1260 scoreMean -18.1103 pv L5 L4 M10 K15 info move M9 visits 9 winrate 1061 scoreMean -19.7096 pv M9 M11 N11 info move O9 visits 4 winrate 853 scoreMean -22.0621 pv O9 Q8 N10 info move K16 visits 3 winrate 1194 scoreMean -19.7581 pv K16 K15 J16 info move K14 visits 2 winrate 1123 scoreMean -19.3405 pv K14 K15 info move D9 visits 2 winrate 1133 scoreMean -19.729 pv D9 K15 info ](;W[qc]FIT[100.0]C[白棋 胜率: 16.1% 
+盘面: 24.0 不确定度: 0.0
+(KataGo_20b_etyy / 380 计算量)
+
+白棋 胜率: 16.1% 
+盘面: 24.0 局面复杂度: 25.5
+(KataGo_20b_etyy / 545 计算量)
+
+核桃：感觉会转换，黑棋局部看上去扛住了。只是目数额……
+贴目: 7.5]LZ[KataGo_20b_etyy 16.1 380 16.5
+move P15 visits 131 winrate 8388 scoreMean 16.48 pv P15 S15 S16 R16 Q15 S13 T15 S14 S17 P14 O15 N15 O16 R18 info move S14 visits 59 winrate 8405 scoreMean 16.7932 pv S14 Q17 S16 L17 L18 K18 M18 info move Q17 visits 46 winrate 8474 scoreMean 16.3953 pv Q17 S15 S16 R16 Q15 S17 S14 T16 S13 info move S16 visits 31 winrate 8587 scoreMean 17.6664 pv S16 Q17 S14 S13 R13 S12 P15 P14 info move Q15 visits 22 winrate 8561 scoreMean 17.2056 pv Q15 S15 S16 S13 T15 S14 Q17 M10 N9 info move R16 visits 20 winrate 8215 scoreMean 15.2516 pv R16 Q17 S17 S18 S16 P18 T18 R18 info move G3 visits 20 winrate 8286 scoreMean 16.0267 pv G3 Q17 F2 L17 C5 B5 info move S15 visits 19 winrate 8098 scoreMean 15.1546 pv S15 Q17 S14 L17 O16 P15 info move F2 visits 17 winrate 8263 scoreMean 15.9507 pv F2 Q17 G3 L17 C5 B5 info move L14 visits 15 winrate 8017 scoreMean 14.3284 pv L14 Q17 P15 O16 M13 O15 info ](;B[oe]FIT[63.39642115354405]C[黑棋 胜率: 84.2% 
+盘面: 23.9 不确定度: 0.0
+(KataGo_20b_etyy / 2.2k 计算量)
+
+黑棋 胜率: 84.2% 
+盘面: 23.9 局面复杂度: 25.5
+(KataGo_20b_etyy / 2.2k 计算量)
+
+佐为传人：对，这实在没法缩了，白棋可以扳过掏角，然后黑棋可以冲断这是一个小转换，白棋拿到了实惠
+星阵：黑棋 90.0%，黑领先16.1目
+贴目: 7.5]LZ[KataGo_20b_etyy 84.2 2.2k -16.4
+move S15 visits 2136 winrate 1584 scoreMean -16.4356 pv S15 S16 R16 Q15 S14 S17 P14 O15 R18 S18 L3 M4 N2 info move R16 visits 81 winrate 1291 scoreMean -17.8181 pv R16 Q15 S15 P14 P13 Q13 S13 K15 M10 O13 P12 info move L3 visits 13 winrate 1334 scoreMean -17.165 pv L3 L4 N3 M2 N2 info move P14 visits 7 winrate 683 scoreMean -23.9725 pv P14 S14 S13 S15 info move Q17 visits 4 winrate 1084 scoreMean -19.0569 pv Q17 O16 S15 P14 info move K4 visits 4 winrate 1186 scoreMean -18.7046 pv K4 K3 N3 N2 info move O16 visits 2 winrate 627 scoreMean -23.0099 pv O16 Q17 info move Q15 visits 1 winrate 786 scoreMean -21.4794 pv Q15 info ](;W[re]FIT[100.0]C[白棋 胜率: 15.6% 
+盘面: 24.2 不确定度: 0.0
+(KataGo_20b_etyy / 3.6k 计算量)
+
+白棋 胜率: 15.6% 
+盘面: 24.2 局面复杂度: 26.0
+(KataGo_20b_etyy / 3.6k 计算量)
+
+佐为传人：哇，这白棋就一步一步"平凡“下着，胜率就在慢慢上升
+星阵：黑棋 89.5%，黑领先16目
+贴目: 7.5]LZ[KataGo_20b_etyy 15.6 3.6k 16.7
+move S16 visits 3211 winrate 8443 scoreMean 16.6707 pv S16 R16 Q15 S13 T15 S14 S17 P14 O15 L3 M4 N15 L4 Q17 O16 S18 M9 M8 L8 L7 info move K15 visits 144 winrate 8178 scoreMean 14.5406 pv K15 L3 M2 L5 M4 K3 M5 info move P14 visits 110 winrate 8026 scoreMean 14.3139 pv P14 P13 Q13 O13 K15 S13 P12 O16 info move G3 visits 29 winrate 8274 scoreMean 15.1309 pv G3 G4 F2 G2 H3 E1 K15 M10 N9 info move R7 visits 28 winrate 8310 scoreMean 15.1974 pv R7 S7 R5 S5 M10 M8 K15 info move F2 visits 27 winrate 8391 scoreMean 15.6198 pv F2 G2 G3 G4 H3 E1 K15 M10 N9 info move L14 visits 15 winrate 7814 scoreMean 13.0782 pv L14 L13 J14 M10 K13 L12 info move M9 visits 9 winrate 8004 scoreMean 13.7974 pv M9 L3 M4 N2 info move L9 visits 9 winrate 8207 scoreMean 15.007 pv L9 P14 K15 E18 D18 info move R5 visits 8 winrate 8246 scoreMean 14.9732 pv R5 S5 R7 S7 K15 L3 info ](;B[rd]FIT[64.86056430740229]C[黑棋 胜率: 84.5% 
+盘面: 24.4 不确定度: 0.0
+(KataGo_20b_etyy / 20k 计算量)
+
+黑棋 胜率: 84.5% 
+盘面: 24.4 局面复杂度: 26.1
+(KataGo_20b_etyy / 20k 计算量)
+贴目: 7.5]LZ[KataGo_20b_etyy 84.5 20k -16.9
+move R16 visits 19887 winrate 1552 scoreMean -16.9115 pv R16 Q15 S13 S17 P14 T15 S14 O15 M10 N9 L8 M9 L9 M7 M8 N8 N7 L10 L3 M4 L5 L4 M11 M6 M5 K7 N5 K6 info move L3 visits 123 winrate 1213 scoreMean -18.693 pv L3 M4 N2 M2 N3 S14 S13 T15 Q15 info move K4 visits 9 winrate 939 scoreMean -21.4022 pv K4 S14 K3 M5 L6 info move R11 visits 5 winrate 720 scoreMean -21.9711 pv R11 S14 Q11 M10 S13 info move N3 visits 3 winrate 1148 scoreMean -19.7648 pv N3 S14 info move M4 visits 2 winrate 968 scoreMean -21.8734 pv M4 N3 info move S13 visits 1 winrate 739 scoreMean -21.9718 pv S13 info move Q15 visits 1 winrate 840 scoreMean -21.2843 pv Q15 info move P14 visits 1 winrate 915 scoreMean -20.512 pv P14 info ];W[qd]FIT[100.0]C[白棋 胜率: 14.8% 
+盘面: 24.7 不确定度: 0.0
+(KataGo_20b_etyy / 3.5k 计算量)
+
+白棋 胜率: 14.8% 
+盘面: 24.7 局面复杂度: 26.0
+(KataGo_20b_etyy / 3.5k 计算量)
+贴目: 7.5]LZ[KataGo_20b_etyy 14.8 3.5k 17.2
+move Q15 visits 3494 winrate 8521 scoreMean 17.2363 pv Q15 S13 S17 P14 T15 S14 O15 L3 M4 N15 L4 Q17 O16 S18 P18 R18 M9 L7 K8 info move R6 visits 2 winrate 7052 scoreMean 9.92079 pv R6 R7 info move R5 visits 2 winrate 7102 scoreMean 9.8315 pv R5 S5 info move R7 visits 1 winrate 6920 scoreMean 9.44394 pv R7 info move G3 visits 1 winrate 6706 scoreMean 8.35919 pv G3 info move P14 visits 1 winrate 5543 scoreMean 3.63533 pv P14 info move F2 visits 1 winrate 6625 scoreMean 8.61954 pv F2 info move S7 visits 1 winrate 6397 scoreMean 7.36181 pv S7 info move G2 visits 1 winrate 5877 scoreMean 5.11581 pv G2 info move K15 visits 1 winrate 6076 scoreMean 5.36196 pv K15 info ];B[pe]FIT[66.2120810648099]C[黑棋 胜率: 84.2% 
+盘面: 24.3 不确定度: 0.0
+(KataGo_20b_etyy / 28k 计算量)
+
+黑棋 胜率: 84.2% 
+盘面: 24.3 局面复杂度: 26.1
+(KataGo_20b_etyy / 28k 计算量)
+贴目: 7.5]LZ[KataGo_20b_etyy 84.2 28k -16.8
+move S13 visits 26931 winrate 1583 scoreMean -16.8148 pv S13 S17 P14 T15 S14 O15 M10 N9 L8 M9 L9 M7 M8 N8 N7 L10 L3 M4 L4 L7 M5 K9 M2 K8 E18 D18 info move S14 visits 406 winrate 1421 scoreMean -17.6664 pv S14 S17 P14 O15 L3 M4 N2 M2 N3 K15 L12 M10 info move S17 visits 159 winrate 776 scoreMean -19.9583 pv S17 S14 T16 P14 K14 K16 L3 M4 N2 M2 O2 info move Q17 visits 129 winrate 374 scoreMean -31.0797 pv Q17 S14 T15 T16 O16 T14 S15 P14 P13 T15 O15 S15 L17 L18 info move T16 visits 46 winrate 757 scoreMean -21.0864 pv T16 S14 S17 P14 K14 K15 J15 K16 info move P14 visits 4 winrate 285 scoreMean -32.3327 pv P14 S14 L3 L4 info move L3 visits 4 winrate 500 scoreMean -27.3027 pv L3 S14 L4 L2 info ];W[rg]FIT[100.0]C[白棋 胜率: 15.5% 
+盘面: 24.2 不确定度: 0.0
+(KataGo_20b_etyy / 4.9k 计算量)
+
+白棋 胜率: 15.5% 
+盘面: 24.2 局面复杂度: 26.0
+(KataGo_20b_etyy / 4.9k 计算量)
+
+海兔：白棋上下先手借用很多，稳妥一些的话可以考虑照顾外面，不过现在实地方面黑棋优势已经渐渐缩小了
+贴目: 7.5]LZ[KataGo_20b_etyy 15.5 4.9k 16.7
+move S17 visits 2792 winrate 8450 scoreMean 16.7389 pv S17 P14 T15 S14 O15 M10 N9 L8 M7 N8 M8 M9 R7 S7 R9 S8 info move T15 visits 2091 winrate 8419 scoreMean 16.6243 pv T15 S14 S17 P14 O15 M10 N9 L8 M7 N8 M8 M9 R7 S7 R9 S8 info move P14 visits 10 winrate 7361 scoreMean 11.2344 pv P14 P13 S17 Q17 O15 info move R7 visits 4 winrate 7506 scoreMean 12.036 pv R7 S7 R5 S5 info move G3 visits 1 winrate 7304 scoreMean 11.3843 pv G3 info ](;B[se]FIT[67.46348546981692]C[黑棋 胜率: 83.1% 
+盘面: 23.4 不确定度: 0.0
+(KataGo_20b_etyy / 6.1k 计算量)
+
+黑棋 胜率: 83.1% 
+盘面: 23.4 局面复杂度: 26.0
+(KataGo_20b_etyy / 6.1k 计算量)
+贴目: 7.5]LZ[KataGo_20b_etyy 83.1 6.1k -15.9
+move S14 visits 6132 winrate 1692 scoreMean -15.8941 pv S14 S17 P14 O15 M10 N9 L8 M9 L9 M7 M8 N8 N7 L10 M11 L7 K7 K6 J8 M5 O7 info move L3 visits 1 winrate 727 scoreMean -22.5671 pv L3 info ];W[rf]FIT[99.10330536225953]C[白棋 胜率: 16.8% 
+盘面: 23.5 不确定度: 0.0
+(KataGo_20b_etyy / 6.9k 计算量)
+
+白棋 胜率: 16.8% 
+盘面: 23.5 局面复杂度: 26.0
+(KataGo_20b_etyy / 6.9k 计算量)
+贴目: 7.5]LZ[KataGo_20b_etyy 16.8 6.9k 16.0
+move S17 visits 6892 winrate 8319 scoreMean 15.9766 pv S17 P14 O15 M10 N9 L8 M9 L9 M7 M8 N8 N7 L10 L4 L3 M11 L7 K7 K6 J8 L6 info move P14 visits 3 winrate 7406 scoreMean 11.6423 pv P14 P13 Q13 info move R7 visits 2 winrate 7223 scoreMean 10.7223 pv R7 S7 info move K15 visits 1 winrate 7469 scoreMean 11.4997 pv K15 info move G3 visits 1 winrate 7123 scoreMean 10.3658 pv G3 info ];B[rc]FIT[68.62550384589488]C[黑棋 胜率: 83.5% 
+盘面: 23.7 不确定度: 0.0
+(KataGo_20b_etyy / 9.1k 计算量)
+
+黑棋 胜率: 83.5% 
+盘面: 23.7 局面复杂度: 26.1
+(KataGo_20b_etyy / 9.1k 计算量)
+
+佐为传人：白棋接是先手，这个就先手把自己变成一个棍子。
+星阵：黑棋 88.8%，黑领先15.9目
+贴目: 7.5]LZ[KataGo_20b_etyy 83.5 9.1k -16.2
+move P14 visits 8872 winrate 1653 scoreMean -16.2456 pv P14 O15 M10 N9 L8 M9 L9 M7 M8 N8 N7 L10 M11 L7 K7 K6 J8 M5 N3 N2 info move Q17 visits 146 winrate 1289 scoreMean -17.9084 pv Q17 Q18 P14 O15 L3 M4 N2 M2 N3 K15 M10 info move R18 visits 90 winrate 466 scoreMean -26.4704 pv R18 S18 P14 M10 M8 K15 L3 L4 N3 M2 info move L3 visits 13 winrate 923 scoreMean -20.7261 pv L3 L4 N3 M2 N2 info move M10 visits 4 winrate 847 scoreMean -21.7748 pv M10 N9 L8 info move O15 visits 1 winrate 959 scoreMean -20.029 pv O15 info ](;W[of]FIT[99.1342258670092]C[白棋 胜率: 15.8% 
+盘面: 24.3 不确定度: 0.0
+(KataGo_20b_etyy / 11k 计算量)
+
+白棋 胜率: 15.8% 
+盘面: 24.3 局面复杂度: 26.2
+(KataGo_20b_etyy / 11k 计算量)
+贴目: 7.5]LZ[KataGo_20b_etyy 15.8 11k 16.8
+move O15 visits 10356 winrate 8417 scoreMean 16.7994 pv O15 M10 N9 L8 M9 L9 M7 M8 N8 N7 L10 L3 M4 L5 L4 M11 L7 K7 K8 K9 K6 info move R7 visits 501 winrate 8242 scoreMean 15.8683 pv R7 S7 O15 L3 M4 N2 M2 N3 K15 M10 N13 info move O16 visits 183 winrate 7778 scoreMean 12.6802 pv O16 R18 S18 L3 M4 N2 M2 N3 K15 M10 info move R18 visits 91 winrate 7605 scoreMean 11.6704 pv R18 M10 N9 L8 M7 N8 M8 M9 R7 info move Q17 visits 62 winrate 7705 scoreMean 12.3152 pv Q17 M10 N9 L8 M7 N8 M8 M9 L7 info move M10 visits 24 winrate 6268 scoreMean 6.43293 pv M10 Q17 O15 S18 R18 Q18 S19 R19 T18 M8 info move G3 visits 9 winrate 7753 scoreMean 12.2456 pv G3 Q17 O15 S18 F2 C6 M9 L7 info move M11 visits 8 winrate 6230 scoreMean 6.69287 pv M11 Q17 O15 S18 P18 R18 info move N8 visits 6 winrate 6803 scoreMean 8.75341 pv N8 Q17 O15 S18 O7 N7 info move M9 visits 6 winrate 7177 scoreMean 10.675 pv M9 Q17 O15 S18 P18 info ];B[ne]FIT[69.70738302362265]C[黑棋 胜率: 83.5% 
+盘面: 23.6 不确定度: 0.0
+(KataGo_20b_etyy / 855 计算量)
+
+黑棋 胜率: 83.5% 
+盘面: 23.6 局面复杂度: 26.2
+(KataGo_20b_etyy / 855 计算量)
+
+佐为传人：黑棋现在最大的砝码是，目前实地是撑住的
+星阵：黑棋 88.5%，黑领先16.2目
+贴目: 7.5]LZ[KataGo_20b_etyy 83.5 855 -16.1
+move L3 visits 193 winrate 1651 scoreMean -16.0983 pv L3 M4 N2 M2 N3 K15 M10 N9 M6 info move N15 visits 272 winrate 1613 scoreMean -17.0764 pv N15 R7 Q17 O16 S18 S7 R5 R6 S5 N3 P6 Q6 info move R18 visits 236 winrate 1492 scoreMean -16.7599 pv R18 S18 L3 M4 N2 M2 N3 K15 M10 M9 info move M10 visits 73 winrate 1500 scoreMean -16.8998 pv M10 N13 M13 N12 N14 info move K4 visits 50 winrate 1388 scoreMean -17.1655 pv K4 L3 M10 N9 L8 M7 N8 info move O9 visits 14 winrate 1254 scoreMean -18.096 pv O9 M10 P9 K15 L12 K10 info move L5 visits 8 winrate 1388 scoreMean -17.1421 pv L5 N3 M10 N9 info move M9 visits 5 winrate 1118 scoreMean -19.2868 pv M9 M10 L10 M11 info move Q8 visits 4 winrate 1309 scoreMean -18.3851 pv Q8 P7 O7 O9 info ](;W[jp]FIT[99.16308500477557]C[白棋 胜率: 16.9% 
+盘面: 23.0 不确定度: 0.0
+(KataGo_20b_etyy / 3.7k 计算量)
+
+白棋 胜率: 16.9% 
+盘面: 23.0 局面复杂度: 25.7
+(KataGo_20b_etyy / 3.7k 计算量)
+
+佐为传人：哇，如果我现在是黑棋，那真的很慌，白棋从开始到现在每一步目的都很明确
+星阵：黑棋 92.0%，黑领先17.6目
+贴目: 7.5]LZ[KataGo_20b_etyy 16.9 3.7k 15.5
+move L2 visits 1345 winrate 8312 scoreMean 15.5074 pv L2 M10 N13 M13 N11 M11 N14 N15 M12 L12 N12 S11 info move L3 visits 1322 winrate 8614 scoreMean 17.5107 pv L3 M10 N9 L8 R7 S7 R5 S5 R9 S8 M7 info move K3 visits 351 winrate 8364 scoreMean 15.5195 pv K3 M10 R9 S8 Q8 M8 N9 M9 info move G3 visits 272 winrate 8548 scoreMean 17.3727 pv G3 M10 N9 L8 M7 M4 L3 L4 info move F2 visits 92 winrate 8457 scoreMean 17.1503 pv F2 G3 G2 K3 H3 F5 G5 F6 info move N13 visits 79 winrate 8062 scoreMean 14.7004 pv N13 K3 M5 M8 L6 N3 N2 info move N5 visits 79 winrate 8433 scoreMean 16.0003 pv N5 P6 R7 Q6 K3 S7 M11 K15 info move R7 visits 73 winrate 8363 scoreMean 15.8796 pv R7 S7 L3 M10 N9 L8 R5 info move H2 visits 31 winrate 8184 scoreMean 15.1209 pv H2 M10 N9 L8 M7 M8 N8 info move M5 visits 22 winrate 8055 scoreMean 14.9823 pv M5 K3 L6 M8 M10 K8 info ](;B[kr]FIT[67.99654868754112]C[黑棋 胜率: 82.2% 
+盘面: 22.5 不确定度: 0.0
+(KataGo_20b_etyy / 3.6k 计算量)
+
+黑棋 胜率: 82.2% 
+盘面: 22.5 局面复杂度: 25.8
+(KataGo_20b_etyy / 3.6k 计算量)
+
+核桃：徐徐图之，韩豆下的很耐心，准备工作做的差不多了，接下来第一感总是要镇住中腹
+贴目: 7.5]LZ[KataGo_20b_etyy 82.2 3.6k -15.0
+move M10 visits 2945 winrate 1779 scoreMean -15.0213 pv M10 N9 L8 M9 L9 M7 L7 N5 M6 O5 N4 M5 info move N15 visits 275 winrate 1713 scoreMean -15.4574 pv N15 R7 Q17 O16 S18 S7 R5 R6 S5 O3 Q2 L14 info move R18 visits 167 winrate 1552 scoreMean -16.0757 pv R18 S18 M10 N9 L8 M7 M4 M9 L9 L10 info move O9 visits 54 winrate 1501 scoreMean -16.638 pv O9 Q8 N10 N11 M11 M10 N9 info move M9 visits 48 winrate 1323 scoreMean -17.1152 pv M9 M11 K15 N13 N14 info move K3 visits 30 winrate 1260 scoreMean -18.1013 pv K3 K2 M10 N9 L8 M7 N8 M9 info move M4 visits 13 winrate 1081 scoreMean -18.2364 pv M4 M11 K15 L14 M12 info move D9 visits 10 winrate 1163 scoreMean -18.478 pv D9 K15 M10 N9 L8 info move K15 visits 10 winrate 1111 scoreMean -19.1026 pv K15 L14 M13 M10 M8 K14 info move Q8 visits 8 winrate 1223 scoreMean -18.6003 pv Q8 P7 O7 O9 M10 M9 info ];W[lj]FIT[99.19008226268603]C[白棋 胜率: 17.5% 
+盘面: 22.4 不确定度: 0.0
+(KataGo_20b_etyy / 8.0k 计算量)
+
+白棋 胜率: 17.5% 
+盘面: 22.4 局面复杂度: 25.5
+(KataGo_20b_etyy / 8.0k 计算量)
+
+星阵：黑棋 90.4%，黑领先16.2目
+贴目: 7.5]LZ[KataGo_20b_etyy 17.5 8.0k 14.9
+move N13 visits 1681 winrate 8247 scoreMean 14.9345 pv N13 K15 N9 L8 M7 M4 M9 L9 L10 M11 L7 info move N9 visits 5301 winrate 8175 scoreMean 14.7154 pv N9 L8 M7 N8 M9 M8 L9 Q8 K15 N15 R18 M12 K9 K13 H15 info move R9 visits 402 winrate 8170 scoreMean 14.2621 pv R9 S8 N9 L8 N13 N11 O11 N12 O12 M13 info move N12 visits 282 winrate 8022 scoreMean 13.5087 pv N12 L12 N9 L8 R7 S7 R9 S8 N8 info move R7 visits 210 winrate 8006 scoreMean 13.5166 pv R7 S7 N9 L8 R5 S5 M7 M4 M9 L9 info move N8 visits 40 winrate 7520 scoreMean 11.2497 pv N8 O7 R7 S7 R5 S5 R9 S8 Q8 N9 info move Q8 visits 39 winrate 8117 scoreMean 13.5161 pv Q8 R9 N9 L8 M7 M4 M9 info move M9 visits 16 winrate 7744 scoreMean 12.59 pv M9 N10 O9 N9 O7 N8 N7 P6 P7 Q6 info move N11 visits 10 winrate 8097 scoreMean 13.5452 pv N11 L12 N13 N14 N9 info move M11 visits 9 winrate 7984 scoreMean 13.2993 pv M11 L11 M12 L12 O12 info ](;B[mk]FIT[69.0289180847172]C[黑棋 胜率: 81.3% 
+盘面: 21.7 不确定度: 0.0
+(KataGo_20b_etyy / 17k 计算量)
+
+黑棋 胜率: 81.3% 
+盘面: 21.7 局面复杂度: 25.2
+(KataGo_20b_etyy / 17k 计算量)
+贴目: 7.5]LZ[KataGo_20b_etyy 81.3 17k -14.2
+move L8 visits 17148 winrate 1872 scoreMean -14.1689 pv L8 M7 N8 M9 M8 L9 Q8 P7 O9 N10 P9 L14 M13 L13 N15 O16 M12 L12 L11 K11 K10 L10 info move R18 visits 57 winrate 1435 scoreMean -16.4496 pv R18 S18 L8 M7 M4 M9 L9 L10 info move N15 visits 55 winrate 1147 scoreMean -19.4879 pv N15 R7 Q17 O16 S18 S7 R5 R6 S5 L14 info move J4 visits 51 winrate 1344 scoreMean -17.6319 pv J4 G3 K3 F2 K2 F4 M7 info move Q8 visits 29 winrate 1430 scoreMean -17.7782 pv Q8 O7 N7 P7 N8 M9 P9 O9 Q9 N6 info move M4 visits 18 winrate 1251 scoreMean -18.1447 pv M4 M9 L10 L9 K9 K8 J8 K7 info move O7 visits 15 winrate 1465 scoreMean -15.9606 pv O7 R7 S7 R5 S5 info move K3 visits 13 winrate 1302 scoreMean -17.478 pv K3 K2 L8 M7 N8 M9 info move L9 visits 3 winrate 1089 scoreMean -18.8205 pv L9 M8 K7 info move M9 visits 3 winrate 1223 scoreMean -17.0448 pv M9 N8 L7 info ];W[kl]FIT[99.21539219197709]C[白棋 胜率: 18.1% 
+盘面: 22.2 不确定度: 0.0
+(KataGo_20b_etyy / 7.9k 计算量)
+
+白棋 胜率: 18.1% 
+盘面: 22.2 局面复杂度: 25.5
+(KataGo_20b_etyy / 7.9k 计算量)
+
+星阵：黑棋 91.3%，黑领先16.7目
+贴目: 7.5]LZ[KataGo_20b_etyy 18.1 7.9k 14.7
+move M7 visits 3351 winrate 8186 scoreMean 14.6879 pv M7 N8 M9 M8 L9 Q8 K8 K9 L10 J9 K11 K15 L14 L13 info move M9 visits 2636 winrate 8154 scoreMean 14.4503 pv M9 L9 M7 L7 R7 S7 N13 N12 M13 O13 N7 info move N13 visits 838 winrate 8106 scoreMean 14.1582 pv N13 N11 R7 S7 O11 N12 R5 S5 O12 M13 info move R7 visits 548 winrate 8136 scoreMean 14.2684 pv R7 S7 N13 N11 O11 N12 O12 M13 R9 S8 info move N8 visits 152 winrate 7966 scoreMean 13.3678 pv N8 O7 Q8 M4 R9 S8 L9 M9 M8 info move N12 visits 131 winrate 8080 scoreMean 13.9277 pv N12 L12 N8 O7 R7 S7 R5 info move R9 visits 91 winrate 8083 scoreMean 14.2489 pv R9 N15 R7 Q17 O16 S18 P18 R18 L14 M13 F17 D9 info move M8 visits 67 winrate 7925 scoreMean 13.3561 pv M8 L7 L9 M9 N8 O7 N13 N14 M6 info move N7 visits 55 winrate 7623 scoreMean 11.5787 pv N7 O7 M9 L9 L10 M11 M7 M4 L7 Q8 info move N5 visits 51 winrate 8044 scoreMean 13.5835 pv N5 M7 O5 N4 M4 P5 P6 info ](;B[lk]FIT[69.9967643945698]C[黑棋 胜率: 80.8% 
+盘面: 22.3 不确定度: 0.0
+(KataGo_20b_etyy / 29k 计算量)
+
+黑棋 胜率: 80.8% 
+盘面: 22.3 局面复杂度: 26.4
+(KataGo_20b_etyy / 29k 计算量)
+
+佐为传人：小李倔强的冲出
+贴目: 7.5]LZ[KataGo_20b_etyy 80.8 29k -14.8
+move L9 visits 28285 winrate 1918 scoreMean -14.7684 pv L9 M7 M4 L10 M11 R7 S7 L7 J4 J7 H3 N3 L5 L11 L12 K12 M12 J9 K13 J11 J12 info move R18 visits 80 winrate 1459 scoreMean -16.4655 pv R18 S18 L9 M7 M4 L10 M11 L7 info move N15 visits 75 winrate 1378 scoreMean -16.2297 pv N15 L9 Q17 O16 S18 P18 R18 L14 M13 K8 K7 info move K3 visits 56 winrate 1516 scoreMean -17.0617 pv K3 K2 L9 M7 M8 N8 N7 L10 M11 info move Q17 visits 4 winrate 1322 scoreMean -17.4669 pv Q17 Q18 L9 info move N3 visits 4 winrate 1618 scoreMean -15.751 pv N3 N2 L9 N7 info move T16 visits 2 winrate 1657 scoreMean -16.5568 pv T16 R18 info ];W[kk]FIT[98.59259502391949]C[白棋 胜率: 18.7% 
+盘面: 22.0 不确定度: 0.0
+(KataGo_20b_etyy / 3.5k 计算量)
+
+白棋 胜率: 18.7% 
+盘面: 22.0 局面复杂度: 25.6
+(KataGo_20b_etyy / 3.5k 计算量)
+贴目: 7.5]LZ[KataGo_20b_etyy 18.7 3.5k 14.5
+move M7 visits 1781 winrate 8126 scoreMean 14.4787 pv M7 L7 L10 M11 N5 M6 N6 M8 N7 N8 O7 P6 P7 Q6 R7 S7 info move L10 visits 1254 winrate 7956 scoreMean 13.8867 pv L10 M11 M7 L7 N5 M6 N6 M8 N7 N8 O7 P6 P7 Q6 R7 S7 info move N7 visits 186 winrate 7737 scoreMean 12.0792 pv N7 O7 N5 M4 N4 N6 M7 M6 info move N13 visits 131 winrate 7973 scoreMean 13.8549 pv N13 M13 M7 M4 N14 N15 N12 info move R7 visits 127 winrate 7917 scoreMean 13.3783 pv R7 S7 M7 M8 N7 N8 O7 info move S7 visits 3 winrate 7563 scoreMean 11.6495 pv S7 R7 R6 info move R9 visits 2 winrate 7617 scoreMean 11.3955 pv R9 Q8 info ];B[kj]FIT[70.9059533523101]C[黑棋 胜率: 78.5% 
+盘面: 20.8 不确定度: 0.0
+(KataGo_20b_etyy / 6.1k 计算量)
+
+黑棋 胜率: 78.5% 
+盘面: 20.8 局面复杂度: 26.0
+(KataGo_20b_etyy / 6.1k 计算量)
+
+琼希：李世石桑苏加油啊……QAQ我直播的第一盘直播的是李世石桑苏的棋，今天来有始有终了
+贴目: 7.5]LZ[KataGo_20b_etyy 78.5 6.1k -13.3
+move M11 visits 5959 winrate 2153 scoreMean -13.3273 pv M11 M7 L7 L6 Q8 N13 P7 N14 N15 M13 L14 L13 K15 info move K10 visits 60 winrate 1614 scoreMean -16.4011 pv K10 L11 M11 M7 M4 L7 K12 L12 L13 info move R18 visits 32 winrate 1513 scoreMean -16.3528 pv R18 S18 M11 M7 S19 Q18 M4 L7 info move L11 visits 16 winrate 1051 scoreMean -20.4032 pv L11 K10 M11 M7 M4 L7 J9 J7 info move K3 visits 8 winrate 1358 scoreMean -17.9267 pv K3 K2 M11 M7 M8 info move J4 visits 5 winrate 1467 scoreMean -17.7698 pv J4 H3 M11 N7 info move M7 visits 4 winrate 871 scoreMean -20.2097 pv M7 M11 K10 L11 info move M12 visits 4 winrate 1066 scoreMean -18.1955 pv M12 N7 K10 info move M4 visits 2 winrate 997 scoreMean -19.6361 pv M4 M11 info move N11 visits 2 winrate 1181 scoreMean -17.8796 pv N11 N7 info ](;W[li]FIT[97.76369170229579]C[白棋 胜率: 21.3% 
+盘面: 20.9 不确定度: 0.0
+(KataGo_20b_etyy / 3.3k 计算量)
+
+白棋 胜率: 21.3% 
+盘面: 20.9 局面复杂度: 26.0
+(KataGo_20b_etyy / 3.3k 计算量)
+
+佐为传人：想问一下大家，现在星阵告诉你了，黑棋这样的胜率和优势，如果是你，你希望自己是黑还是白？
+黑棋接下来必须跳出，追究白棋弱点
+贴目: 7.5]LZ[KataGo_20b_etyy 21.3 3.3k 13.4
+move M7 visits 2179 winrate 7869 scoreMean 13.4101 pv M7 L7 R7 S7 R9 S8 R5 S5 N7 M4 O7 Q8 N12 K10 info move R7 visits 618 winrate 7830 scoreMean 13.2953 pv R7 S7 M7 L7 R5 S5 N7 O7 N5 Q8 K10 L12 K15 info move N13 visits 227 winrate 7745 scoreMean 13.0032 pv N13 K10 N14 N15 M13 L14 L13 K15 K13 L11 S11 info move N7 visits 164 winrate 7509 scoreMean 11.272 pv N7 O7 N5 M4 N4 N6 M7 M6 L7 info move N12 visits 48 winrate 7448 scoreMean 11.2564 pv N12 K10 M7 M4 L7 J4 H3 info move R5 visits 33 winrate 8009 scoreMean 14.349 pv R5 S5 R7 S7 M7 M4 L7 J4 H3 H4 info move R6 visits 8 winrate 7531 scoreMean 11.9416 pv R6 S7 N7 O7 L7 info move S7 visits 7 winrate 7258 scoreMean 11.0802 pv S7 R7 R6 R5 Q6 S8 info move K10 visits 5 winrate 7280 scoreMean 12.3031 pv K10 M7 N12 M12 info move R9 visits 4 winrate 7470 scoreMean 12.0166 pv R9 Q8 P7 O7 info ](;B[lm]FIT[71.76166060665392]C[黑棋 胜率: 78.7% 
+盘面: 22.7 不确定度: 0.0
+(KataGo_20b_etyy / 23k 计算量)
+
+黑棋 胜率: 78.7% 
+盘面: 22.7 局面复杂度: 28.6
+(KataGo_20b_etyy / 23k 计算量)
+贴目: 7.5]LZ[KataGo_20b_etyy 78.7 23k -15.2
+move L7 visits 21127 winrate 2126 scoreMean -15.2386 pv L7 L6 M6 N7 M5 K6 O7 Q8 J4 J7 H8 R6 R5 L5 L4 M4 H6 J8 J9 H9 J6 K7 H7 K9 J10 K10 K11 info move M4 visits 1233 winrate 1842 scoreMean -15.8522 pv M4 L7 J8 N13 N15 O16 M13 N12 M12 info move O7 visits 428 winrate 1828 scoreMean -16.0379 pv O7 Q8 L7 R9 S8 R6 R5 M6 info move M8 visits 166 winrate 1503 scoreMean -18.8354 pv M8 N8 N7 L7 K7 K6 J8 M5 J6 N4 P7 info move N3 visits 29 winrate 1568 scoreMean -17.2117 pv N3 N2 M4 L7 J4 H3 J8 J7 info move R18 visits 25 winrate 1594 scoreMean -16.0292 pv R18 S18 S19 L7 M4 N3 info move N15 visits 4 winrate 1066 scoreMean -20.9534 pv N15 L7 Q17 info move K6 visits 3 winrate 1210 scoreMean -18.0382 pv K6 M5 O7 info move N7 visits 2 winrate 1111 scoreMean -19.2686 pv N7 M8 info move K3 visits 2 winrate 1511 scoreMean -17.0658 pv K3 M5 info ];W[lp]FIT[97.82758622508733]C[白棋 胜率: 19.0% 
+盘面: 23.2 不确定度: 0.0
+(KataGo_20b_etyy / 3.1k 计算量)
+
+白棋 胜率: 19.0% 
+盘面: 23.2 局面复杂度: 27.4
+(KataGo_20b_etyy / 3.1k 计算量)
+贴目: 7.5]LZ[KataGo_20b_etyy 19.0 3.1k 15.7
+move L7 visits 2494 winrate 8097 scoreMean 15.6574 pv L7 J8 N13 M13 J7 M8 N8 N7 N12 M12 O9 O7 info move R7 visits 447 winrate 8104 scoreMean 15.2395 pv R7 S7 L7 J4 H3 J7 R5 S5 R9 S8 Q8 K10 L11 M12 info move N13 visits 76 winrate 8031 scoreMean 14.6043 pv N13 K10 N14 N15 M13 L14 L13 K15 K13 info move N7 visits 39 winrate 7522 scoreMean 11.1697 pv N7 K6 O7 D9 G3 G4 info move K6 visits 28 winrate 7953 scoreMean 15.4108 pv K6 J4 H3 H4 G3 G4 info move K10 visits 21 winrate 7604 scoreMean 13.2658 pv K10 L7 N12 L12 L13 info move N12 visits 11 winrate 7495 scoreMean 11.5058 pv N12 K10 L7 J4 H3 info move N3 visits 11 winrate 7700 scoreMean 12.152 pv N3 K6 N4 N5 info move R9 visits 8 winrate 7756 scoreMean 12.4976 pv R9 S8 L7 Q8 info move S7 visits 6 winrate 7164 scoreMean 10.4887 pv S7 R7 R6 R5 Q6 S8 info ];B[km]FIT[69.87807412809667]C[黑棋 胜率: 80.4% 
+盘面: 22.7 不确定度: 0.0
+(KataGo_20b_etyy / 3.6k 计算量)
+
+黑棋 胜率: 80.4% 
+盘面: 22.7 局面复杂度: 27.3
+(KataGo_20b_etyy / 3.6k 计算量)
+贴目: 7.5]LZ[KataGo_20b_etyy 80.4 3.6k -15.2
+move J8 visits 1286 winrate 1962 scoreMean -15.2309 pv J8 J7 M8 R7 N8 S7 R6 S11 Q6 K15 O11 info move J4 visits 2130 winrate 1768 scoreMean -16.213 pv J4 N3 L5 H3 K7 K6 J8 J7 K8 L6 J6 N7 H7 info move K10 visits 68 winrate 1390 scoreMean -18.1004 pv K10 L11 J4 H3 K12 L12 info move O7 visits 36 winrate 1416 scoreMean -19.3707 pv O7 Q8 J4 H3 J8 R7 S7 info move N3 visits 22 winrate 1363 scoreMean -18.7219 pv N3 N2 J4 H3 J8 J7 H7 info move R18 visits 19 winrate 1496 scoreMean -17.6156 pv R18 S18 J4 H3 J8 J7 info move K3 visits 7 winrate 1375 scoreMean -18.9404 pv K3 K2 J4 H3 J8 J7 info move Q8 visits 6 winrate 1112 scoreMean -20.2048 pv Q8 O7 N7 P7 info move M8 visits 4 winrate 844 scoreMean -27.2792 pv M8 N8 N7 K9 info move K7 visits 4 winrate 1305 scoreMean -18.9552 pv K7 K6 J8 J7 info ];W[ip]FIT[97.88793105216824]C[白棋 胜率: 16.3% 
+盘面: 24.5 不确定度: 0.0
+(KataGo_20b_etyy / 4.3k 计算量)
+
+白棋 胜率: 16.3% 
+盘面: 24.5 局面复杂度: 27.2
+(KataGo_20b_etyy / 4.4k 计算量)
+
+佐为传人：黑棋如愿出头，白棋下面顺势压住
+贴目: 7.5]LZ[KataGo_20b_etyy 16.3 4.3k 17.0
+move N3 visits 669 winrate 8366 scoreMean 17.016 pv N3 L5 H3 J8 J7 H7 J6 H6 H4 H5 info move H3 visits 2818 winrate 7905 scoreMean 14.1217 pv H3 J8 N13 M13 N12 K10 J7 H7 J6 H6 H5 H4 info move J7 visits 339 winrate 8249 scoreMean 15.9947 pv J7 J8 N3 L5 H8 K7 K6 K8 info move R7 visits 205 winrate 8100 scoreMean 15.0277 pv R7 S7 H3 J7 R9 S8 Q8 K10 L11 info move G3 visits 145 winrate 8201 scoreMean 16.7058 pv G3 K3 F2 K2 F4 J8 J7 H7 J6 H8 info move N13 visits 56 winrate 7980 scoreMean 14.4655 pv N13 M13 N12 K10 H3 J7 N14 N15 info move R5 visits 39 winrate 8048 scoreMean 14.5052 pv R5 S5 R7 S7 H3 H4 G3 G4 info move J8 visits 31 winrate 7898 scoreMean 14.2133 pv J8 K7 K8 K9 K6 J7 H8 J6 info move N4 visits 29 winrate 7675 scoreMean 12.3081 pv N4 N5 N3 L5 J7 J8 H8 J9 info move H4 visits 17 winrate 7572 scoreMean 12.5332 pv H4 K3 K2 H3 J2 H5 G4 info ];B[hq]FIT[70.7147942912051]C[黑棋 胜率: 80.7% 
+盘面: 22.8 不确定度: 0.0
+(KataGo_20b_etyy / 4.3k 计算量)
+
+黑棋 胜率: 80.7% 
+盘面: 22.8 局面复杂度: 27.4
+(KataGo_20b_etyy / 4.4k 计算量)
+贴目: 7.5]LZ[KataGo_20b_etyy 80.7 4.3k -15.3
+move M8 visits 2083 winrate 1930 scoreMean -15.3452 pv M8 R7 S7 R5 S5 N7 N8 O7 O9 R9 S8 P9 N10 J7 H4 F2 G4 G3 F5 K8 H8 info move J8 visits 1893 winrate 2161 scoreMean -13.8535 pv J8 N13 M13 N12 K10 R7 S7 R5 S5 N7 info move J7 visits 154 winrate 1704 scoreMean -15.9233 pv J7 N3 N4 J6 H6 K6 H5 J8 H7 info move H4 visits 111 winrate 1491 scoreMean -17.8421 pv H4 N3 L5 J7 J9 G7 info move K10 visits 40 winrate 1237 scoreMean -19.3413 pv K10 L11 M12 J7 K11 R7 S7 info move K7 visits 33 winrate 1211 scoreMean -20.2032 pv K7 K6 J8 J7 K8 N7 J6 L5 L4 info move N3 visits 14 winrate 1411 scoreMean -18.7383 pv N3 N2 H4 G3 G4 info move Q8 visits 8 winrate 1166 scoreMean -21.8089 pv Q8 O7 N7 P7 N8 info move O7 visits 8 winrate 1342 scoreMean -19.9577 pv O7 K10 J9 info move R18 visits 5 winrate 1391 scoreMean -18.4403 pv R18 S18 J8 J7 info ];W[ll]FIT[97.94501399670423]C[白棋 胜率: 19.1% 
+盘面: 22.6 不确定度: 0.0
+(KataGo_20b_etyy / 10k 计算量)
+
+白棋 胜率: 19.1% 
+盘面: 22.6 局面复杂度: 27.2
+(KataGo_20b_etyy / 10k 计算量)
+
+佐为传人：哇这，直接来了？前面如此含蓄，现在露出了獠牙？不知道黑棋是否迎来了机会
+星阵这个也是一个意想不到的转换
+这里黑必须要长考了，要尽可能把局部所有变化都想清楚
+贴目: 7.5]LZ[KataGo_20b_etyy 19.1 10k 15.1
+move R7 visits 6201 winrate 8091 scoreMean 15.1428 pv R7 S7 R5 R6 Q6 S5 N7 N8 O7 O9 R9 S8 P9 N10 J7 H4 G3 G4 F2 F5 K8 K6 K7 H8 K9 info move N8 visits 3503 winrate 7354 scoreMean 14.0246 pv N8 N7 K7 K10 L11 J8 J7 M12 H4 H5 J5 K5 J6 O7 Q8 M6 R9 info move N7 visits 492 winrate 7518 scoreMean 10.2578 pv N7 N8 O7 P6 P7 N3 N2 Q6 J7 J9 R7 S7 G7 K15 L14 info move O7 visits 12 winrate 7253 scoreMean 10.2433 pv O7 N8 N7 P6 P7 Q6 R7 info move R5 visits 9 winrate 7167 scoreMean 11.0286 pv R5 S5 N8 N7 R7 S7 R9 S8 info move R6 visits 9 winrate 7150 scoreMean 10.629 pv R6 S7 N8 N7 O9 info move S7 visits 8 winrate 7280 scoreMean 10.5493 pv S7 R7 R6 R5 Q6 S8 info move S5 visits 2 winrate 7084 scoreMean 9.70219 pv S5 R5 info move N13 visits 1 winrate 5878 scoreMean 4.96275 pv N13 info move N12 visits 1 winrate 6548 scoreMean 7.59287 pv N12 info ](;B[ml]FIT[71.50628633738874]C[黑棋 胜率: 72.4% 
+盘面: 21.4 不确定度: 0.0
+(KataGo_20b_etyy / 15k 计算量)
+
+黑棋 胜率: 72.4% 
+盘面: 21.4 局面复杂度: 31.8
+(KataGo_20b_etyy / 15k 计算量)
+
+佐为传人：冲了！，看看赛豆有没有什么手段，怎么构思。星阵直接做活了
+虽然现在胜率低了，反而我觉得黑棋有棋下了，很奇妙的感觉
+贴目: 7.5]LZ[KataGo_20b_etyy 72.4 15k -13.9
+move N7 visits 15308 winrate 2764 scoreMean -13.9014 pv N7 K7 K10 L11 K9 K11 J11 J12 H11 N3 N4 M12 N11 N12 O11 O13 P12 P13 Q11 R11 R12 info move N3 visits 25 winrate 1809 scoreMean -16.6195 pv N3 N2 N7 O9 O7 L11 L12 info move K3 visits 4 winrate 1548 scoreMean -18.801 pv K3 K2 N7 O9 info move L3 visits 1 winrate 1349 scoreMean -19.5451 pv L3 info move R18 visits 1 winrate 1134 scoreMean -18.382 pv R18 info ](;W[mm]FIT[96.85411595906359]C[白棋 胜率: 28.0% 
+盘面: 21.4 不确定度: 0.0
+(KataGo_20b_etyy / 18k 计算量)
+
+白棋 胜率: 28.0% 
+盘面: 21.4 局面复杂度: 32.2
+(KataGo_20b_etyy / 18k 计算量)
+
+佐为传人：星阵的思路就是赶紧做活，棋局还早，黑棋毕竟实地有优势。李世石还剩47分钟
+贴目: 7.5]LZ[KataGo_20b_etyy 28.0 18k 13.9
+move K7 visits 15209 winrate 7200 scoreMean 13.9446 pv K7 K10 L11 K9 R9 S8 R6 R5 Q8 M12 S9 R7 Q6 O9 N10 O7 P9 S11 R11 S10 T9 S7 S12 T12 R12 T11 N13 N14 info move L11 visits 1182 winrate 7170 scoreMean 11.8694 pv L11 J8 O9 O7 R9 L12 R7 S7 S8 K11 C9 info move M12 visits 703 winrate 7169 scoreMean 13.3064 pv M12 N11 L11 J9 R9 S8 O9 O7 N12 info move O9 visits 452 winrate 6670 scoreMean 8.73456 pv O9 O7 L11 J8 R9 L12 R7 S7 S8 K11 C9 info move N12 visits 242 winrate 6756 scoreMean 8.81 pv N12 K10 L11 M12 N13 N14 K11 J11 J10 K8 J12 H11 info move J7 visits 201 winrate 7193 scoreMean 12.5528 pv J7 J9 N12 M12 N13 N14 M13 L13 L14 K13 info move N13 visits 136 winrate 6559 scoreMean 9.52771 pv N13 N12 M13 P12 L11 L12 L13 K12 J11 info move K10 visits 82 winrate 7020 scoreMean 10.6023 pv K10 J9 N12 M12 N13 M13 N14 N15 O11 Q17 O16 info move S7 visits 29 winrate 6235 scoreMean 6.69441 pv S7 R7 N12 M12 N13 N14 info move R7 visits 28 winrate 6575 scoreMean 7.77378 pv R7 S7 R9 S8 Q8 K10 L11 M12 info ](;B[ik]FIT[72.25612090745749]C[黑棋 胜率: 71.6% 
+盘面: 19.0 不确定度: 0.0
+(KataGo_20b_etyy / 32k 计算量)
+
+黑棋 胜率: 71.6% 
+盘面: 19.0 局面复杂度: 28.2
+(KataGo_20b_etyy / 32k 计算量)
+
+佐为传人：李九段出招了？星阵给出了好评！
+星阵这个图应该是白棋不行的图
+黑棋利用征子有利，和下面各种各样的先手，给白棋施加了最大的压力！
+贴目: 7.5]LZ[KataGo_20b_etyy 71.6 32k -11.5
+move K10 visits 31490 winrate 2837 scoreMean -11.4997 pv K10 L11 L12 K11 J10 M5 O7 L4 Q8 K12 H9 M12 N12 K9 K8 L13 N11 J8 K7 H10 L5 N4 M6 J7 L6 L14 D13 D14 F13 info move K8 visits 575 winrate 2076 scoreMean -18.418 pv K8 J7 K7 K6 K10 L11 K9 K11 J10 M12 N11 J11 H10 N13 info move K7 visits 26 winrate 98 scoreMean -48.4656 pv K7 K8 O9 N10 Q8 P7 O7 P9 info move O9 visits 19 winrate 2137 scoreMean -16.7722 pv O9 N10 K8 N13 N12 O12 info move L11 visits 4 winrate 2464 scoreMean -15.5877 pv L11 K10 K8 N12 info move J8 visits 1 winrate 244 scoreMean -31.8864 pv J8 info move N15 visits 1 winrate 426 scoreMean -30.3019 pv N15 info ](;W[jj]FIT[94.37067708831837]C[白棋 胜率: 28.3% 
+盘面: 19.0 不确定度: 0.0
+(KataGo_20b_etyy / 49k 计算量)
+
+白棋 胜率: 28.3% 
+盘面: 19.0 局面复杂度: 28.3
+(KataGo_20b_etyy / 49k 计算量)
+贴目: 7.5]LZ[KataGo_20b_etyy 28.3 49k 11.5
+move L11 visits 48909 winrate 7170 scoreMean 11.4945 pv L11 L12 K11 J10 M5 O7 L4 Q8 K12 K9 M12 N12 L13 N11 L14 N4 K5 K3 L3 H11 H12 G11 G12 F11 F12 E11 F2 G2 G3 E1 E12 C17 info move O9 visits 322 winrate 6089 scoreMean 6.24572 pv O9 O7 L11 L12 K11 J10 K12 K9 M12 N12 L13 N11 L14 P12 K7 H10 H7 info move R9 visits 7 winrate 5333 scoreMean 1.79061 pv R9 S8 L11 K7 O9 info move R7 visits 4 winrate 5253 scoreMean 1.57606 pv R7 S7 R9 S8 info move R6 visits 2 winrate 4554 scoreMean -2.04193 pv R6 S7 info move S7 visits 2 winrate 5134 scoreMean 1.32203 pv S7 R7 info move R5 visits 2 winrate 5581 scoreMean 4.15506 pv R5 S5 info move S5 visits 2 winrate 4497 scoreMean -1.80085 pv S5 R5 info move N13 visits 1 winrate 5384 scoreMean 2.18638 pv N13 info move Q8 visits 1 winrate 5472 scoreMean 2.55419 pv Q8 info ];B[ki]FIT[72.96750242265088]C[黑棋 胜率: 70.9% 
+盘面: 17.2 不确定度: 0.0
+(KataGo_20b_etyy / 57k 计算量)
+
+黑棋 胜率: 70.9% 
+盘面: 17.2 局面复杂度: 25.7
+(KataGo_20b_etyy / 57k 计算量)
+
+佐为传人：似乎是有机会，这个局面是李世石最擅长的。全盛时期就是凭此能力横扫天下的
+星阵：黑棋 85.8%，黑领先20.9目
+贴目: 7.5]LZ[KataGo_20b_etyy 70.9 57k -9.7
+move J10 visits 28209 winrate 2914 scoreMean -9.69336 pv J10 M5 L4 N5 P6 R7 O3 O2 Q6 M12 L12 K11 N12 K12 K9 R6 R5 L13 N11 S7 S8 Q8 L14 S11 H10 H12 F10 H14 K15 J16 J13 J14 K13 J12 K14 H13 info move L12 visits 26849 winrate 2833 scoreMean -10.9876 pv L12 K11 J10 M5 O3 O2 N3 N2 L3 M2 L5 O5 N5 K12 K9 P5 N4 R9 S8 M12 N12 L13 N11 O9 O7 Q8 L14 O11 O12 H10 J11 H12 R11 K7 J8 J7 H9 info move K9 visits 480 winrate 2385 scoreMean -15.8218 pv K9 K11 J10 J11 H10 M12 N11 N12 O11 O13 N15 O16 Q11 R11 P12 P13 R12 Q13 R10 info move K7 visits 472 winrate 2293 scoreMean -16.3689 pv K7 K6 J7 J6 H7 L5 L4 H6 M12 H4 O9 N10 P9 Q9 O7 info move J8 visits 359 winrate 2698 scoreMean -12.0341 pv J8 R9 M12 R7 S7 S8 S9 Q8 S10 R6 info move K11 visits 55 winrate 1535 scoreMean -22.846 pv K11 L12 K9 M12 K12 L13 L14 K13 J13 K14 info move M12 visits 46 winrate 126 scoreMean -43.3341 pv M12 K8 E16 D17 E17 K9 H4 info move K8 visits 28 winrate 2551 scoreMean -15.2013 pv K8 J7 K7 K6 L6 M6 J6 L5 J8 info move K12 visits 3 winrate 202 scoreMean -34.9788 pv K12 K9 L12 info move O9 visits 2 winrate 1600 scoreMean -21.047 pv O9 N10 info ](;W[ij]FIT[94.51141016111042]C[白棋 胜率: 36.0% 
+盘面: 15.7 不确定度: 0.0
+(KataGo_20b_etyy / 17k 计算量)
+
+白棋 胜率: 36.0% 
+盘面: 15.7 局面复杂度: 29.1
+(KataGo_20b_etyy / 18k 计算量)
+
+星阵：黑棋 88.1%，黑领先17.3目
+佐为传人：黑棋胜率开始回升了
+贴目: 7.5]LZ[KataGo_20b_etyy 36.0 17k 8.2
+move K11 visits 13871 winrate 6396 scoreMean 8.16216 pv K11 J11 M12 N11 N12 O11 O13 N13 O12 P12 P13 L12 K12 Q13 L13 M13 L12 Q11 L14 R11 K9 K8 H9 K7 K6 J7 J6 H7 L5 L4 info move N5 visits 1538 winrate 6439 scoreMean 7.01968 pv N5 N4 P6 K7 K6 M6 L6 K9 O7 N6 H6 P7 Q8 R6 O7 L12 O9 G5 info move M5 visits 1045 winrate 6412 scoreMean 7.28766 pv M5 N4 L4 L5 L3 M6 L6 N5 K5 M5 J6 J7 H6 K8 K6 P5 N13 M13 N12 M12 O9 O7 R9 S8 P12 R11 N14 info move M12 visits 230 winrate 6007 scoreMean 7.15959 pv M12 L12 K11 N12 K12 K9 L13 N11 L14 S11 K7 H9 H7 O7 info move O9 visits 193 winrate 5911 scoreMean 4.87173 pv O9 O7 K11 J11 M12 N11 N12 O11 O13 Q11 R11 info move N13 visits 164 winrate 6169 scoreMean 6.09671 pv N13 M13 R9 S8 Q8 L12 K11 K7 N12 M12 info move K9 visits 106 winrate 4780 scoreMean -0.427147 pv K9 K8 L12 M12 L13 M13 L14 K7 S11 Q11 R11 P12 R9 info move R9 visits 82 winrate 6441 scoreMean 6.93687 pv R9 S8 K11 K9 M12 N11 info move L12 visits 47 winrate 5582 scoreMean 5.14082 pv L12 M12 L13 M13 L14 K7 R9 S8 info move J11 visits 34 winrate 6484 scoreMean 7.96274 pv J11 H10 O9 K7 O7 info ](;B[ko]FIT[73.64331486208461]C[黑棋 胜率: 88.0% 
+盘面: 28.4 不确定度: 0.0
+(KataGo_20b_etyy / 17k 计算量)
+
+黑棋 胜率: 88.0% 
+盘面: 28.4 局面复杂度: 26.5
+(KataGo_20b_etyy / 17k 计算量)
+
+佐为传人：漂亮！
+贴目: 7.5]LZ[KataGo_20b_etyy 88.0 17k -20.9
+move N3 visits 13405 winrate 1203 scoreMean -20.8839 pv N3 L4 K3 L3 O2 L12 J8 M12 H9 F2 G2 info move L4 visits 1785 winrate 1287 scoreMean -33.6835 pv L4 K9 K8 J8 K7 J6 L12 K11 J11 K12 K13 J12 H12 J13 L3 M2 H4 J7 info move Q8 visits 480 winrate 1262 scoreMean -24.3716 pv Q8 P7 O7 L4 N3 K9 K8 N2 Q6 M12 L12 info move O3 visits 422 winrate 1203 scoreMean -22.278 pv O3 L4 N2 L12 J8 M12 H9 L14 R11 Q11 info move K7 visits 198 winrate 799 scoreMean -24.0696 pv K7 K6 L12 L4 Q6 P6 R6 P5 P7 O7 R18 N6 S18 info move O7 visits 177 winrate 1249 scoreMean -24.9044 pv O7 L4 Q8 K9 K8 J8 K7 J6 L12 K11 J12 J11 K15 info move L12 visits 169 winrate 807 scoreMean -23.8952 pv L12 L4 K3 L3 Q6 P6 R6 P5 P7 O7 R18 info move M6 visits 89 winrate 911 scoreMean -25.6655 pv M6 L4 L6 K7 L12 K6 Q6 P6 R6 P5 P7 info move L3 visits 81 winrate 1058 scoreMean -22.2292 pv L3 L4 K3 N3 M5 K6 J8 J6 K2 N4 info move J8 visits 46 winrate 662 scoreMean -24.4818 pv J8 L4 K3 L3 Q6 P6 R6 P5 P7 info ];W[kp]FIT[92.20625381571747]C[白棋 胜率: 3.7% 
+盘面: 36.6 不确定度: 0.0
+(KataGo_20b_etyy / 84k 计算量)
+
+白棋 胜率: 3.7% 
+盘面: 36.6 局面复杂度: 27.3
+(KataGo_20b_etyy / 84k 计算量)
+
+佐为传人：阿阿阿阿阿阿？？？？？结束了，这失误
+贴目: 7.5]LZ[KataGo_20b_etyy 3.7 84k 29.1
+move K9 visits 83462 winrate 9634 scoreMean 29.0518 pv K9 K2 K8 K3 N2 O3 O2 M1 Q2 R2 H4 H5 L1 Q1 F4 F2 G5 L12 K12 K11 L9 K15 info move K11 visits 96 winrate 6154 scoreMean 6.47728 pv K11 J11 K9 K8 M12 N11 J12 N12 info move N5 visits 84 winrate 5844 scoreMean 4.14517 pv N5 N4 P6 O5 O7 P7 L12 K9 O7 info move O9 visits 66 winrate 5750 scoreMean 3.49728 pv O9 L12 O7 N6 K11 K9 K12 L13 K15 J14 info move L12 visits 29 winrate 5169 scoreMean 1.61846 pv L12 M12 N5 N4 O5 P5 P6 M5 O7 P7 info move N4 visits 22 winrate 5722 scoreMean 4.19352 pv N4 N5 N3 K7 K6 M6 L6 J6 info move M12 visits 21 winrate 5211 scoreMean 1.61987 pv M12 L12 K11 N12 K12 K9 L13 N11 N13 P12 info move K12 visits 20 winrate 5135 scoreMean 1.27009 pv K12 M12 N5 N4 K9 info move R9 visits 17 winrate 5349 scoreMean 1.84266 pv R9 S8 O9 O7 Q8 L12 info move N13 visits 15 winrate 5600 scoreMean 3.32035 pv N13 L12 K11 N12 M13 L13 O13 info ];B[jk]FIT[72.17191515552035]C[黑棋 胜率: 96.6% 
+盘面: 37.5 不确定度: 0.0
+(KataGo_20b_etyy / 414k 计算量)
+
+黑棋 胜率: 96.5% 
+盘面: 37.5 局面复杂度: 27.7
+(KataGo_20b_etyy / 414k 计算量)
+
+佐为传人：是不是终究AI还是对征子方面产生了误解，81这个淡然一飞啊，让我想起了一句话。胸中有激雷而面如平湖者，可拜上将
+星阵：黑棋 94.7%，黑领先39.9目
+海兔：韩豆啊。。。有失AI脸面啊
+贴目: 7.5]LZ[KataGo_20b_etyy 96.6 414k -30.0
+move K2 visits 394733 winrate 345 scoreMean -30.0152 pv K2 K8 K3 L12 N15 O16 K13 K15 J15 L13 R11 R10 S10 H4 F17 E17 F16 F4 F2 info move K8 visits 18300 winrate 292 scoreMean -35.763 pv K8 J8 K7 J6 L3 N2 K2 J7 L12 K6 L1 M1 M2 F2 info move L3 visits 358 winrate 254 scoreMean -27.8578 pv L3 K8 M2 F2 G2 G3 F1 F4 E1 K15 L12 K12 K11 L9 info move N3 visits 170 winrate 227 scoreMean -26.3142 pv N3 K8 N2 F2 G2 G3 F1 G5 L12 info move K3 visits 53 winrate 292 scoreMean -30.0418 pv K3 K8 K2 H4 L12 F4 F2 K15 info move M2 visits 36 winrate 258 scoreMean -27.5843 pv M2 K8 L3 K2 N3 F2 G2 info move O9 visits 6 winrate 112 scoreMean -48.1352 pv O9 K8 L12 K12 M12 info move N15 visits 4 winrate 191 scoreMean -43.4114 pv N15 K8 Q17 O16 info ](;W[jr]FIT[92.39181920105754]C[白棋 胜率: 3.5% 
+盘面: 36.0 不确定度: 0.0
+(KataGo_20b_etyy / 8.0k 计算量)
+
+白棋 胜率: 3.5% 
+盘面: 36.0 局面复杂度: 27.0
+(KataGo_20b_etyy / 8.0k 计算量)
+贴目: 7.5]LZ[KataGo_20b_etyy 3.5 8.0k 28.5
+move K8 visits 6270 winrate 9646 scoreMean 28.4691 pv K8 K3 N2 G5 O3 L12 K15 K11 L9 J15 K16 J16 C9 info move H4 visits 1590 winrate 9658 scoreMean 28.5339 pv H4 K3 K8 L12 K12 K13 J12 K15 F4 F2 C8 C6 info move H6 visits 70 winrate 9555 scoreMean 25.9306 pv H6 K3 F2 G3 H4 G2 K15 info move J6 visits 31 winrate 9333 scoreMean 22.5585 pv J6 K3 H4 H5 G5 info move G6 visits 15 winrate 9471 scoreMean 25.6929 pv G6 K3 F2 G3 H4 G2 info move J7 visits 8 winrate 9286 scoreMean 22.9012 pv J7 L12 K11 K3 info move K3 visits 6 winrate 7931 scoreMean 18.145 pv K3 K8 L12 M12 info ];B[jq]FIT[72.83448860419844]C[黑棋 胜率: 97.5% 
+盘面: 35.4 不确定度: 0.0
+(KataGo_20b_etyy / 337k 计算量)
+
+黑棋 胜率: 97.4% 
+盘面: 35.4 局面复杂度: 24.7
+(KataGo_20b_etyy / 337k 计算量)
+
+佐为传人：此情此景，似曾相识，人机大战第四盘的那种感觉白棋开始在送了
+我正在想，白棋当时不贴，在天元接的话，后面是什么变化
+贴目: 7.5]LZ[KataGo_20b_etyy 97.5 337k -27.9
+move N3 visits 284132 winrate 254 scoreMean -27.9329 pv N3 K8 L3 L12 N15 O16 D17 L14 M13 S11 R11 R10 Q11 E17 E18 E16 D18 F18 C16 C15 B16 G17 D10 B18 info move L3 visits 28766 winrate 288 scoreMean -31.0065 pv L3 M2 N2 K8 N3 F2 G2 G3 E1 L12 K14 F4 F1 G5 K16 C8 C6 E8 F17 info move K8 visits 16076 winrate 347 scoreMean -33.6382 pv K8 J8 L3 M2 K7 J6 L12 K11 N3 N2 H4 J7 G3 J2 K15 K12 K13 info move M2 visits 5838 winrate 317 scoreMean -30.9614 pv M2 L3 N3 K8 N2 F2 G2 G3 E1 K15 L12 K12 K11 L9 K13 J12 info move N2 visits 1161 winrate 220 scoreMean -28.6909 pv N2 K8 L3 L12 G5 L14 R11 F2 F4 info move H4 visits 525 winrate 123 scoreMean -37.1753 pv H4 K8 G3 L3 L12 K12 K13 J12 J13 info move R18 visits 262 winrate 85 scoreMean -41.7499 pv R18 K8 S18 R6 R7 Q6 S5 H4 info move J2 visits 202 winrate 268 scoreMean -29.3986 pv J2 K8 L3 G3 M2 F2 C6 K15 L12 K12 K13 L13 info move O3 visits 64 winrate 117 scoreMean -34.4218 pv O3 K8 N2 L12 G5 L14 R11 info move H2 visits 44 winrate 162 scoreMean -31.3351 pv H2 K8 L3 J2 M2 K1 N3 G2 L12 K12 K11 info ];W[kq]FIT[90.24539767963537]C[白棋 胜率: 2.7% 
+盘面: 39.5 不确定度: 0.0
+(KataGo_20b_etyy / 33k 计算量)
+
+白棋 胜率: 2.7% 
+盘面: 39.5 局面复杂度: 26.9
+(KataGo_20b_etyy / 33k 计算量)
+贴目: 7.5]LZ[KataGo_20b_etyy 2.7 33k 32.0
+move M2 visits 31497 winrate 9727 scoreMean 32.0083 pv M2 N2 K8 N3 F2 G2 G3 E1 L12 K14 F4 F1 G5 K16 C8 C6 E8 F17 info move K8 visits 1197 winrate 9059 scoreMean 18.5835 pv K8 M2 F2 G3 G2 H4 J2 L1 C5 J1 K15 L12 K12 K11 L9 K13 J12 info move N2 visits 29 winrate 7022 scoreMean 11.586 pv N2 K8 N5 N4 O5 P5 P6 info move L12 visits 13 winrate 8236 scoreMean 14.9569 pv L12 M2 K8 K14 K16 info move H6 visits 12 winrate 7952 scoreMean 11.3282 pv H6 M2 L12 K15 L14 info move H4 visits 4 winrate 8292 scoreMean 11.8859 pv H4 M2 F4 F2 info move J6 visits 2 winrate 7268 scoreMean 8.78648 pv J6 M2 info move G6 visits 2 winrate 8000 scoreMean 11.1303 pv G6 M2 info move H5 visits 2 winrate 8125 scoreMean 11.4247 pv H5 M2 info move H7 visits 1 winrate 6865 scoreMean 7.79068 pv H7 info ];B[lr]FIT[71.37610904690062]C[黑棋 胜率: 97.2% 
+盘面: 33.7 不确定度: 0.0
+(KataGo_20b_etyy / 9.9k 计算量)
+
+黑棋 胜率: 97.2% 
+盘面: 33.7 局面复杂度: 24.0
+(KataGo_20b_etyy / 9.9k 计算量)
+
+佐为传人：81的别的变化我回头补一点。
+刚刚韩豆一瞬间变成了憨豆
+星阵：黑棋 96.3%，黑领先39.5目
+贴目: 7.5]LZ[KataGo_20b_etyy 97.2 9.9k -26.2
+move N3 visits 6300 winrate 276 scoreMean -26.1726 pv N3 K8 N2 F2 G2 G3 E1 L12 K14 K15 J15 K16 J16 K17 R11 info move K8 visits 1702 winrate 373 scoreMean -36.4807 pv K8 J8 K7 J6 N3 N2 H4 J7 G3 J2 L12 K6 K11 info move H2 visits 1102 winrate 459 scoreMean -33.401 pv H2 H5 J2 H4 N4 G2 G3 F2 info move J2 visits 625 winrate 490 scoreMean -35.078 pv J2 H5 H2 G3 G2 F4 F2 K15 J15 L12 info move H4 visits 109 winrate 102 scoreMean -39.8035 pv H4 K8 G3 J2 L12 K12 K11 L9 K15 L13 info move R18 visits 18 winrate 82 scoreMean -41.5278 pv R18 K8 H4 S18 G3 J2 L12 info move O3 visits 12 winrate 105 scoreMean -35.8278 pv O3 K8 O2 K15 L12 K12 info move N15 visits 8 winrate 112 scoreMean -46.5827 pv N15 K8 Q17 O16 S18 F2 info move L12 visits 2 winrate 144 scoreMean -41.2134 pv L12 K8 info move S18 visits 2 winrate 162 scoreMean -35.8927 pv S18 K8 info ](;W[ir]FIT[90.46709318691639]C[白棋 胜率: 2.0% 
+盘面: 41.3 不确定度: 0.0
+(KataGo_20b_etyy / 1.5k 计算量)
+
+白棋 胜率: 2.0% 
+盘面: 41.3 局面复杂度: 27.0
+(KataGo_20b_etyy / 1.5k 计算量)
+贴目: 7.5]LZ[KataGo_20b_etyy 2.0 1.5k 33.8
+move H5 visits 194 winrate 9797 scoreMean 33.8144 pv H5 H2 H4 N4 G2 G3 F2 info move H2 visits 1017 winrate 9719 scoreMean 38.8903 pv H2 N3 K8 N2 F2 C6 K15 L12 K12 K11 L9 K13 J12 info move K8 visits 159 winrate 9534 scoreMean 28.4114 pv K8 H2 G4 L12 H4 G3 J5 K5 J6 info move G3 visits 24 winrate 7484 scoreMean 17.0057 pv G3 K8 O9 F2 H2 info move J6 visits 23 winrate 8912 scoreMean 20.4072 pv J6 H2 G4 H5 F4 G2 info move H4 visits 18 winrate 9246 scoreMean 27.2207 pv H4 H5 J5 H2 G4 K5 J6 info move H6 visits 16 winrate 9057 scoreMean 22.8012 pv H6 H2 H4 H5 G5 J5 G4 G6 info move F2 visits 11 winrate 7947 scoreMean 19.898 pv F2 K8 G3 L12 K11 info move G4 visits 7 winrate 7445 scoreMean 15.6506 pv G4 H2 K8 N3 info move G2 visits 4 winrate 9167 scoreMean 28.8631 pv G2 H4 K8 info ];B[hr]FIT[69.97939372584914]C[黑棋 胜率: 98.7% 
+盘面: 47.4 不确定度: 0.0
+(KataGo_20b_etyy / 21k 计算量)
+
+黑棋 胜率: 98.7% 
+盘面: 47.4 局面复杂度: 27.3
+(KataGo_20b_etyy / 21k 计算量)
+
+豆腐：吃完午饭坐进教室，一看傻掉了，感觉自己错过了很精（sha）彩（diao）的黑81后的应对。
+贴目: 7.5]LZ[KataGo_20b_etyy 98.7 21k -39.9
+move N3 visits 7844 winrate 130 scoreMean -39.9052 pv N3 N2 H4 K8 G3 G2 F2 K1 L12 G5 G4 K12 K13 J12 K15 info move K8 visits 8281 winrate 172 scoreMean -42.9178 pv K8 J8 K7 J6 H4 L12 G2 K1 G3 J1 K15 J7 L13 M12 C9 info move H4 visits 4178 winrate 86 scoreMean -38.6715 pv H4 K8 G2 J1 G3 K1 L12 K12 K11 L9 K15 L13 M12 K13 L14 info move O3 visits 128 winrate 87 scoreMean -44.7344 pv O3 K8 N2 F2 C6 K15 L12 K12 K11 L9 K13 J12 info move G2 visits 74 winrate 101 scoreMean -41.0714 pv G2 H4 H5 K8 G4 J1 J6 K15 L12 info move R18 visits 50 winrate 67 scoreMean -51.9763 pv R18 K8 H4 F2 G4 G3 F5 C5 E7 B4 info move O9 visits 25 winrate 86 scoreMean -60.3688 pv O9 K8 H4 F2 G4 G3 H1 G2 F5 info move N15 visits 14 winrate 85 scoreMean -56.2997 pv N15 K8 H4 F2 G4 G3 F5 info move L12 visits 8 winrate 82 scoreMean -53.7467 pv L12 K8 H4 F2 G4 G3 E5 E6 info move Q17 visits 5 winrate 99 scoreMean -48.7934 pv Q17 K8 H4 F2 info ];W[jl]FIT[90.67893556054047]LZ[ 1.3 0
+];B[il]FIT[69.97939372584914]C[]LZ[ 50.0 0
+])(;W[jl]FIT[0.0]C[白棋 胜率: 2.6% 
+盘面: 46.3 不确定度: 0.0
+(KataGo_20b_etyy / 5.9k 计算量)
+
+白棋 胜率: 2.6% 
+盘面: 46.3 局面复杂度: 28.2
+(KataGo_20b_etyy / 5.9k 计算量)
+贴目: 7.5]LZ[KataGo_20b_etyy 2.6 5.9k 38.8
+move J8 visits 5826 winrate 9742 scoreMean 38.8167 pv J8 H2 J2 K7 J6 H4 J7 G3 K1 L12 K6 K11 L9 K15 K12 J12 info move M12 visits 28 winrate 5166 scoreMean 0.531447 pv M12 L12 K11 N12 N5 N4 O5 P5 P6 M5 info move N5 visits 11 winrate 6292 scoreMean 6.19506 pv N5 N4 O5 P5 P6 M5 O7 P7 info move O9 visits 10 winrate 5896 scoreMean 3.80946 pv O9 L12 K11 J8 info move L12 visits 7 winrate 6123 scoreMean 8.41931 pv L12 M12 L13 M13 L14 J8 H9 info move K11 visits 6 winrate 5268 scoreMean 1.69412 pv K11 M12 O9 O7 info move J7 visits 3 winrate 5409 scoreMean 3.70713 pv J7 J8 H9 info move K12 visits 3 winrate 6115 scoreMean 5.90827 pv K12 L12 K11 info move R7 visits 2 winrate 6031 scoreMean 5.37664 pv R7 S7 info move N13 visits 1 winrate 6320 scoreMean 7.35893 pv N13 info ];B[il]FIT[0.0]C[黑棋 胜率: 96.8% 
+盘面: 45.5 不确定度: 0.0
+(KataGo_20b_etyy / 3.0k 计算量)
+
+黑棋 胜率: 96.8% 
+盘面: 45.5 局面复杂度: 28.6
+(KataGo_20b_etyy / 3.0k 计算量)
+贴目: 7.5]LZ[KataGo_20b_etyy 96.8 3.0k -38.0
+move K7 visits 2608 winrate 323 scoreMean -38.0265 pv K7 J6 H2 G3 L12 K11 G4 F2 K6 K5 G2 info move J2 visits 261 winrate 405 scoreMean -37.2139 pv J2 H2 K7 J6 N3 K6 N2 F2 C6 K15 info move H2 visits 157 winrate 467 scoreMean -33.2147 pv H2 H5 J2 G3 G2 F4 info move N3 visits 21 winrate 150 scoreMean -33.0211 pv N3 K7 N2 K15 L12 K12 K11 L9 info ];W[jm]FIT[0.0]C[白棋 胜率: 2.4% 
+盘面: 47.0 不确定度: 0.0
+(KataGo_20b_etyy / 5.0k 计算量)
+
+白棋 胜率: 2.4% 
+盘面: 47.0 局面复杂度: 28.2
+(KataGo_20b_etyy / 5.1k 计算量)
+贴目: 7.5]LZ[KataGo_20b_etyy 2.4 5.0k 39.5
+move J6 visits 5001 winrate 9761 scoreMean 39.5266 pv J6 N3 N2 H4 J7 G3 J2 L12 K11 R18 S18 info move O9 visits 10 winrate 4943 scoreMean 1.60662 pv O9 L12 O7 N6 K11 H10 info move K6 visits 8 winrate 4064 scoreMean -3.98348 pv K6 J7 J6 H7 H6 H4 G7 info move M12 visits 7 winrate 4446 scoreMean -2.45444 pv M12 L12 K11 N12 info move L12 visits 4 winrate 3901 scoreMean -4.07424 pv L12 M12 L13 M13 info move H10 visits 3 winrate 3213 scoreMean -8.62309 pv H10 L12 K11 info move N13 visits 3 winrate 4117 scoreMean -3.73799 pv N13 L12 K11 info move N5 visits 3 winrate 4904 scoreMean 0.791714 pv N5 N4 J6 info move K11 visits 3 winrate 4544 scoreMean -1.95834 pv K11 M12 info move R9 visits 2 winrate 3251 scoreMean -7.90325 pv R9 S8 info ];B[in]FIT[0.0]C[黑棋 胜率: 95.5% 
+盘面: 52.1 不确定度: 0.0
+(KataGo_20b_etyy / 6.8k 计算量)
+
+黑棋 胜率: 95.5% 
+盘面: 52.1 局面复杂度: 33.6
+(KataGo_20b_etyy / 6.9k 计算量)
+贴目: 7.5]LZ[KataGo_20b_etyy 95.5 6.8k -44.6
+move L12 visits 4197 winrate 446 scoreMean -44.562 pv L12 K11 J11 K12 K13 J12 H12 J13 J14 H13 G13 H14 H15 G14 F14 G15 G16 F15 E15 F16 E16 F17 E17 F18 D14 C13 C15 B15 C16 info move N3 visits 617 winrate 189 scoreMean -36.9982 pv N3 N2 H4 J7 G3 J2 L12 K11 R18 S18 info move J2 visits 518 winrate 326 scoreMean -38.7035 pv J2 H2 H4 J7 G2 K1 G3 J1 info move H2 visits 490 winrate 285 scoreMean -37.7426 pv H2 J2 H4 J7 G3 K1 L12 K6 K11 L9 K15 K12 J12 info move K6 visits 347 winrate 240 scoreMean -38.9262 pv K6 K5 N3 N2 H4 J7 G3 J2 L12 L6 info move O9 visits 215 winrate 221 scoreMean -40.6694 pv O9 N10 N3 J7 L12 K6 N2 K15 info move L6 visits 199 winrate 277 scoreMean -47.0098 pv L6 M6 L12 K11 H4 G3 G4 F2 F5 C5 B5 B6 info move H4 visits 125 winrate 91 scoreMean -36.4532 pv H4 K6 G3 J2 L12 K11 K15 G5 G4 info move M6 visits 72 winrate 169 scoreMean -42.9599 pv M6 L6 H4 L12 G3 J2 K15 J7 L13 info move O3 visits 49 winrate 128 scoreMean -35.2103 pv O3 L12 N2 J7 L13 K15 info ];W[kh]FIT[0.0]LZ[ 4.5 0
+];B[ji]FIT[0.0]LZ[ 50.0 0
+];W[ii]FIT[0.0]LZ[ 50.0 0
+];B[jh]FIT[0.0]LZ[ 50.0 0
+];W[jg]FIT[0.0]LZ[ 50.0 0
+];B[ih]FIT[0.0]LZ[ 50.0 0
+];W[hh]FIT[0.0]LZ[ 50.0 0
+];B[ig]FIT[0.0]LZ[ 50.0 0
+];W[if]FIT[0.0]LZ[ 50.0 0
+];B[hg]FIT[0.0]LZ[ 50.0 0
+];W[gg]FIT[0.0]C[]LZ[ 50.0 0
+]))(;W[jl]FIT[0.0]LZ[ 3.5 0
+];B[il]FIT[0.0]LZ[ 50.0 0
+];W[jm]FIT[0.0]LZ[ 50.0 0
+];B[in]FIT[0.0]LZ[ 50.0 0
+];W[kh]FIT[0.0]LZ[ 50.0 0
+];B[ji]FIT[0.0]LZ[ 50.0 0
+];W[ii]FIT[0.0]LZ[ 50.0 0
+];B[jh]FIT[0.0]LZ[ 50.0 0
+];W[jg]FIT[0.0]LZ[ 50.0 0
+];B[ih]FIT[0.0]LZ[ 50.0 0
+];W[hh]FIT[0.0]LZ[ 50.0 0
+];B[ig]FIT[0.0]LZ[ 50.0 0
+];W[if]FIT[0.0]LZ[ 50.0 0
+];B[hg]FIT[0.0]LZ[ 50.0 0
+];W[gg]FIT[0.0]C[]LZ[ 50.0 0
+]))(;B[jk]FIT[0.0]LZ[ 64.0 0
+];W[jl]FIT[0.0]LZ[ 50.0 0
+];B[ko]FIT[0.0]LZ[ 50.0 0
+];W[kp]FIT[0.0]LZ[ 50.0 0
+];B[il]FIT[0.0]LZ[ 50.0 0
+];W[jm]FIT[0.0]LZ[ 50.0 0
+];B[in]FIT[0.0]C[]LZ[ 50.0 0
+])(;B[jk]FIT[0.0]LZ[ 64.0 0
+];W[jl]FIT[0.0]LZ[ 50.0 0
+];B[ko]FIT[0.0]LZ[ 50.0 0
+];W[il]FIT[0.0]LZ[ 50.0 0
+];B[kp]FIT[0.0]LZ[ 50.0 0
+];W[jq]FIT[0.0]LZ[ 50.0 0
+];B[kq]FIT[0.0]LZ[ 50.0 0
+];W[nm]FIT[0.0]LZ[ 50.0 0
+];B[qm]FIT[0.0]LZ[ 50.0 0
+];W[pn]FIT[0.0]LZ[ 50.0 0
+];B[qn]FIT[0.0]LZ[ 50.0 0
+];W[qo]FIT[0.0]LZ[ 50.0 0
+];B[on]FIT[0.0]LZ[ 50.0 0
+];W[oo]FIT[0.0]LZ[ 50.0 0
+];B[rm]FIT[0.0]C[]LZ[ 50.0 0
+])(;B[ko]FIT[0.0]C[黑棋 胜率: 86.6% 
+盘面: 27.8 不确定度: 0.0
+(KataGo_20b_etyy / 11k 计算量)
+
+黑棋 胜率: 86.6% 
+盘面: 27.8 局面复杂度: 26.9
+(KataGo_20b_etyy / 11k 计算量)
+贴目: 7.5]LZ[KataGo_20b_etyy 86.6 11k -20.3
+move N3 visits 5780 winrate 1336 scoreMean -20.278 pv N3 L4 M2 L3 J8 N2 O2 M1 P1 O1 N1 H9 L12 O1 O7 Q8 N1 K11 K9 O1 R5 R6 N1 info move L4 visits 1924 winrate 1424 scoreMean -33.435 pv L4 K9 K8 J8 K7 J6 K6 K5 L12 K11 K12 J11 O9 N10 J12 H10 Q8 P7 O7 P9 F5 F2 G2 info move Q8 visits 1238 winrate 1379 scoreMean -21.9959 pv Q8 K9 K8 L4 L12 P7 Q6 O7 N6 P6 P5 R6 R5 Q6 info move O3 visits 1009 winrate 1350 scoreMean -20.8934 pv O3 L4 N2 K9 K8 J8 K7 J6 L12 K11 J12 J11 K15 H10 info move O7 visits 729 winrate 1387 scoreMean -22.9176 pv O7 L4 K3 Q8 L3 N3 M5 K6 J8 info move L12 visits 99 winrate 956 scoreMean -22.3992 pv L12 L4 K3 L3 Q6 P6 R6 P5 P7 O7 R18 info move K7 visits 48 winrate 771 scoreMean -24.1446 pv K7 L4 K3 K6 L12 K11 info move M6 visits 36 winrate 1119 scoreMean -23.5923 pv M6 K7 L12 K11 J8 L4 Q6 info move L3 visits 33 winrate 911 scoreMean -22.9098 pv L3 L4 K3 N3 M5 K6 J8 J7 info move O9 visits 12 winrate 1062 scoreMean -25.7832 pv O9 N10 L12 K11 L4 M12 N11 info ]))(;W[ij]FIT[0.0]LZ[ 29.1 0
+];B[jk]FIT[0.0]LZ[ 50.0 0
+];W[jl]FIT[0.0]LZ[ 50.0 0
+];B[ko]FIT[0.0]LZ[ 50.0 0
+];W[il]FIT[0.0]LZ[ 50.0 0
+];B[kp]FIT[0.0]LZ[ 50.0 0
+];W[jq]FIT[0.0]LZ[ 50.0 0
+];B[kq]FIT[0.0]LZ[ 50.0 0
+];W[jn]FIT[0.0]LZ[ 50.0 0
+];B[in]FIT[0.0]C[]LZ[ 50.0 0
+]))(;W[jl]FIT[0.0]C[白棋 胜率: 14.6% 
+盘面: 29.3 不确定度: 0.0
+(KataGo_20b_etyy / 7.1k 计算量)
+
+白棋 胜率: 14.6% 
+盘面: 29.3 局面复杂度: 29.1
+(KataGo_20b_etyy / 7.1k 计算量)
+贴目: 7.5]LZ[KataGo_20b_etyy 14.6 7.1k 21.8
+move J7 visits 6809 winrate 8544 scoreMean 21.7688 pv J7 K10 L11 K7 K6 K9 K11 J10 M12 N15 J11 H10 H11 G10 F2 G2 G3 E1 info move L5 visits 146 winrate 7352 scoreMean 14.6179 pv L5 N3 J7 K10 L11 M12 N2 L4 K7 info move N12 visits 64 winrate 5845 scoreMean 4.34474 pv N12 K10 M13 N13 M12 L12 L13 L14 info move R9 visits 18 winrate 5717 scoreMean 3.42634 pv R9 S8 Q8 K10 L11 M12 S11 info move K10 visits 17 winrate 6196 scoreMean 6.38946 pv K10 K7 N12 M12 N13 M13 N14 info move O9 visits 12 winrate 5322 scoreMean 1.25621 pv O9 O7 N12 M12 N13 N14 info move N13 visits 12 winrate 5252 scoreMean 2.57949 pv N13 N12 M13 P12 L11 L12 L13 info move J6 visits 12 winrate 5675 scoreMean 4.67266 pv J6 J8 H8 K10 info move K6 visits 6 winrate 5460 scoreMean 3.0289 pv K6 J8 H8 J7 info move L11 visits 6 winrate 5714 scoreMean 4.70097 pv L11 M12 L5 L4 info ];B[im]FIT[0.0]C[黑棋 胜率: 85.9% 
+盘面: 30.0 不确定度: 0.0
+(KataGo_20b_etyy / 14k 计算量)
+
+黑棋 胜率: 85.9% 
+盘面: 30.0 局面复杂度: 30.4
+(KataGo_20b_etyy / 14k 计算量)
+
+白棋弯的话，黑棋可以直接夹
+贴目: 7.5]LZ[KataGo_20b_etyy 85.9 14k -22.5
+move J8 visits 1337 winrate 1409 scoreMean -22.5373 pv J8 H8 K10 L11 K9 K11 J10 O9 O7 J11 H11 M12 N11 N12 O11 info move K7 visits 6105 winrate 1213 scoreMean -24.1917 pv K7 K6 K10 L11 K9 M12 N11 K11 J8 N12 O11 O13 N15 O16 L12 P12 J11 info move K10 visits 3796 winrate 1241 scoreMean -23.9031 pv K10 L11 K7 K6 K9 K11 J10 M12 N15 L5 Q17 O16 L4 H6 G5 F7 J11 K13 S18 info move L3 visits 2060 winrate 1207 scoreMean -21.0099 pv L3 N3 M2 N2 K2 N4 K7 K6 K10 M5 J6 L6 J8 info move L11 visits 503 winrate 1277 scoreMean -24.2607 pv L11 K10 K7 K6 L6 M6 J6 L5 J8 L4 K3 L3 H7 Q6 K2 D8 D10 G8 info move L12 visits 411 winrate 1256 scoreMean -23.7664 pv L12 K10 K7 K6 L6 M6 J6 L5 J8 L4 K3 L3 H7 R6 R5 Q6 R7 Q8 info move O9 visits 45 winrate 1197 scoreMean -27.2776 pv O9 N10 K7 K6 L6 M6 J6 L5 J8 L4 Q6 P6 R6 P5 info move N3 visits 38 winrate 1141 scoreMean -21.1082 pv N3 K7 N2 K10 G5 F2 G2 info move M12 visits 8 winrate 878 scoreMean -33.3277 pv M12 K9 K10 L11 K12 K7 info move N12 visits 1 winrate 457 scoreMean -34.0025 pv N12 info ])(;W[jj]FIT[0.0]C[白棋 胜率: 39.5% 
+盘面: 14.1 不确定度: 0.0
+(KataGo_20b_etyy / 2.7k 计算量)
+
+白棋 胜率: 39.5% 
+盘面: 14.1 局面复杂度: 30.5
+(KataGo_20b_etyy / 2.7k 计算量)
+贴目: 7.5]LZ[KataGo_20b_etyy 39.5 2.7k 6.6
+move L11 visits 2281 winrate 6049 scoreMean 6.58405 pv L11 L12 K11 J10 K12 K9 M12 N12 L13 N11 L14 P12 K7 H11 H9 J8 J6 O7 info move O9 visits 390 winrate 6099 scoreMean 6.1646 pv O9 O7 L11 L12 K11 J10 N13 N12 M13 L13 J11 K8 N14 O13 info move R9 visits 12 winrate 5805 scoreMean 3.88718 pv R9 S8 L11 K7 O9 O7 info move R7 visits 3 winrate 5345 scoreMean 2.06884 pv R7 S7 R9 info ];B[ki]FIT[0.0]C[黑棋 胜率: 63.0% 
+盘面: 14.9 不确定度: 0.0
+(KataGo_20b_etyy / 2.1k 计算量)
+
+黑棋 胜率: 63.0% 
+盘面: 14.9 局面复杂度: 30.0
+(KataGo_20b_etyy / 2.1k 计算量)
+贴目: 7.5]LZ[KataGo_20b_etyy 63.0 2.1k -7.4
+move L12 visits 1654 winrate 3701 scoreMean -7.37086 pv L12 K11 J10 N5 N4 P6 K7 K6 K9 J7 O7 K8 M6 info move K7 visits 158 winrate 2431 scoreMean -14.6478 pv K7 K6 J7 K11 J10 J11 H10 M12 N11 N12 O11 info move K8 visits 111 winrate 2591 scoreMean -15.8919 pv K8 J7 L12 K11 K7 K6 L6 M6 J6 L5 J8 L4 Q6 P6 R6 info move K9 visits 84 winrate 3042 scoreMean -10.432 pv K9 K11 J10 J11 H10 M12 N11 N12 O11 O13 Q11 R11 info move J10 visits 43 winrate 2595 scoreMean -12.6275 pv J10 K11 K9 M12 N11 N12 O11 R9 info move J8 visits 10 winrate 2023 scoreMean -15.2997 pv J8 K11 J10 M12 N11 info move K11 visits 8 winrate 1478 scoreMean -24.0797 pv K11 L12 K9 M12 N11 info move M12 visits 4 winrate 187 scoreMean -39.5867 pv M12 K9 H4 info move K12 visits 1 winrate 357 scoreMean -28.1603 pv K12 info ];W[ij]FIT[0.0]LZ[ 37.0 0
+];B[jk]FIT[0.0]LZ[ 50.0 0
+];W[jl]FIT[0.0]LZ[ 50.0 0
+];B[ko]FIT[0.0]C[黑棋 胜率: 44.8% 
+盘面: 6.0 不确定度: 0.0
+(KataGo_20b_etyy / 263 计算量)
+
+黑棋 胜率: 44.8% 
+盘面: 6.0 局面复杂度: 30.9
+(KataGo_20b_etyy / 310 计算量)
+贴目: 7.5]LZ[KataGo_20b_etyy 44.8 263 1.5
+move L4 visits 230 winrate 5517 scoreMean 1.5041 pv L4 L12 M12 L13 M13 L14 K7 R9 info move N3 visits 8 winrate 3463 scoreMean -8.12832 pv N3 L4 N2 H9 J7 info move J8 visits 4 winrate 1573 scoreMean -15.8664 pv J8 L4 K3 L3 info move K7 visits 4 winrate 1604 scoreMean -15.907 pv K7 L4 K3 L3 info move L12 visits 4 winrate 1963 scoreMean -14.368 pv L12 L4 Q6 P6 info move L3 visits 3 winrate 1814 scoreMean -15.5948 pv L3 L4 K3 info move O9 visits 3 winrate 2449 scoreMean -15.0809 pv O9 N10 L12 info move O3 visits 3 winrate 2520 scoreMean -13.1209 pv O3 L4 N2 info move M6 visits 2 winrate 2121 scoreMean -15.6312 pv M6 L4 info move M5 visits 2 winrate 1964 scoreMean -17.4806 pv M5 L4 info ];W[kp]FIT[0.0]C[白棋 胜率: 19.9% 
+盘面: 35.4 不确定度: 0.0
+(KataGo_20b_etyy / 661 计算量)
+
+白棋 胜率: 19.9% 
+盘面: 35.4 局面复杂度: 37.8
+(KataGo_20b_etyy / 697 计算量)
+贴目: 7.5]LZ[KataGo_20b_etyy 19.9 661 27.9
+move J8 visits 620 winrate 8009 scoreMean 27.9183 pv J8 K7 J6 K6 K5 O9 N10 L12 K11 K2 J7 K3 H4 H5 F4 info move M12 visits 11 winrate 4088 scoreMean -4.88413 pv M12 L12 K11 N12 N5 N4 O5 info move L12 visits 8 winrate 4403 scoreMean -2.19868 pv L12 M12 L13 M13 L14 info move O9 visits 6 winrate 4699 scoreMean -1.10935 pv O9 L12 K11 info move K11 visits 4 winrate 3646 scoreMean -6.63176 pv K11 M12 N13 M13 info move N5 visits 4 winrate 5344 scoreMean 1.53324 pv N5 N4 O5 P5 info move R9 visits 2 winrate 4123 scoreMean -3.01544 pv R9 L12 info move K12 visits 2 winrate 4019 scoreMean -5.31648 pv K12 L12 info move S7 visits 2 winrate 4530 scoreMean -1.97379 pv S7 R7 info move H9 visits 2 winrate 4327 scoreMean -1.95291 pv H9 J7 info ];B[il]FIT[0.0]LZ[ 80.1 0
+];W[jm]FIT[0.0]LZ[ 50.0 0
+];B[in]FIT[0.0]LZ[ 50.0 0
+];W[kh]FIT[0.0]C[白棋 胜率: 13.1% 
+盘面: 46.9 不确定度: 0.0
+(KataGo_20b_etyy / 1.8k 计算量)
+
+白棋 胜率: 13.1% 
+盘面: 46.9 局面复杂度: 43.9
+(KataGo_20b_etyy / 1.9k 计算量)
+贴目: 7.5]LZ[KataGo_20b_etyy 13.1 1.8k 39.4
+move K11 visits 1814 winrate 8689 scoreMean 39.3889 pv K11 J11 K12 K13 J12 H12 J13 J14 H13 G13 H14 H15 G14 F14 G15 G16 F15 E15 F16 E16 F17 E17 F18 C15 B15 D14 info move S7 visits 1 winrate 3495 scoreMean -7.79919 pv S7 info move O9 visits 1 winrate 3159 scoreMean -7.58017 pv O9 info move R7 visits 1 winrate 3049 scoreMean -10.0861 pv R7 info move R6 visits 1 winrate 3432 scoreMean -9.18007 pv R6 info move N5 visits 1 winrate 2177 scoreMean -15.9785 pv N5 info move M5 visits 1 winrate 1351 scoreMean -23.9796 pv M5 info move N6 visits 1 winrate 3872 scoreMean -6.65688 pv N6 info move R5 visits 1 winrate 3643 scoreMean -6.89492 pv R5 info move O7 visits 1 winrate 2842 scoreMean -10.7539 pv O7 info ];B[ji]FIT[0.0]LZ[ 86.9 0
+];W[ii]FIT[0.0]LZ[ 50.0 0
+];B[jh]FIT[0.0]C[黑棋 胜率: 96.6% 
+盘面: 55.4 不确定度: 0.0
+(KataGo_20b_etyy / 11k 计算量)
+
+黑棋 胜率: 96.6% 
+盘面: 55.4 局面复杂度: 34.2
+(KataGo_20b_etyy / 12k 计算量)
+
+黑棋 84.9%，黑领先20.5目
+贴目: 7.5]LZ[KataGo_20b_etyy 96.6 11k -47.9
+move K13 visits 5958 winrate 340 scoreMean -47.9195 pv K13 J12 H12 J13 J14 H13 G13 H14 H15 G14 F14 G15 G16 F15 E15 F16 E16 F17 E17 F18 C15 B15 D14 C13 info move J12 visits 1260 winrate 344 scoreMean -48.0702 pv J12 K13 L6 M6 K2 K3 L3 M2 H4 G3 G4 F2 info move N3 visits 821 winrate 126 scoreMean -39.6354 pv N3 N2 K2 K3 L3 M2 H4 J7 G3 J2 K15 K13 info move L3 visits 639 winrate 135 scoreMean -41.0093 pv L3 M2 R18 J7 S18 F2 G2 info move M2 visits 512 winrate 130 scoreMean -38.7943 pv M2 N2 N3 M1 L3 J7 K2 K13 L14 info move J13 visits 488 winrate 86 scoreMean -44.2876 pv J13 J7 K13 K6 Q6 P6 R6 P5 P7 O7 K2 info move K2 visits 440 winrate 142 scoreMean -40.9409 pv K2 K3 L3 M2 H4 J7 G3 J2 K15 K13 L14 info move N2 visits 298 winrate 131 scoreMean -39.9457 pv N2 N3 H4 J7 G3 M2 K15 info move K6 visits 292 winrate 173 scoreMean -43.8031 pv K6 K5 N3 J7 M2 K13 L14 K15 info move L6 visits 169 winrate 132 scoreMean -49.7106 pv L6 M6 J13 K13 K14 L13 L14 J7 Q6 info ]))(;B[lo]FIT[0.0]LZ[ 72.0 0
+];W[kp]FIT[0.0]LZ[ 50.0 0
+];B[qo]FIT[0.0]LZ[ 50.0 0
+];W[ro]FIT[0.0]LZ[ 50.0 0
+];B[mo]FIT[0.0]LZ[ 50.0 0
+];W[on]FIT[0.0]LZ[ 50.0 0
+];B[qm]FIT[0.0]LZ[ 50.0 0
+];W[rm]FIT[0.0]LZ[ 50.0 0
+];B[mp]FIT[0.0]LZ[ 50.0 0
+];W[nq]FIT[0.0]C[]LZ[ 50.0 0
+])(;B[mo]FIT[0.0]LZ[ 72.0 0
+];W[mp]FIT[0.0]LZ[ 50.0 0
+];B[on]FIT[0.0]LZ[ 50.0 0
+];W[jm]FIT[0.0]LZ[ 50.0 0
+];B[jn]FIT[0.0]LZ[ 50.0 0
+];W[im]FIT[0.0]LZ[ 50.0 0
+];B[nm]FIT[0.0]LZ[ 50.0 0
+];W[mn]FIT[0.0]LZ[ 50.0 0
+];B[no]FIT[0.0]LZ[ 50.0 0
+];W[ln]FIT[0.0]LZ[ 50.0 0
+];B[kn]FIT[0.0]LZ[ 50.0 0
+];W[lo]FIT[0.0]LZ[ 50.0 0
+];B[in]FIT[0.0]LZ[ 50.0 0
+];W[hm]FIT[0.0]LZ[ 50.0 0
+];B[hn]FIT[0.0]C[]LZ[ 50.0 0
+])(;B[jm]FIT[0.0]LZ[ 72.0 0
+];W[jj]FIT[0.0]LZ[ 50.0 0
+];B[ko]FIT[0.0]LZ[ 50.0 0
+]))(;W[mm]FIT[0.0]LZ[ 27.6 0
+];B[mo]FIT[0.0]LZ[ 50.0 0
+];W[mp]FIT[0.0]LZ[ 50.0 0
+];B[on]FIT[0.0]LZ[ 50.0 0
+];W[jm]FIT[0.0]LZ[ 50.0 0
+];B[nm]FIT[0.0]LZ[ 50.0 0
+];W[mn]FIT[0.0]LZ[ 50.0 0
+];B[nk]FIT[0.0]LZ[ 50.0 0
+];W[jj]FIT[0.0]LZ[ 50.0 0
+];B[kn]FIT[0.0]LZ[ 50.0 0
+];W[lo]FIT[0.0]LZ[ 50.0 0
+];B[ki]FIT[0.0]LZ[ 50.0 0
+];W[jh]FIT[0.0]C[]LZ[ 50.0 0
+]))(;B[qm]FIT[0.0]C[黑棋 胜率: 80.8% 
+盘面: 22.5 不确定度: 0.0
+(KataGo_20b_etyy / 9.7k 计算量)
+
+黑棋 胜率: 80.8% 
+盘面: 22.5 局面复杂度: 26.8
+(KataGo_20b_etyy / 9.7k 计算量)
+贴目: 7.5]LZ[KataGo_20b_etyy 80.8 9.7k -15.0
+move S7 visits 8158 winrate 1917 scoreMean -14.9944 pv S7 R5 R6 Q6 S5 N7 P7 O7 P6 N8 Q8 J8 K9 J6 J9 K15 K13 H9 H10 G9 G10 info move N3 visits 850 winrate 1728 scoreMean -16.7889 pv N3 N2 S7 R5 S5 N7 P7 N8 Q8 O7 P9 P6 P8 info move N8 visits 639 winrate 1163 scoreMean -17.1734 pv N8 S7 S10 S5 R5 R6 S4 T6 S8 S11 R11 R10 S9 R12 Q11 P12 O11 info move K3 visits 31 winrate 1716 scoreMean -15.769 pv K3 K2 S7 N7 N8 O7 P6 P7 Q6 info move N15 visits 3 winrate 630 scoreMean -28.5737 pv N15 N8 N7 info move R18 visits 2 winrate 1161 scoreMean -19.4574 pv R18 N8 info ];W[rm]FIT[0.0]C[白棋 胜率: 21.0% 
+盘面: 19.9 不确定度: 0.0
+(KataGo_20b_etyy / 18k 计算量)
+
+白棋 胜率: 20.9% 
+盘面: 19.9 局面复杂度: 24.5
+(KataGo_20b_etyy / 18k 计算量)
+贴目: 7.5]LZ[KataGo_20b_etyy 21.0 18k 12.4
+move R5 visits 15033 winrate 7905 scoreMean 12.4391 pv R5 R6 Q6 S5 N7 P7 O7 P6 N8 Q8 J8 N15 O16 N3 N2 L3 M2 D17 E17 E18 C17 D18 F17 C18 B17 F18 G17 G18 H17 H18 K10 info move N7 visits 2898 winrate 7831 scoreMean 12.9365 pv N7 N8 R5 P7 Q8 S5 O7 P6 N12 M12 N13 N14 R9 S8 P12 R11 R12 info move N8 visits 260 winrate 6688 scoreMean 8.9019 pv N8 N7 N12 K10 N13 N14 L11 M12 K11 J11 info move R9 visits 31 winrate 4694 scoreMean -1.18911 pv R9 N8 S8 S9 Q8 S10 R6 R5 T7 S5 Q11 info move S8 visits 2 winrate 6219 scoreMean 5.27924 pv S8 N8 info move N13 visits 1 winrate 5442 scoreMean 2.66833 pv N13 info move N12 visits 1 winrate 4980 scoreMean 0.324576 pv N12 info ];B[qo]FIT[0.0]C[黑棋 胜率: 77.2% 
+盘面: 17.6 不确定度: 0.0
+(KataGo_20b_etyy / 18k 计算量)
+
+黑棋 胜率: 77.2% 
+盘面: 17.6 局面复杂度: 22.4
+(KataGo_20b_etyy / 18k 计算量)
+贴目: 7.5]LZ[KataGo_20b_etyy 77.2 18k -10.1
+move R6 visits 10957 winrate 2278 scoreMean -10.1405 pv R6 Q6 S5 N7 P7 O7 P6 N8 Q8 J8 N15 O16 N3 N2 L3 M2 D17 E17 E18 C17 D18 F17 E16 D15 C18 B17 G17 F18 F16 G18 H17 H18 J17 J18 K10 L14 M13 J6 K16 L17 F14 info move S5 visits 7058 winrate 1739 scoreMean -16.2158 pv S5 N7 N8 O7 O9 N10 K7 K6 J8 J6 P9 Q9 Q8 P7 R9 J7 K8 H8 J9 H9 J10 L5 H10 K15 K13 F4 F2 info move Q8 visits 36 winrate 1468 scoreMean -19.9893 pv Q8 P7 S5 N8 O7 L11 L12 K12 K11 K10 info move N8 visits 7 winrate 582 scoreMean -24.38 pv N8 S5 S4 T5 Q2 info move N3 visits 7 winrate 789 scoreMean -20.8923 pv N3 S5 O2 S11 N8 info move O3 visits 2 winrate 886 scoreMean -21.4291 pv O3 S5 info move N15 visits 1 winrate 440 scoreMean -27.9851 pv N15 info ];W[ro]FIT[0.0]C[白棋 胜率: 15.8% 
+盘面: 24.8 不确定度: 0.0
+(KataGo_20b_etyy / 11k 计算量)
+
+白棋 胜率: 15.8% 
+盘面: 24.8 局面复杂度: 26.9
+(KataGo_20b_etyy / 11k 计算量)
+贴目: 7.5]LZ[KataGo_20b_etyy 15.8 11k 17.3
+move N7 visits 11023 winrate 8416 scoreMean 17.2867 pv N7 N8 O7 O9 J7 H4 N10 J8 P9 H7 J6 H6 J9 K8 H8 H9 G8 J10 K7 K9 K10 J9 info move N8 visits 151 winrate 6555 scoreMean 8.63581 pv N8 N7 N12 K10 N13 N14 L11 M12 K11 J11 K12 info move R9 visits 10 winrate 4499 scoreMean -1.91453 pv R9 N8 S8 S9 Q8 S10 N12 P12 info move N12 visits 1 winrate 4648 scoreMean -1.76455 pv N12 info move N13 visits 1 winrate 5342 scoreMean 1.63765 pv N13 info move S9 visits 1 winrate 5122 scoreMean 0.788846 pv S9 info ];B[mm]FIT[0.0]LZ[ 84.2 0
+];W[ml]FIT[0.0]LZ[ 50.0 0
+];B[nm]FIT[0.0]LZ[ 50.0 0
+];W[nk]FIT[0.0]LZ[ 50.0 0
+];B[qk]FIT[0.0]LZ[ 50.0 0
+];W[rl]FIT[0.0]LZ[ 50.0 0
+];B[ok]FIT[0.0]LZ[ 50.0 0
+];W[mj]FIT[0.0]LZ[ 50.0 0
+];B[im]FIT[0.0]LZ[ 50.0 0
+];W[hp]FIT[0.0]LZ[ 50.0 0
+];B[gq]FIT[0.0]C[]LZ[ 50.0 0
+])(;B[ml]FIT[0.0]LZ[ 80.9 0
+];W[mm]FIT[0.0]C[]LZ[ 50.0 0
+])(;B[ml]FIT[0.0]LZ[ 80.9 0
+];W[mm]FIT[0.0]LZ[ 50.0 0
+];B[lo]FIT[0.0]LZ[ 50.0 0
+];W[mp]FIT[0.0]LZ[ 50.0 0
+];B[jo]FIT[0.0]C[]LZ[ 50.0 0
+])(;B[ml]FIT[0.0]LZ[ 80.9 0
+];W[mm]FIT[0.0]LZ[ 50.0 0
+];B[lo]FIT[0.0]LZ[ 50.0 0
+];W[mp]FIT[0.0]LZ[ 50.0 0
+];B[jo]FIT[0.0]LZ[ 50.0 0
+];W[kp]FIT[0.0]LZ[ 50.0 0
+];B[jk]FIT[0.0]LZ[ 50.0 0
+];W[jl]FIT[0.0]LZ[ 50.0 0
+];B[il]FIT[0.0]LZ[ 50.0 0
+];W[jm]FIT[0.0]LZ[ 50.0 0
+];B[im]FIT[0.0]LZ[ 50.0 0
+];W[jn]FIT[0.0]LZ[ 50.0 0
+];B[ko]FIT[0.0]LZ[ 50.0 0
+])(;B[ml]FIT[0.0]LZ[ 80.9 0
+];W[mm]FIT[0.0]LZ[ 50.0 0
+];B[lo]FIT[0.0]LZ[ 50.0 0
+];W[mp]FIT[0.0]LZ[ 50.0 0
+];B[jo]FIT[0.0]LZ[ 50.0 0
+];W[kp]FIT[0.0]LZ[ 50.0 0
+];B[jk]FIT[0.0]LZ[ 50.0 0
+];W[jl]FIT[0.0]LZ[ 50.0 0
+];B[il]FIT[0.0]LZ[ 50.0 0
+];W[jm]FIT[0.0]LZ[ 50.0 0
+];B[jn]FIT[0.0]C[]LZ[ 50.0 0
+]))(;B[lm]FIT[0.0]LZ[ 78.7 0
+];W[lp]FIT[0.0]LZ[ 50.0 0
+];B[km]FIT[0.0]LZ[ 50.0 0
+];W[il]FIT[0.0]LZ[ 50.0 0
+];B[im]FIT[0.0]LZ[ 50.0 0
+];W[ll]FIT[0.0]LZ[ 50.0 0
+];B[ml]FIT[0.0]LZ[ 50.0 0
+];W[mm]FIT[0.0]LZ[ 50.0 0
+];B[mq]FIT[0.0]C[]LZ[ 50.0 0
+]))(;W[li]FIT[0.0]LZ[ 21.5 0
+];B[lm]FIT[0.0]LZ[ 50.0 0
+];W[lp]FIT[0.0]LZ[ 50.0 0
+];B[km]FIT[0.0]LZ[ 50.0 0
+];W[il]FIT[0.0]LZ[ 50.0 0
+];B[im]FIT[0.0]LZ[ 50.0 0
+];W[ip]FIT[0.0]LZ[ 50.0 0
+];B[mq]FIT[0.0]LZ[ 50.0 0
+];W[ko]FIT[0.0]C[]LZ[ 50.0 0
+]))(;B[lk]FIT[0.0]LZ[ 81.9 0
+];W[kk]FIT[0.0]LZ[ 50.0 0
+];B[mm]FIT[0.0]LZ[ 50.0 0
+];W[nm]FIT[0.0]LZ[ 50.0 0
+];B[lm]FIT[0.0]LZ[ 50.0 0
+];W[lp]FIT[0.0]C[白棋 胜率: 28.6% 
+盘面: 17.2 不确定度: 0.0
+(KataGo_20b_etyy / 10k 计算量)
+
+白棋 胜率: 28.6% 
+盘面: 17.2 局面复杂度: 26.3
+(KataGo_20b_etyy / 10k 计算量)
+
+局部打个比方，黑还是可以出来的，就是白棋也有调子下
+贴目: 7.5]LZ[KataGo_20b_etyy 28.6 10k 9.7
+move N13 visits 6057 winrate 7142 scoreMean 9.73693 pv N13 M13 Q8 K6 R9 R6 M12 N12 N11 O12 M11 L10 K12 K15 D9 N10 O11 O9 O13 info move Q8 visits 2435 winrate 7141 scoreMean 9.76911 pv Q8 K6 R9 S8 R6 S7 N13 N14 L12 M12 M13 N12 L13 P12 info move L10 visits 392 winrate 6930 scoreMean 9.65766 pv L10 M11 K10 L7 M5 L4 L6 K6 N4 O3 info move R7 visits 326 winrate 6859 scoreMean 8.67355 pv R7 S7 R5 S5 N13 N14 L10 M11 R9 S8 Q8 K6 K10 J9 info move L7 visits 243 winrate 6367 scoreMean 6.41994 pv L7 Q8 L10 M11 K10 J8 N13 M13 N12 M12 info move M5 visits 219 winrate 7175 scoreMean 9.82112 pv M5 N4 N13 M13 M12 L12 N12 N14 L11 info move N3 visits 202 winrate 7151 scoreMean 9.48859 pv N3 L7 Q8 R6 M5 N4 L6 info move K6 visits 67 winrate 6773 scoreMean 8.4204 pv K6 Q8 L10 M11 K10 J8 M5 N4 L4 L5 info move R5 visits 67 winrate 6931 scoreMean 9.28498 pv R5 S5 R7 S7 Q8 K6 R9 S8 S11 M12 info move M12 visits 42 winrate 7020 scoreMean 9.66957 pv M12 N11 L10 N12 L7 Q8 L11 info ])(;B[lm]FIT[0.0]LZ[ 81.9 0
+];W[lp]FIT[0.0]LZ[ 50.0 0
+];B[ll]FIT[0.0]LZ[ 50.0 0
+];W[km]FIT[0.0]LZ[ 50.0 0
+];B[ln]FIT[0.0]C[黑棋 胜率: 78.0% 
+盘面: 20.7 不确定度: 0.0
+(KataGo_20b_etyy / 9.8k 计算量)
+
+黑棋 胜率: 78.0% 
+盘面: 20.7 局面复杂度: 26.3
+(KataGo_20b_etyy / 9.9k 计算量)
+
+黑棋 91.3%，黑领先16.7目
+贴目: 7.5]LZ[KataGo_20b_etyy 78.0 9.8k -13.2
+move O7 visits 8393 winrate 2199 scoreMean -13.1505 pv O7 Q8 J4 L6 K3 K2 H3 J2 M9 J6 N8 R7 S7 R9 info move J4 visits 644 winrate 2049 scoreMean -13.8839 pv J4 G3 K3 F2 K2 F4 O7 L6 M9 N8 K6 info move L6 visits 309 winrate 1688 scoreMean -14.0193 pv L6 O7 D9 K15 K13 L9 M9 K9 L11 info move N3 visits 290 winrate 1948 scoreMean -14.0222 pv N3 N2 O7 Q8 M9 L6 L3 M2 K6 R7 S7 info move M9 visits 62 winrate 1363 scoreMean -16.1188 pv M9 O7 L6 R7 S7 R5 S5 D9 N7 info move L9 visits 55 winrate 1794 scoreMean -14.3226 pv L9 R7 S7 R5 S5 O7 N7 P7 info move L3 visits 42 winrate 1628 scoreMean -15.884 pv L3 N3 N4 K3 L4 H3 O7 L6 M9 info move R18 visits 27 winrate 1826 scoreMean -13.7559 pv R18 S18 L6 O7 P6 R7 info move N15 visits 18 winrate 1829 scoreMean -14.7015 pv N15 O16 L6 O7 D9 L9 info move P6 visits 9 winrate 1563 scoreMean -15.39 pv P6 L9 M9 K9 info ])(;B[lm]FIT[0.0]LZ[ 81.9 0
+];W[lp]FIT[0.0]C[]LZ[ 50.0 0
+]))(;B[mk]FIT[0.0]LZ[ 82.5 0
+];W[kl]FIT[0.0]LZ[ 50.0 0
+];B[mg]FIT[0.0]LZ[ 50.0 0
+];W[je]FIT[0.0]LZ[ 50.0 0
+];B[lm]FIT[0.0]C[]LZ[ 50.0 0
+]))(;B[kq]FIT[0.0]LZ[ 83.1 0
+];W[lj]FIT[0.0]LZ[ 50.0 0
+];B[mk]FIT[0.0]LZ[ 50.0 0
+];W[kl]FIT[0.0]LZ[ 50.0 0
+];B[lm]FIT[0.0]LZ[ 50.0 0
+];W[ll]FIT[0.0]C[]LZ[ 50.0 0
+])(;B[jq]FIT[0.0]LZ[ 83.1 0
+];W[mq]FIT[0.0]LZ[ 50.0 0
+]))(;W[me]FIT[0.0]LZ[ 16.5 0
+];B[nd]FIT[0.0]LZ[ 50.0 0
+];W[lj]FIT[0.0]LZ[ 50.0 0
+];B[mk]FIT[0.0]LZ[ 50.0 0
+];W[kl]FIT[0.0]LZ[ 50.0 0
+];B[lm]FIT[0.0]LZ[ 50.0 0
+];W[ll]FIT[0.0]LZ[ 50.0 0
+];B[ml]FIT[0.0]LZ[ 50.0 0
+];W[mm]FIT[0.0]LZ[ 50.0 0
+];B[lk]FIT[0.0]LZ[ 50.0 0
+];W[kk]FIT[0.0]LZ[ 50.0 0
+];B[kj]FIT[0.0]LZ[ 50.0 0
+];W[lp]FIT[0.0]LZ[ 50.0 0
+];B[kq]FIT[0.0]LZ[ 50.0 0
+];W[li]FIT[0.0]C[]LZ[ 50.0 0
+]))(;W[of]FIT[0.0]LZ[ 16.5 0
+];B[ne]FIT[0.0]LZ[ 50.0 0
+];W[me]FIT[0.0]LZ[ 50.0 0
+];B[nd]FIT[0.0]LZ[ 50.0 0
+];W[lj]FIT[0.0]LZ[ 50.0 0
+];B[mk]FIT[0.0]LZ[ 50.0 0
+];W[kl]FIT[0.0]LZ[ 50.0 0
+];B[lm]FIT[0.0]LZ[ 50.0 0
+];W[ll]FIT[0.0]LZ[ 50.0 0
+];B[ml]FIT[0.0]LZ[ 50.0 0
+];W[mm]FIT[0.0]LZ[ 50.0 0
+];B[lk]FIT[0.0]LZ[ 50.0 0
+];W[kk]FIT[0.0]LZ[ 50.0 0
+];B[kj]FIT[0.0]LZ[ 50.0 0
+];W[lp]FIT[0.0]C[]LZ[ 50.0 0
+]))(;B[se]FIT[0.0]LZ[ 84.5 0
+];W[rf]FIT[0.0]LZ[ 50.0 0
+];B[rc]FIT[0.0]LZ[ 50.0 0
+];W[of]FIT[0.0]LZ[ 50.0 0
+];B[ne]FIT[0.0]LZ[ 50.0 0
+];W[me]FIT[0.0]LZ[ 50.0 0
+];B[nd]FIT[0.0]LZ[ 50.0 0
+];W[lj]FIT[0.0]LZ[ 50.0 0
+];B[mk]FIT[0.0]LZ[ 50.0 0
+];W[kl]FIT[0.0]LZ[ 50.0 0
+];B[lm]FIT[0.0]LZ[ 50.0 0
+];W[ll]FIT[0.0]LZ[ 50.0 0
+];B[ml]FIT[0.0]LZ[ 50.0 0
+];W[mm]FIT[0.0]LZ[ 50.0 0
+];B[lk]FIT[0.0]C[]LZ[ 50.0 0
+]))(;B[rd]FIT[0.0]LZ[ 84.4 0
+];W[qd]FIT[0.0]LZ[ 50.0 0
+];B[pe]FIT[0.0]LZ[ 50.0 0
+];W[rg]FIT[0.0]LZ[ 50.0 0
+];B[se]FIT[0.0]LZ[ 50.0 0
+];W[rf]FIT[0.0]LZ[ 50.0 0
+];B[rc]FIT[0.0]LZ[ 50.0 0
+];W[of]FIT[0.0]LZ[ 50.0 0
+];B[ne]FIT[0.0]LZ[ 50.0 0
+];W[me]FIT[0.0]LZ[ 50.0 0
+];B[qb]FIT[0.0]LZ[ 50.0 0
+];W[lj]FIT[0.0]LZ[ 50.0 0
+];B[mk]FIT[0.0]LZ[ 50.0 0
+];W[kl]FIT[0.0]LZ[ 50.0 0
+];B[lm]FIT[0.0]C[]LZ[ 50.0 0
+]))(;W[re]FIT[0.0]C[白棋 胜率: 14.7% 
+盘面: 24.3 不确定度: 0.0
+(KataGo_20b_etyy / 3.4k 计算量)
+
+白棋 胜率: 14.7% 
+盘面: 24.3 局面复杂度: 25.1
+(KataGo_20b_etyy / 3.6k 计算量)
+贴目: 7.5]LZ[KataGo_20b_etyy 14.7 3.4k 16.8
+move F2 visits 199 winrate 8526 scoreMean 16.8159 pv F2 G2 G3 G4 H3 F1 K15 F5 P14 P13 Q13 S13 info move S16 visits 1132 winrate 8369 scoreMean 16.4017 pv S16 R16 Q15 S13 S17 P14 R7 S7 R5 S5 M11 M9 N8 N9 O7 info move P14 visits 778 winrate 8247 scoreMean 15.354 pv P14 L3 M4 N2 M2 N3 K15 P13 Q13 K13 H15 M10 info move K15 visits 474 winrate 8128 scoreMean 14.3021 pv K15 P14 E17 L3 L2 N3 N2 M4 M2 M9 info move G3 visits 324 winrate 8396 scoreMean 16.0069 pv G3 F2 S16 R16 Q15 S13 T15 S14 S17 P14 O15 R18 info move R7 visits 275 winrate 8294 scoreMean 15.4316 pv R7 S7 S16 R16 Q15 S13 R5 S5 T15 S14 S17 P14 R9 S8 M10 info move R5 visits 64 winrate 8245 scoreMean 14.82 pv R5 S5 R7 S7 K15 L3 M4 N2 info move M9 visits 57 winrate 8031 scoreMean 14.0252 pv M9 L3 L2 N3 N2 M4 M2 K16 K15 info move L10 visits 56 winrate 8164 scoreMean 14.698 pv L10 L3 M4 N2 M2 N3 K15 info move M10 visits 37 winrate 8023 scoreMean 13.7953 pv M10 L3 M2 M4 L4 info ];B[rd]FIT[0.0]C[黑棋 胜率: 84.9% 
+盘面: 24.4 不确定度: 0.0
+(KataGo_20b_etyy / 8.7k 计算量)
+
+黑棋 胜率: 84.9% 
+盘面: 24.4 局面复杂度: 25.8
+(KataGo_20b_etyy / 8.7k 计算量)
+贴目: 7.5]LZ[KataGo_20b_etyy 84.9 8.7k -16.9
+move R16 visits 8568 winrate 1506 scoreMean -16.9062 pv R16 Q15 S13 T15 S14 S17 P14 O15 L3 M4 N2 O3 M10 N9 P6 M2 Q6 M9 info move L3 visits 99 winrate 1231 scoreMean -18.498 pv L3 S14 M2 N3 L4 N2 K2 N5 M5 info move K4 visits 6 winrate 1013 scoreMean -21.3126 pv K4 S14 K3 M5 L6 info move R11 visits 4 winrate 764 scoreMean -21.7153 pv R11 S14 Q11 M10 info move N3 visits 3 winrate 1323 scoreMean -18.8162 pv N3 S14 info move S13 visits 1 winrate 739 scoreMean -21.9718 pv S13 info move Q15 visits 1 winrate 633 scoreMean -23.6974 pv Q15 info ];W[qd]FIT[0.0]C[白棋 胜率: 15.3% 
+盘面: 24.2 不确定度: 0.0
+(KataGo_20b_etyy / 12k 计算量)
+
+白棋 胜率: 15.3% 
+盘面: 24.2 局面复杂度: 25.9
+(KataGo_20b_etyy / 12k 计算量)
+贴目: 7.5]LZ[KataGo_20b_etyy 15.3 12k 16.7
+move Q15 visits 12260 winrate 8465 scoreMean 16.7461 pv Q15 S13 T15 S14 S17 P14 O15 M10 N13 N11 O11 N12 O12 M13 M9 L9 M8 L8 info move G3 visits 1 winrate 6648 scoreMean 8.41037 pv G3 info move R7 visits 1 winrate 6801 scoreMean 8.70704 pv R7 info move R5 visits 1 winrate 6931 scoreMean 9.90366 pv R5 info ];B[pe]FIT[0.0]C[黑棋 胜率: 84.3% 
+盘面: 24.2 不确定度: 0.0
+(KataGo_20b_etyy / 46k 计算量)
+
+黑棋 胜率: 84.3% 
+盘面: 24.2 局面复杂度: 26.1
+(KataGo_20b_etyy / 46k 计算量)
+贴目: 7.5]LZ[KataGo_20b_etyy 84.3 46k -16.7
+move S13 visits 45195 winrate 1571 scoreMean -16.6506 pv S13 S17 P14 T15 S14 O15 L3 M4 N2 O3 M8 M2 M10 N9 N8 N13 N12 M9 L9 M13 O13 info move S14 visits 445 winrate 1372 scoreMean -17.7726 pv S14 S17 P14 O15 N15 R18 L3 L4 N3 M2 N2 info move S17 visits 211 winrate 787 scoreMean -19.8649 pv S17 S14 T16 P14 K14 G3 G4 F2 G2 H3 E1 info move Q17 visits 167 winrate 368 scoreMean -30.9736 pv Q17 S14 T15 T16 O16 T14 S15 T15 P14 R13 L17 info move T16 visits 60 winrate 752 scoreMean -20.9557 pv T16 S14 S17 P14 K14 K15 J15 K16 J16 info move P14 visits 6 winrate 272 scoreMean -33.0249 pv P14 S14 L3 L4 info move L3 visits 4 winrate 505 scoreMean -27.5803 pv L3 S14 L4 L2 info ];W[rg]FIT[0.0]LZ[ 15.7 0
+];B[se]FIT[0.0]LZ[ 50.0 0
+];W[rf]FIT[0.0]LZ[ 50.0 0
+];B[rc]FIT[0.0]LZ[ 50.0 0
+];W[of]FIT[0.0]LZ[ 50.0 0
+];B[ne]FIT[0.0]LZ[ 50.0 0
+];W[me]FIT[0.0]LZ[ 50.0 0
+];B[qb]FIT[0.0]LZ[ 50.0 0
+];W[lj]FIT[0.0]LZ[ 50.0 0
+];B[mk]FIT[0.0]LZ[ 50.0 0
+];W[kl]FIT[0.0]C[]LZ[ 50.0 0
+]))(;B[oe]FIT[0.0]LZ[ 83.9 0
+]))(;W[qc]FIT[0.0]LZ[ 15.6 0
+];B[pc]FIT[0.0]LZ[ 50.0 0
+];W[re]FIT[0.0]LZ[ 50.0 0
+];B[rd]FIT[0.0]LZ[ 50.0 0
+];W[lj]FIT[0.0]LZ[ 50.0 0
+];B[mk]FIT[0.0]LZ[ 50.0 0
+];W[kl]FIT[0.0]LZ[ 50.0 0
+];B[lm]FIT[0.0]C[]LZ[ 50.0 0
+]))(;B[oc]FIT[0.0]LZ[ 83.9 0
+];W[qc]FIT[0.0]LZ[ 50.0 0
+];B[pc]FIT[0.0]LZ[ 50.0 0
+];W[re]FIT[0.0]LZ[ 50.0 0
+];B[rd]FIT[0.0]LZ[ 50.0 0
+];W[lj]FIT[0.0]LZ[ 50.0 0
+];B[mk]FIT[0.0]LZ[ 50.0 0
+];W[kl]FIT[0.0]LZ[ 50.0 0
+];B[lm]FIT[0.0]C[]LZ[ 50.0 0
+]))(;B[ol]FIT[0.0]LZ[ 85.1 0
+])(;B[je]FIT[0.0]LZ[ 85.1 0
+];W[pl]FIT[0.0]LZ[ 50.0 0
+];B[ki]FIT[0.0]LZ[ 50.0 0
+];W[od]FIT[0.0]LZ[ 50.0 0
+];B[oc]FIT[0.0]LZ[ 50.0 0
+];W[qc]FIT[0.0]C[]LZ[ 50.0 0
+]))(;W[mk]FIT[0.0]C[]LZ[ 14.9 0
+])(;W[od]FIT[0.0]LZ[ 14.9 0
+];B[oc]FIT[0.0]LZ[ 50.0 0
+];W[qc]FIT[0.0]LZ[ 50.0 0
+];B[pc]FIT[0.0]LZ[ 50.0 0
+];W[re]FIT[0.0]LZ[ 50.0 0
+];B[rd]FIT[0.0]LZ[ 50.0 0
+];W[ql]FIT[0.0]LZ[ 50.0 0
+];B[ol]FIT[0.0]LZ[ 50.0 0
+];W[lj]FIT[0.0]LZ[ 50.0 0
+];B[mk]FIT[0.0]C[]LZ[ 50.0 0
+])(;W[ql]FIT[0.0]LZ[ 14.9 0
+];B[pl]FIT[0.0]LZ[ 50.0 0
+];W[lk]FIT[0.0]LZ[ 50.0 0
+]))(;B[oj]FIT[0.0]LZ[ 86.4 0
+];W[ql]FIT[0.0]LZ[ 50.0 0
+];B[ol]FIT[0.0]LZ[ 50.0 0
+];W[lj]FIT[0.0]LZ[ 50.0 0
+];B[mk]FIT[0.0]LZ[ 50.0 0
+];W[kl]FIT[0.0]LZ[ 50.0 0
+];B[lm]FIT[0.0]LZ[ 50.0 0
+];W[ll]FIT[0.0]LZ[ 50.0 0
+];B[ml]FIT[0.0]C[]LZ[ 50.0 0
+]))(;W[md]FIT[0.0]LZ[ 13.2 0
+];B[lc]FIT[0.0]LZ[ 50.0 0
+];W[kf]FIT[0.0]LZ[ 50.0 0
+];B[je]FIT[0.0]LZ[ 50.0 0
+];W[mc]FIT[0.0]LZ[ 50.0 0
+];B[mb]FIT[0.0]LZ[ 50.0 0
+];W[nd]FIT[0.0]LZ[ 50.0 0
+];B[oc]FIT[0.0]C[]LZ[ 50.0 0
+]))(;B[kd]FIT[0.0]LZ[ 87.5 0
+];W[nj]FIT[0.0]LZ[ 50.0 0
+];B[rh]FIT[0.0]LZ[ 50.0 0
+];W[rg]FIT[0.0]LZ[ 50.0 0
+];B[re]FIT[0.0]C[]LZ[ 50.0 0
+])(;B[ni]FIT[0.0]LZ[ 87.5 0
+];W[li]FIT[0.0]LZ[ 50.0 0
+]))(;B[kd]FIT[0.0]LZ[ 88.0 0
+];W[nj]FIT[0.0]LZ[ 50.0 0
+];B[rh]FIT[0.0]LZ[ 50.0 0
+];W[rg]FIT[0.0]LZ[ 50.0 0
+];B[re]FIT[0.0]LZ[ 50.0 0
+];W[od]FIT[0.0]LZ[ 50.0 0
+];B[oc]FIT[0.0]LZ[ 50.0 0
+];W[pe]FIT[0.0]C[]LZ[ 50.0 0
+]))(;W[nj]FIT[0.0]C[白棋 胜率: 11.3% 
+盘面: 26.9 不确定度: 0.0
+(KataGo_20b_etyy / 5.8k 计算量)
+
+白棋 胜率: 11.3% 
+盘面: 26.9 局面复杂度: 25.6
+(KataGo_20b_etyy / 6.1k 计算量)
+贴目: 7.5]LZ[KataGo_20b_etyy 11.3 5.8k 19.4
+move G3 visits 654 winrate 8874 scoreMean 19.4365 pv G3 G4 F2 G2 H3 F1 L15 M14 L16 O10 S7 R6 info move L15 visits 2158 winrate 8794 scoreMean 18.884 pv L15 M14 R8 N16 N17 L16 M17 O10 S12 S13 S15 P11 Q11 P16 info move L16 visits 1090 winrate 8713 scoreMean 18.3673 pv L16 R8 N11 P9 P10 M12 N9 K14 J15 H13 info move R8 visits 581 winrate 8827 scoreMean 19.0791 pv R8 N16 O16 L3 M4 N2 M2 N3 N15 N14 N17 L15 info move F2 visits 397 winrate 8867 scoreMean 19.3567 pv F2 G2 G3 G4 H3 E1 R8 N16 N17 L16 M17 L14 info move P13 visits 293 winrate 8828 scoreMean 18.605 pv P13 P14 L15 M14 L16 O10 S12 S15 info move O10 visits 175 winrate 8842 scoreMean 19.0921 pv O10 Q9 L15 M14 R9 R8 L14 info move N11 visits 156 winrate 8837 scoreMean 18.8854 pv N11 Q9 R10 R9 L16 M13 L11 info move R7 visits 141 winrate 8760 scoreMean 18.7741 pv R7 S7 O9 P8 R9 P9 P10 S8 info move N15 visits 119 winrate 8657 scoreMean 17.8493 pv N15 N14 L15 M14 R8 O10 S12 S13 L16 P11 info ];B[rh]FIT[0.0]LZ[ 88.7 0
+];W[re]FIT[0.0]LZ[ 50.0 0
+];B[rd]FIT[0.0]LZ[ 50.0 0
+];W[rg]FIT[0.0]LZ[ 50.0 0
+];B[se]FIT[0.0]LZ[ 50.0 0
+];W[rf]FIT[0.0]C[]LZ[ 50.0 0
+]))(;B[mi]FIT[0.0]C[黑棋 胜率: 86.3% 
+盘面: 25.4 不确定度: 0.0
+(KataGo_20b_etyy / 14k 计算量)
+
+黑棋 胜率: 86.3% 
+盘面: 25.4 局面复杂度: 25.3
+(KataGo_20b_etyy / 14k 计算量)
+贴目: 7.5]LZ[KataGo_20b_etyy 86.3 14k -17.9
+move L3 visits 10095 winrate 1368 scoreMean -17.8922 pv L3 M4 Q8 M16 L4 L5 M2 N2 K2 M5 K5 K4 J2 G3 F2 K6 J5 J6 H5 H6 G5 G6 F5 M14 R8 F17 O12 info move Q8 visits 1847 winrate 1212 scoreMean -18.2147 pv Q8 M16 R8 M13 O12 O11 S14 F17 R11 D9 info move Q9 visits 1170 winrate 1223 scoreMean -18.4309 pv Q9 N7 P6 R9 P9 R8 O11 P13 Q15 R16 O13 info move P16 visits 601 winrate 1208 scoreMean -18.4378 pv P16 P17 R17 Q17 S15 S16 R16 Q15 S17 S14 T16 S13 Q9 R10 L16 P9 M14 info move O10 visits 65 winrate 972 scoreMean -20.7263 pv O10 O11 P10 P11 Q9 R10 R9 S9 S8 M14 S10 S11 info move M15 visits 58 winrate 1001 scoreMean -20.8579 pv M15 R8 M17 S15 F17 O3 N4 info move K4 visits 47 winrate 1085 scoreMean -19.2662 pv K4 L3 Q9 R9 R8 P9 info move M14 visits 23 winrate 877 scoreMean -22.2214 pv M14 R8 L3 M2 M4 info move O16 visits 23 winrate 967 scoreMean -20.7854 pv O16 N16 P16 P17 Q17 R17 Q18 R18 N17 P18 info move P10 visits 10 winrate 835 scoreMean -21.8958 pv P10 P11 Q9 R10 R9 info ];W[pk]FIT[0.0]LZ[ 13.7 0
+];B[mm]FIT[0.0]LZ[ 50.0 0
+];W[nm]FIT[0.0]LZ[ 50.0 0
+];B[ok]FIT[0.0]LZ[ 50.0 0
+];W[ol]FIT[0.0]C[]LZ[ 50.0 0
+]))(;W[pk]FIT[0.0]C[白棋 胜率: 9.2% 
+盘面: 28.2 不确定度: 0.0
+(KataGo_20b_etyy / 2.5k 计算量)
+
+白棋 胜率: 9.2% 
+盘面: 28.2 局面复杂度: 24.7
+(KataGo_20b_etyy / 2.6k 计算量)
+贴目: 7.5]LZ[KataGo_20b_etyy 9.2 2.5k 20.7
+move N7 visits 684 winrate 9083 scoreMean 20.6939 pv N7 O7 P9 P8 R10 R9 O14 S9 H17 info move R10 visits 710 winrate 8831 scoreMean 18.4626 pv R10 R9 N7 O7 P9 P8 O14 S9 H17 P13 info move S7 visits 302 winrate 9099 scoreMean 22.8953 pv S7 R6 R9 Q8 P10 R8 O14 R10 info move R9 visits 220 winrate 8639 scoreMean 16.794 pv R9 R8 P9 Q8 P8 P7 P10 N14 M16 L14 info move P9 visits 173 winrate 8669 scoreMean 17.8678 pv P9 P8 R10 R9 O9 N14 N8 S9 S10 info move G3 visits 165 winrate 8888 scoreMean 18.5068 pv G3 G4 F2 G2 H3 E1 R10 R9 O14 S9 N7 O7 P9 info move O14 visits 67 winrate 8864 scoreMean 18.2063 pv O14 R9 R10 S9 N7 O7 P9 info move F2 visits 61 winrate 9013 scoreMean 19.726 pv F2 G2 G3 F1 R10 R9 O14 H3 info move N5 visits 47 winrate 8978 scoreMean 19.521 pv N5 P6 R9 R8 P9 info move N14 visits 28 winrate 8765 scoreMean 17.3294 pv N14 R10 P9 P8 R9 Q8 info ];B[qk]FIT[0.0]LZ[ 90.8 0
+];W[pl]FIT[0.0]LZ[ 50.0 0
+];B[ql]FIT[0.0]LZ[ 50.0 0
+];W[qm]FIT[0.0]LZ[ 50.0 0
+])(;W[nf]FIT[0.0]LZ[ 12.7 0
+];B[mi]FIT[0.0]LZ[ 50.0 0
+];W[pk]FIT[0.0]LZ[ 50.0 0
+];B[mm]FIT[0.0]LZ[ 50.0 0
+];W[nm]FIT[0.0]LZ[ 50.0 0
+];B[ok]FIT[0.0]LZ[ 50.0 0
+];W[ol]FIT[0.0]C[]LZ[ 50.0 0
+]))(;B[qe]FIT[0.0]C[黑棋 胜率: 89.5% 
+盘面: 27.0 不确定度: 0.0
+(KataGo_20b_etyy / 2.7k 计算量)
+
+黑棋 胜率: 89.5% 
+盘面: 27.0 局面复杂度: 24.9
+(KataGo_20b_etyy / 2.7k 计算量)
+贴目: 7.5]LZ[KataGo_20b_etyy 89.5 2.7k -19.5
+move L3 visits 1925 winrate 1054 scoreMean -19.4549 pv L3 L2 N3 N2 M4 M2 Q9 S7 R6 R10 Q14 P9 O9 P10 N11 info move Q14 visits 361 winrate 911 scoreMean -20.9903 pv Q14 R12 L3 M4 N2 M2 N3 G3 F2 info move Q9 visits 202 winrate 953 scoreMean -18.9235 pv Q9 N7 O7 P9 Q8 R10 info move Q8 visits 140 winrate 738 scoreMean -20.8849 pv Q8 Q14 D9 R8 Q9 R9 R7 R11 L3 info move R8 visits 31 winrate 786 scoreMean -20.6721 pv R8 Q14 P9 H17 D9 info move K4 visits 15 winrate 806 scoreMean -21.4673 pv K4 K3 Q14 R12 Q8 R8 info move S15 visits 11 winrate 899 scoreMean -20.1713 pv S15 S16 L3 L4 N3 info move P14 visits 6 winrate 750 scoreMean -22.4427 pv P14 S14 R13 info move O10 visits 6 winrate 783 scoreMean -21.2243 pv O10 Q14 Q13 R13 R12 S14 info ];W[pf]FIT[0.0]C[白棋 胜率: 9.6% 
+盘面: 27.9 不确定度: 0.0
+(KataGo_20b_etyy / 4.8k 计算量)
+
+白棋 胜率: 9.6% 
+盘面: 27.9 局面复杂度: 24.9
+(KataGo_20b_etyy / 4.8k 计算量)
+贴目: 7.5]LZ[KataGo_20b_etyy 9.6 4.8k 20.4
+move R12 visits 2370 winrate 9039 scoreMean 20.4158 pv R12 Q9 N7 O7 P9 Q8 R10 S9 O14 L3 info move R8 visits 1068 winrate 8995 scoreMean 20.9341 pv R8 L3 N2 K3 M5 K5 M7 O10 Q12 P11 Q11 info move O11 visits 505 winrate 9041 scoreMean 20.5867 pv O11 L3 M4 N2 M2 N3 O14 P15 N15 info move O10 visits 209 winrate 8903 scoreMean 19.2496 pv O10 P9 P10 R8 O14 S10 R9 S9 Q8 Q9 R10 info move G3 visits 196 winrate 9024 scoreMean 20.5764 pv G3 G4 R12 L3 L2 N3 N2 M4 M2 info move P9 visits 155 winrate 8881 scoreMean 19.4228 pv P9 L3 M4 N2 M2 O2 O14 P15 info move Q12 visits 128 winrate 8956 scoreMean 19.6743 pv Q12 L3 M4 N2 M2 N3 G3 F2 info move O14 visits 75 winrate 8977 scoreMean 20.3867 pv O14 P15 N15 R17 S15 P16 Q17 info move O9 visits 50 winrate 8812 scoreMean 18.7092 pv O9 P8 R12 R9 R10 S9 O14 L3 info move R7 visits 45 winrate 8889 scoreMean 20.0098 pv R7 S7 R12 L3 M4 N2 info ];B[ph]FIT[0.0]C[黑棋 胜率: 88.1% 
+盘面: 26.3 不确定度: 0.0
+(KataGo_20b_etyy / 12k 计算量)
+
+黑棋 胜率: 88.0% 
+盘面: 26.3 局面复杂度: 25.0
+(KataGo_20b_etyy / 12k 计算量)
+
+我觉得是正常分寸。
+贴目: 7.5]LZ[KataGo_20b_etyy 88.1 12k -18.8
+move L3 visits 9395 winrate 1195 scoreMean -18.8251 pv L3 M4 Q8 R8 Q9 G3 G4 F2 G2 H3 E1 R9 R7 R11 N14 M16 O10 info move O14 visits 1101 winrate 1107 scoreMean -19.6363 pv O14 R8 L3 N2 K3 M5 O3 O2 K5 M7 N9 info move Q9 visits 598 winrate 1081 scoreMean -19.318 pv Q9 N7 O7 P9 P8 R9 Q8 O14 P13 info move N14 visits 526 winrate 1044 scoreMean -19.9488 pv N14 R8 L3 L2 N3 N2 M4 M2 N16 N17 M16 L18 O11 info move Q8 visits 339 winrate 894 scoreMean -20.1731 pv Q8 R8 Q9 R9 R7 R11 N14 M16 O10 O11 N11 info move R8 visits 186 winrate 1017 scoreMean -20.696 pv R8 Q8 R9 Q9 L3 M4 N2 M2 N3 S7 R7 R6 R5 info move O15 visits 88 winrate 923 scoreMean -21.2319 pv O15 R8 L3 L2 N3 N2 M4 info move N15 visits 29 winrate 931 scoreMean -21.2786 pv N15 R8 L3 M2 M4 info move P16 visits 15 winrate 896 scoreMean -21.6002 pv P16 P17 R17 S15 Q17 S14 info move R7 visits 14 winrate 816 scoreMean -21.3781 pv R7 R8 S8 R6 S7 O9 info ]))(;W[qd]FIT[0.0]C[白棋 胜率: 9.8% 
+盘面: 27.5 不确定度: 0.0
+(KataGo_20b_etyy / 5.9k 计算量)
+
+白棋 胜率: 9.8% 
+盘面: 27.5 局面复杂度: 25.0
+(KataGo_20b_etyy / 6.0k 计算量)
+贴目: 7.5]LZ[KataGo_20b_etyy 9.8 5.9k 20.0
+move F2 visits 961 winrate 9024 scoreMean 20.0438 pv F2 G2 G3 G4 H3 E1 R15 L3 L2 N3 N2 M4 M2 Q14 R12 Q12 info move R15 visits 1585 winrate 8986 scoreMean 19.6273 pv R15 L3 L2 N3 N2 M4 M2 Q9 R9 R8 R10 Q8 Q14 Q13 R13 D9 info move G3 visits 1093 winrate 8994 scoreMean 19.7029 pv G3 G4 F4 F2 R15 Q14 R12 Q8 R8 Q9 R9 info move R8 visits 977 winrate 8883 scoreMean 19.3452 pv R8 R16 R17 S17 S16 R15 S18 Q17 R18 P16 R12 O16 N16 N15 M15 N14 M14 N13 info move R12 visits 492 winrate 8941 scoreMean 18.9085 pv R12 R16 R17 S17 R15 S16 Q15 Q17 R18 Q18 S18 T18 S15 S19 R8 L3 M2 L5 info move R16 visits 304 winrate 8924 scoreMean 19.3573 pv R16 R12 P11 S10 P8 O9 Q13 R8 Q8 info move S16 visits 136 winrate 8959 scoreMean 18.8143 pv S16 L3 M4 N2 M2 N3 G3 F2 info move P9 visits 119 winrate 8847 scoreMean 18.6818 pv P9 L3 M4 N2 M2 N3 R15 Q14 O14 P15 N15 info move R7 visits 126 winrate 8996 scoreMean 20.2087 pv R7 S7 R12 R16 R17 S17 R15 S16 info move S15 visits 96 winrate 8956 scoreMean 19.2794 pv S15 L3 L4 N3 M2 N2 N4 info ];B[qc]FIT[0.0]C[黑棋 胜率: 89.7% 
+盘面: 27.0 不确定度: 0.0
+(KataGo_20b_etyy / 15k 计算量)
+
+黑棋 胜率: 89.7% 
+盘面: 27.0 局面复杂度: 24.5
+(KataGo_20b_etyy / 15k 计算量)
+贴目: 7.5]LZ[KataGo_20b_etyy 89.7 15k -19.5
+move L3 visits 11171 winrate 1033 scoreMean -19.4733 pv L3 M4 Q8 R8 Q9 G3 F2 R9 R7 R11 L4 L5 M2 N2 K2 N5 O5 K5 info move Q14 visits 2104 winrate 989 scoreMean -20.4287 pv Q14 R8 L3 L2 N3 N2 M4 M2 O10 P11 N12 P13 P16 info move Q9 visits 890 winrate 963 scoreMean -19.0563 pv Q9 N7 O7 P9 P8 R10 R9 Q14 D9 J17 info move Q8 visits 315 winrate 702 scoreMean -21.2841 pv Q8 R8 Q9 R9 R7 R11 D9 O9 P8 O11 N16 info move R8 visits 72 winrate 780 scoreMean -20.9283 pv R8 Q14 L3 L4 M4 N4 M5 info move K4 visits 37 winrate 814 scoreMean -21.3261 pv K4 K3 Q14 R12 Q12 Q11 P12 O10 info move S15 visits 25 winrate 875 scoreMean -20.3648 pv S15 S16 L3 L4 N3 M2 info move O10 visits 18 winrate 830 scoreMean -20.9532 pv O10 Q14 Q13 R13 R12 S14 S13 P13 info move P14 visits 17 winrate 799 scoreMean -22.1219 pv P14 S14 R13 S13 R11 R10 info move K3 visits 4 winrate 805 scoreMean -22.4897 pv K3 K4 L3 info ];W[rc]FIT[0.0]LZ[ 10.3 0
+];B[qb]FIT[0.0]LZ[ 50.0 0
+];W[pe]FIT[0.0]LZ[ 50.0 0
+];B[rd]FIT[0.0]LZ[ 50.0 0
+];W[re]FIT[0.0]LZ[ 50.0 0
+];B[qe]FIT[0.0]LZ[ 50.0 0
+];W[kq]FIT[0.0]LZ[ 50.0 0
+];B[qd]FIT[0.0]LZ[ 50.0 0
+];W[kp]FIT[0.0]C[]LZ[ 50.0 0
+]))(;B[ol]FIT[0.0]C[黑棋 胜率: 90.3% 
+盘面: 27.5 不确定度: 0.0
+(KataGo_20b_etyy / 28k 计算量)
+
+黑棋 胜率: 90.3% 
+盘面: 27.5 局面复杂度: 24.9
+(KataGo_20b_etyy / 28k 计算量)
+贴目: 7.5]LZ[KataGo_20b_etyy 90.3 28k -20.0
+move N8 visits 18259 winrate 969 scoreMean -20.0053 pv N8 M5 R16 R17 S17 R15 S16 Q15 S15 R18 Q14 R12 R8 R7 S7 R5 S5 R9 S8 P10 O14 info move L3 visits 6881 winrate 969 scoreMean -21.518 pv L3 N3 O8 N5 M5 M6 P6 L5 P9 Q9 Q10 R10 P10 S9 R8 info move O8 visits 1433 winrate 907 scoreMean -20.7172 pv O8 O9 N8 Q11 L3 L2 N3 N2 M4 M2 R8 R7 info move R16 visits 981 winrate 869 scoreMean -21.2485 pv R16 R17 S17 R15 S16 Q15 S15 G3 G4 F2 G2 H3 E1 N8 F5 D9 Q17 info move K4 visits 276 winrate 850 scoreMean -20.8624 pv K4 L3 N8 P10 R16 R17 S17 R15 S16 Q15 info move L5 visits 173 winrate 728 scoreMean -22.2606 pv L5 N3 N8 R8 R11 P10 R16 info move R8 visits 129 winrate 770 scoreMean -22.1469 pv R8 R7 S7 R5 S5 N8 L3 N3 L4 info move S16 visits 48 winrate 781 scoreMean -22.4535 pv S16 Q13 Q14 R13 P13 S14 S15 info move Q11 visits 45 winrate 842 scoreMean -22.1264 pv Q11 P10 L3 N3 L4 M5 M4 info move K3 visits 44 winrate 799 scoreMean -22.2302 pv K3 K4 L3 L4 N3 M2 N2 N4 N5 M4 info ];W[kq]FIT[0.0]C[白棋 胜率: 9.1% 
+盘面: 30.3 不确定度: 0.0
+(KataGo_20b_etyy / 9.5k 计算量)
+
+白棋 胜率: 9.1% 
+盘面: 30.3 局面复杂度: 26.5
+(KataGo_20b_etyy / 9.5k 计算量)
+贴目: 7.5]LZ[KataGo_20b_etyy 9.1 9.5k 22.8
+move N3 visits 6924 winrate 9086 scoreMean 22.7624 pv N3 O8 N5 M5 M6 P9 Q9 P10 Q10 P11 Q11 P12 L5 P6 S7 info move M4 visits 1307 winrate 8982 scoreMean 19.5782 pv M4 N2 M2 N3 N7 R16 N4 O3 R17 S17 R15 S16 Q14 S15 Q15 R13 Q13 H17 R12 info move L2 visits 585 winrate 8974 scoreMean 19.1325 pv L2 N3 N2 M4 M2 N8 Q11 R8 R7 S7 R9 S8 R5 S5 O10 info move M2 visits 332 winrate 8865 scoreMean 19.2591 pv M2 M4 L4 K4 L5 K3 N4 M5 N5 M6 O5 K6 D8 R16 R17 S17 info move N2 visits 303 winrate 8948 scoreMean 19.6336 pv N2 M4 L2 N3 M2 N8 Q11 R8 O10 R16 R17 S17 R15 S16 Q15 info move L4 visits 15 winrate 8277 scoreMean 14.6724 pv L4 N3 M2 N2 N4 N5 M4 O3 info ];B[lp]FIT[0.0]C[黑棋 胜率: 89.3% 
+盘面: 26.4 不确定度: 0.0
+(KataGo_20b_etyy / 2.6k 计算量)
+
+黑棋 胜率: 89.3% 
+盘面: 26.4 局面复杂度: 24.5
+(KataGo_20b_etyy / 2.6k 计算量)
+贴目: 7.5]LZ[KataGo_20b_etyy 89.3 2.6k -18.9
+move N2 visits 2087 winrate 1071 scoreMean -18.8769 pv N2 M2 N3 N7 R16 N4 O3 R17 S17 R15 S16 Q15 S15 R18 Q14 R12 O14 info move O8 visits 248 winrate 993 scoreMean -20.4835 pv O8 O9 N8 Q10 N9 O10 N2 M2 N3 R15 H4 J4 info move L4 visits 163 winrate 840 scoreMean -22.0162 pv L4 L5 M2 N2 L2 N3 K5 M6 J4 info move O3 visits 51 winrate 629 scoreMean -24.6367 pv O3 O2 N2 M2 N3 N1 O1 P1 Q2 M1 Q1 O1 N7 O9 N9 info move M2 visits 18 winrate 785 scoreMean -23.4403 pv M2 N2 L2 O3 K4 N7 J4 info move R8 visits 6 winrate 737 scoreMean -22.4124 pv R8 L4 O8 O9 info move R16 visits 5 winrate 800 scoreMean -22.2412 pv R16 R17 S17 R15 S16 info move N7 visits 4 winrate 684 scoreMean -23.6939 pv N7 L4 O9 Q10 info move P6 visits 3 winrate 819 scoreMean -22.2949 pv P6 Q6 N2 info move K3 visits 2 winrate 750 scoreMean -23.8157 pv K3 G3 info ];W[mr]FIT[0.0]C[白棋 胜率: 11.1% 
+盘面: 26.2 不确定度: 0.0
+(KataGo_20b_etyy / 3.6k 计算量)
+
+白棋 胜率: 11.1% 
+盘面: 26.2 局面复杂度: 24.6
+(KataGo_20b_etyy / 3.6k 计算量)
+贴目: 7.5]LZ[KataGo_20b_etyy 11.1 3.6k 18.7
+move M2 visits 3526 winrate 8890 scoreMean 18.7195 pv M2 N3 N7 N6 G3 G4 F4 F2 M6 M7 N4 O3 O5 info move O3 visits 81 winrate 8814 scoreMean 17.0684 pv O3 P6 M2 Q6 R15 Q14 R12 P12 Q10 O15 info move G3 visits 7 winrate 8137 scoreMean 13.5531 pv G3 M2 F2 C6 info move N3 visits 6 winrate 6004 scoreMean 5.61198 pv N3 O3 O2 M2 L4 L2 info move F2 visits 2 winrate 7802 scoreMean 12.6858 pv F2 M2 info ];B[lr]FIT[0.0]C[黑棋 胜率: 88.8% 
+盘面: 26.2 不确定度: 0.0
+(KataGo_20b_etyy / 4.7k 计算量)
+
+黑棋 胜率: 88.8% 
+盘面: 26.2 局面复杂度: 24.6
+(KataGo_20b_etyy / 4.7k 计算量)
+贴目: 7.5]LZ[KataGo_20b_etyy 88.8 4.7k -18.7
+move N3 visits 4427 winrate 1117 scoreMean -18.6865 pv N3 N7 R16 N4 O3 R17 S17 R15 S16 Q15 S15 R18 Q14 R12 O14 S13 info move O2 visits 206 winrate 943 scoreMean -20.1261 pv O2 N1 O3 O1 O8 O9 N8 P10 N9 N10 M10 N11 M11 info move O3 visits 57 winrate 562 scoreMean -25.4684 pv O3 O2 N3 N1 O1 P1 Q2 M1 Q1 O1 N7 O9 N9 info move R6 visits 4 winrate 719 scoreMean -20.9818 pv R6 R15 Q14 info ];W[mq]FIT[0.0]C[白棋 胜率: 10.9% 
+盘面: 26.2 不确定度: 0.0
+(KataGo_20b_etyy / 10k 计算量)
+
+白棋 胜率: 10.9% 
+盘面: 26.2 局面复杂度: 24.5
+(KataGo_20b_etyy / 10k 计算量)
+
+黑棋 98.2%，黑领先20.6目
+贴目: 7.5]LZ[KataGo_20b_etyy 10.9 10k 18.7
+move N7 visits 6297 winrate 8906 scoreMean 18.7018 pv N7 R16 R17 S17 R15 S16 Q15 S15 N4 O3 G3 F2 R18 Q14 R12 O14 S13 info move N4 visits 1478 winrate 8856 scoreMean 18.3948 pv N4 O3 N7 R16 R17 S17 R15 S16 Q15 S15 G3 F2 R18 Q14 R12 O14 S13 info move G3 visits 935 winrate 8829 scoreMean 18.1034 pv G3 G4 F4 F2 G2 H4 J4 H6 D8 J5 L4 N7 info move R15 visits 865 winrate 8835 scoreMean 18.5004 pv R15 M6 N7 N6 Q14 K5 G3 F2 G5 K3 info move N1 visits 400 winrate 8876 scoreMean 18.528 pv N1 O1 M1 P6 R15 Q14 Q11 N14 O12 N16 N17 M16 info move R12 visits 96 winrate 8761 scoreMean 17.5922 pv R12 M6 N7 N6 P12 K5 J5 info move G4 visits 58 winrate 8583 scoreMean 16.3131 pv G4 G3 N7 M5 N4 O3 info move R11 visits 26 winrate 8706 scoreMean 16.7278 pv R11 R16 R17 S17 Q18 S15 Q15 R18 Q17 E18 info move F2 visits 26 winrate 8800 scoreMean 17.3485 pv F2 G2 G3 G4 H3 E1 F4 F1 info move D9 visits 26 winrate 8841 scoreMean 17.8918 pv D9 R16 R17 S17 R15 S16 Q14 S15 Q15 R13 info ])(;B[ol]FIT[0.0]C[黑棋 胜率: 90.3% 
+盘面: 27.5 不确定度: 0.0
+(KataGo_20b_etyy / 28k 计算量)
+
+黑棋 胜率: 90.3% 
+盘面: 27.5 局面复杂度: 24.9
+(KataGo_20b_etyy / 28k 计算量)
+
+第一感往外出来
+贴目: 7.5]LZ[KataGo_20b_etyy 90.3 28k -20.0
+move N8 visits 21269 winrate 968 scoreMean -20.0144 pv N8 M5 R16 R17 S17 R15 S16 Q15 S15 R18 Q14 R12 N3 N2 M4 L3 R8 P12 O14 S13 S14 info move L3 visits 2704 winrate 952 scoreMean -21.9159 pv L3 N3 O8 N5 P9 Q9 P10 O5 P7 P5 info move O8 visits 1392 winrate 906 scoreMean -20.7118 pv O8 O9 L3 L4 N3 N2 M2 M4 L2 O2 J2 info move R16 visits 1252 winrate 859 scoreMean -21.322 pv R16 R17 S17 R15 S16 Q15 S15 G3 G4 F2 G2 H3 E1 N8 F5 D9 info move K4 visits 864 winrate 846 scoreMean -20.8486 pv K4 K3 N8 P10 R16 R17 S17 R15 S16 Q15 S15 R18 info move R8 visits 218 winrate 768 scoreMean -22.16 pv R8 R7 S7 R5 S5 N8 L5 N3 O9 O8 info move L5 visits 123 winrate 716 scoreMean -22.345 pv L5 N3 N8 R8 R11 P10 info move Q11 visits 123 winrate 830 scoreMean -22.0236 pv Q11 G3 G4 F2 G2 H3 E1 F4 info move S16 visits 60 winrate 769 scoreMean -22.5861 pv S16 Q13 Q14 R13 P13 S14 S15 S12 O14 info move K3 visits 43 winrate 807 scoreMean -22.2855 pv K3 K4 L3 L4 N3 M2 N2 N4 N5 info ]))(;B[qe]FIT[0.0]LZ[ 91.4 0
+];W[pf]FIT[0.0]C[白棋 胜率: 8.3% 
+盘面: 29.2 不确定度: 0.0
+(KataGo_20b_etyy / 532 计算量)
+
+白棋 胜率: 8.3% 
+盘面: 29.2 局面复杂度: 25.5
+(KataGo_20b_etyy / 954 计算量)
+贴目: 7.5]LZ[KataGo_20b_etyy 8.3 532 21.7
+move O16 visits 217 winrate 9169 scoreMean 21.6772 pv O16 Q10 R8 P8 P7 O8 O7 info move O17 visits 105 winrate 9179 scoreMean 21.7426 pv O17 Q10 P9 Q9 Q8 P10 O9 O7 info move G3 visits 40 winrate 9082 scoreMean 20.8598 pv G3 G4 O16 Q10 P9 Q9 Q8 P10 info move Q11 visits 25 winrate 9079 scoreMean 20.7088 pv Q11 P16 P17 O17 P15 O16 info move R11 visits 25 winrate 8962 scoreMean 19.5409 pv R11 P16 P17 O17 P15 O16 Q15 Q17 info move O8 visits 24 winrate 8997 scoreMean 19.5999 pv O8 O17 O16 N16 O15 P17 P16 R18 N17 info move Q9 visits 24 winrate 9044 scoreMean 20.533 pv Q9 O16 P15 R17 Q17 S15 R16 info move P10 visits 24 winrate 9027 scoreMean 20.263 pv P10 O16 P15 R17 Q17 S15 R16 S16 S17 info move P11 visits 24 winrate 8996 scoreMean 20.0947 pv P11 O16 P15 R17 Q17 S15 R16 info move Q12 visits 24 winrate 8996 scoreMean 19.9279 pv Q12 P16 P17 O17 P15 O16 info ];B[nd]FIT[0.0]LZ[ 91.7 0
+];W[pj]FIT[0.0]LZ[ 50.0 0
+];B[ok]FIT[0.0]LZ[ 50.0 0
+];W[pk]FIT[0.0]LZ[ 50.0 0
+];B[pl]FIT[0.0]LZ[ 50.0 0
+];W[oj]FIT[0.0]C[]LZ[ 50.0 0
+]))(;B[fr]FIT[0.0]LZ[ 91.7 0
+];W[gr]FIT[0.0]LZ[ 50.0 0
+];B[gq]FIT[0.0]LZ[ 50.0 0
+];W[gp]FIT[0.0]LZ[ 50.0 0
+];B[hq]FIT[0.0]LZ[ 50.0 0
+];W[es]FIT[0.0]LZ[ 50.0 0
+];B[fp]FIT[0.0]LZ[ 50.0 0
+];W[fs]FIT[0.0]LZ[ 50.0 0
+];B[fo]FIT[0.0]C[]LZ[ 50.0 0
+])(;B[ql]FIT[0.0]C[]LZ[ 91.7 0
+]))(;B[pm]FIT[0.0]LZ[ 91.6 0
+];W[eq]FIT[0.0]LZ[ 50.0 0
+];B[fr]FIT[0.0]LZ[ 50.0 0
+];W[gr]FIT[0.0]LZ[ 50.0 0
+];B[gq]FIT[0.0]LZ[ 50.0 0
+];W[gp]FIT[0.0]LZ[ 50.0 0
+];B[hq]FIT[0.0]LZ[ 50.0 0
+];W[es]FIT[0.0]C[]LZ[ 50.0 0
+]))(;W[cp]FIT[0.0]LZ[ 8.2 0
+];B[do]FIT[0.0]LZ[ 50.0 0
+];W[dr]FIT[0.0]LZ[ 50.0 0
+];B[er]FIT[0.0]LZ[ 50.0 0
+];W[cr]FIT[0.0]LZ[ 50.0 0
+];B[eq]FIT[0.0]LZ[ 50.0 0
+];W[cn]FIT[0.0]LZ[ 50.0 0
+];B[pm]FIT[0.0]LZ[ 50.0 0
+];W[jp]FIT[0.0]LZ[ 50.0 0
+];B[mp]FIT[0.0]LZ[ 50.0 0
+];W[nq]FIT[0.0]LZ[ 50.0 0
+];B[nr]FIT[0.0]C[]LZ[ 50.0 0
+]))(;W[pq]FIT[0.0]LZ[ 9.7 0
+];B[oq]FIT[0.0]LZ[ 50.0 0
+];W[op]FIT[0.0]LZ[ 50.0 0
+];B[po]FIT[0.0]LZ[ 50.0 0
+];W[qq]FIT[0.0]LZ[ 50.0 0
+];B[or]FIT[0.0]LZ[ 50.0 0
+];W[rn]FIT[0.0]LZ[ 50.0 0
+];B[pm]FIT[0.0]LZ[ 50.0 0
+];W[nn]FIT[0.0]LZ[ 50.0 0
+];B[jq]FIT[0.0]LZ[ 50.0 0
+];W[cq]FIT[0.0]LZ[ 50.0 0
+];B[dq]FIT[0.0]LZ[ 50.0 0
+];W[cp]FIT[0.0]LZ[ 50.0 0
+];B[do]FIT[0.0]LZ[ 50.0 0
+];W[dr]FIT[0.0]C[]LZ[ 50.0 0
+]))(;B[hq]FIT[0.0]LZ[ 91.0 0
+];W[cq]FIT[0.0]LZ[ 50.0 0
+];B[dq]FIT[0.0]LZ[ 50.0 0
+];W[cp]FIT[0.0]LZ[ 50.0 0
+];B[do]FIT[0.0]LZ[ 50.0 0
+];W[dr]FIT[0.0]LZ[ 50.0 0
+];B[er]FIT[0.0]LZ[ 50.0 0
+];W[cr]FIT[0.0]LZ[ 50.0 0
+];B[fr]FIT[0.0]LZ[ 50.0 0
+];W[cn]FIT[0.0]C[]LZ[ 50.0 0
+])(;B[hq]FIT[0.0]LZ[ 91.0 0
+];W[fo]FIT[0.0]LZ[ 50.0 0
+];B[dn]FIT[0.0]LZ[ 50.0 0
+];W[jq]FIT[0.0]C[]LZ[ 50.0 0
+])(;B[hq]FIT[0.0]LZ[ 91.0 0
+];W[fo]FIT[0.0]LZ[ 50.0 0
+];B[dn]FIT[0.0]LZ[ 50.0 0
+];W[jq]FIT[0.0]LZ[ 50.0 0
+]))(;W[cc]FIT[0.0]LZ[ 10.6 0
+];B[dc]FIT[0.0]LZ[ 50.0 0
+];W[cd]FIT[0.0]LZ[ 50.0 0
+];B[cf]FIT[0.0]LZ[ 50.0 0
+];W[ce]FIT[0.0]LZ[ 50.0 0
+];B[de]FIT[0.0]LZ[ 50.0 0
+];W[bf]FIT[0.0]LZ[ 50.0 0
+];B[cb]FIT[0.0]LZ[ 50.0 0
+];W[bb]FIT[0.0]LZ[ 50.0 0
+];B[be]FIT[0.0]LZ[ 50.0 0
+];W[db]FIT[0.0]LZ[ 50.0 0
+];B[bc]FIT[0.0]LZ[ 50.0 0
+];W[ca]FIT[0.0]LZ[ 50.0 0
+];B[bd]FIT[0.0]LZ[ 50.0 0
+];W[cb]FIT[0.0]C[]LZ[ 50.0 0
+]))(;B[fc]FIT[0.0]LZ[ 90.1 0
+];W[cq]FIT[0.0]LZ[ 50.0 0
+];B[cp]FIT[0.0]LZ[ 50.0 0
+];W[dq]FIT[0.0]LZ[ 50.0 0
+];B[fq]FIT[0.0]LZ[ 50.0 0
+];W[eq]FIT[0.0]LZ[ 50.0 0
+];B[ep]FIT[0.0]LZ[ 50.0 0
+];W[fr]FIT[0.0]LZ[ 50.0 0
+];B[di]FIT[0.0]C[]LZ[ 50.0 0
+])(;B[fq]FIT[0.0]LZ[ 90.1 0
+]))(;W[pp]FIT[0.0]LZ[ 50.0 0
+];B[dd]FIT[0.0]LZ[ 50.0 0
+];W[qc]FIT[0.0]LZ[ 50.0 0
+];B[qd]FIT[0.0]LZ[ 50.0 0
+];W[pc]FIT[0.0]LZ[ 50.0 0
+];B[nc]FIT[0.0]LZ[ 50.0 0
+];W[oc]FIT[0.0]LZ[ 50.0 0
+];B[od]FIT[0.0]LZ[ 50.0 0
+];W[nb]FIT[0.0]LZ[ 50.0 0
+];B[qq]FIT[0.0]LZ[ 50.0 0
+];W[pq]FIT[0.0]LZ[ 50.0 0
+];B[qp]FIT[0.0]LZ[ 50.0 0
+];W[qn]FIT[0.0]LZ[ 50.0 0
+];B[rn]FIT[0.0]LZ[ 50.0 0
+];W[qm]FIT[0.0]C[]LZ[ 50.0 0
+]))
