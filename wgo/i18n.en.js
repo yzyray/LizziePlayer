@@ -5,8 +5,8 @@ WGo.lang = "en"; // set language code
 
 WGo.i18n[WGo.lang] = {
 	"about-text": "<h1>Lizzie Player 1.0</h1>"
-				+ "<p>'Lizzie Player' is an extension of WGo.js, a HTML5 library for purposes of game of go. It can display candidates, winrate graph,blunder list and allow you to open a local sgf.</p>"
-				+ "<p>This sgf is from Lizzie Yzy,which is open and free(<a href='https://pan.baidu.com/s/1q615GHD62F92mNZbTYfcxA' target='_blank'>Click to download</a>),you can upload you sgf from lizzie yzy's share menu and view it from any device.</p>"
+				+ "<p><a href='https://github.com/yzyray/LizziePlayer' target='_blank'>'Lizzie Player'</a> is an extension of WGo.js, a HTML5 library for purposes of game of go. It can display candidates, winrate graph,blunder list and allow you to open a local sgf.</p>"
+				+ "<p>This sgf is from LizzieYzy,which is open and free(<a href='https://pan.baidu.com/s/1q615GHD62F92mNZbTYfcxA' target='_blank'>Click to download</a>),you can upload you sgf from LizzieYzy's share menu and view it from any device.</p>"
 				+ "<p>Short cut: O=Open,C=Toggle coordinates,M=Toggle moveNumber,X=Toggle playouts/score,V=Try play,A=Auto variation</p>"
 				+ "<p>Copyright &copy; 2019 <a href='https://github.com/yzyray' target='_blank'>Yzy</a></p>",
 	"black": "Black",
