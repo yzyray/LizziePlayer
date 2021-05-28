@@ -90,7 +90,7 @@ var title="";
             this.white.name.innerHTML = WGo.t("white");
             this.white.info.rank.val.innerHTML = "-";
         }
-        document.getElementsByTagName("title")[0].innerText = 'Lizzie复盘 '+title;
+        document.getElementsByTagName("title")[0].innerText = 'LizziePlayer '+title;
         this.black.info.caps.val.innerHTML = "0";
         this.white.info.caps.val.innerHTML = "0";
 
