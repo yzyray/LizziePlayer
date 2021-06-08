@@ -5,7 +5,7 @@ WGo.lang = "zh";
 WGo.i18n[WGo.lang] = {
     "about-text": "<h1>Lizzie Player 1.0</h1>"
         + "<p><a href='https://github.com/yzyray/LizziePlayer' target='_blank'>Lizzie Player</a> 扩展自<a href='http://wgo.waltheri.net/player' target='_blank'>WGo.js</a>, 用HTML5编写,支持电脑/移动端浏览Lizzie分析后的棋谱,包括胜率图,查找失误等功能,同时支持查看本地棋谱</p>"
-        + "<p>你所查看的棋谱来自Lizzie Yzy版,免费公开(<a href='https://pan.baidu.com/s/1q615GHD62F92mNZbTYfcxA' target='_blank'>点击下载</a>),在Lizzie中分析后可以使用分享功能分享到此网页,然后在其他终端中查看</p>"
+        + "<p>你所查看的棋谱来自<a href='https://github.com/yzyray/lizzieyzy' target='_blank'>LizzieYzy</a>,免费公开(<a href='https://github.com/yzyray/lizzieyzy/releases' target='_blank'>点击下载</a>),在Lizzie中分析后可以使用分享功能分享到此网页,然后在其他终端中查看</p>"
          + "<p>快捷键: O=打开棋谱,C=显示坐标,M=显示手数,X=切换计算量/目差,V=试下,A=自动前进变化图</p>"
         + "<p>版权 &copy; 2019 <a href='https://github.com/yzyray' target='_blank'>Yzy</a></p>",
     "black": "黑方",
