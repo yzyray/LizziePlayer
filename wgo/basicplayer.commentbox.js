@@ -1529,7 +1529,7 @@ var mark_branch= function (index) {
         if (comment && WGo.isWideMode) {
             finalcomment = "<p>"+comment +"</p>"+ moveComment;
         } else {
-            finalcomment = moveComment;
+            finalcomment = "<p>"+WGo.curNode.comment2+"</p>"+ moveComment;
         }
 
         if (finalcomment.length > 0) {
@@ -1735,7 +1735,7 @@ comment+="↑";
         if (comment && WGo.isWideMode) {
             finalcomment = "<p>"+comment +"</p>"+ moveComment;
         } else {
-            finalcomment = moveComment;
+          finalcomment = "<p>"+WGo.curNode.comment2+"</p>"+ moveComment;
         }
 
         if (finalcomment.length > 0) {

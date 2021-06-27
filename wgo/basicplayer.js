@@ -180,7 +180,6 @@
         }.bind(this));
 
         function bodyScale() {
-
             var devicewidth = document.documentElement.clientWidth;
             var deviceheight =document.documentElement.clientHeight;
                 // if (deviceheight / devicewidth > 1697 / 980) {
@@ -195,16 +194,11 @@
                 WGo.isWideMode = true;
             }
             if (WGo.isWideMode) {
-                if (WGo.isWideMode)
-                { o.style.height = (100) + "%"}
-                else
-                   {o.style.height = (96) + "%"
-                   }
+				o.style.height = (100) + "%"				
                 o.style.width = (100) + "%";
                 WGo.trueScale = 1;
                 document.body.style.zoom = 1;
             } else {
-
                 var scale = deviceheight / 980.0;
                 var w = devicewidth / scale;
                 o.style.height = (934) + "px";
@@ -213,9 +207,9 @@
                 WGo.trueScale = scale;
                 if (!WGo.isWideMode) {
                     if(WGo.isPC)
-                        WGo.commentheight =Math.max(845-w,185);
+                        WGo.commentheight =Math.max(845-w,200);
                         else
-                    WGo.commentheight =Math.max(843-w,185);
+                    WGo.commentheight =Math.max(843-w,200);
                 }
             }
             WGo.mainWidth= o.offsetWidth;
