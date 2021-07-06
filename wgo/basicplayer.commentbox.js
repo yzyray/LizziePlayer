@@ -398,7 +398,7 @@ else{
                 if (WGo.KW)
                 {
                     var lastScoreHeight;
-                    node=node = WGo.mianKifu.root;
+                    node = WGo.mianKifu.root;
                     for(var i=0;i<moveNum;i++)
                     {
                         node=node.children[0];
@@ -437,7 +437,7 @@ else{
                 else if(WGo.KB)
                 {
                     var lastScoreHeight;
-                    node=node = WGo.mianKifu.root;
+                    node = WGo.mianKifu.root;
                     for(var i=0;i<moveNum;i++)
                     {
                         node=node.children[0];
@@ -476,7 +476,7 @@ else{
             }
             else{
             var lastScoreHeight;
-            node=node = WGo.mianKifu.root;
+                node = WGo.mianKifu.root;
             for(var i=0;i<moveNum;i++)
             {
                 node=node.children[0];
@@ -513,7 +513,7 @@ else{
             }
             }
         }
-        node=node = WGo.mianKifu.root;
+        node = WGo.mianKifu.root;
         if(WGo.DZ)
         {
 
@@ -1526,12 +1526,13 @@ var mark_branch= function (index) {
             if(WGo.curNode.comment2)
             comment="<p>"+WGo.curNode.comment2+"</p>";//+comment;
         }
-        if (comment && WGo.isWideMode) {
-            finalcomment = "<p>"+comment +"</p>"+ moveComment;
-        } else {
-            finalcomment = "<p>"+WGo.curNode.comment2+"</p>"+ moveComment;
+        if (comment)
+        {
+                finalcomment = "<p>"+comment +"</p>"+ moveComment;
         }
-
+        else{
+            finalcomment = moveComment;
+        }
         if (finalcomment.length > 0) {
             var comm = finalcomment;
             return comm;
@@ -1732,12 +1733,13 @@ comment+="↑";
             if(WGo.curNode.comment2)
             comment="<p>"+WGo.curNode.comment2+"</p>";//+comment;
         }
-        if (comment && WGo.isWideMode) {
-            finalcomment = "<p>"+comment +"</p>"+ moveComment;
-        } else {
-          finalcomment = "<p>"+WGo.curNode.comment2+"</p>"+ moveComment;
+        if (comment)
+        {
+                finalcomment = "<p>"+comment +"</p>"+ moveComment;
         }
-
+        else{
+            finalcomment = moveComment;
+        }
         if (finalcomment.length > 0) {
             var comm = finalcomment;//"<p>" + WGo.filterHTML(finalcomment).replace(/\n/g, "</p><p>") + "</p>";
             // if (formatMoves) comm ="<a href=\"javascript:void(0)\" class=\"wgo-move-link\">"+comm+"</a>";

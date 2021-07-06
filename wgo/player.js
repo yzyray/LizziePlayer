@@ -1332,11 +1332,18 @@ if(WGo.badLastMark)
         last: function () {
             if (this.frozen || !this.kifu) return;
 
+            if (WGo._last_mark && WGo.isMouseOnBestMove) {
+                if (WGo.display_var_length)
+                    WGo.display_var_length =WGo.var_length;
+                this.board.redrawVar();
+                return;
+            }else{
             try {
                 this.kifuReader.last();
                 this.update();
             } catch (err) {
                 this.error(err);
+            }
             }
         },
 
@@ -1347,11 +1354,18 @@ if(WGo.badLastMark)
         first: function () {
             if (this.frozen || !this.kifu) return;
 
-            try {
-                this.kifuReader.first();
-                this.update();
-            } catch (err) {
-                this.error(err);
+            if (WGo._last_mark && WGo.isMouseOnBestMove) {
+                if (WGo.display_var_length)
+                        WGo.display_var_length =1;
+                this.board.redrawVar();
+                return;
+            }else{
+                try {
+                    this.kifuReader.first();
+                    this.update();
+                } catch (err) {
+                    this.error(err);
+                }
             }
         },
 
