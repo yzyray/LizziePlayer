@@ -6,7 +6,7 @@ WGo.i18n[WGo.lang] = {
     "about-text": "<h1>Lizzie Player 1.0</h1>"
         + "<p><a href='https://github.com/yzyray/LizziePlayer' target='_blank'>Lizzie Player</a> 扩展自<a href='http://wgo.waltheri.net/player' target='_blank'>WGo.js</a>, 用HTML5编写,支持电脑/移动端浏览Lizzie分析后的棋谱,包括胜率图,查找失误等功能,同时支持查看本地棋谱</p>"
         + "<p>你所查看的棋谱来自<a href='https://github.com/yzyray/lizzieyzy' target='_blank'>LizzieYzy</a>,免费公开(<a href='https://github.com/yzyray/lizzieyzy/releases' target='_blank'>点击下载</a>),在Lizzie中分析后可以使用分享功能分享到此网页,然后在其他终端中查看</p>"
-         + "<p>快捷键: O=打开棋谱,C=显示坐标,M=显示手数,X=切换计算量/目差,V=试下,A=自动前进变化图</p>"
+         + "<p>快捷键: O=打开棋谱,C=显示坐标,M=显示手数,X=切换计算量/目数,V=试下,A=自动前进变化图</p>"
         + "<p>版权 &copy; 2019 <a href='https://github.com/yzyray' target='_blank'>Yzy</a></p>",
     "black": "黑方",
     "white": "白方",
@@ -44,7 +44,7 @@ WGo.i18n[WGo.lang] = {
     "first": "第一手",
     "multiprev": "回退10手",
     "previous": "上一手",
-    "score-po":"目差/计算量",
+    "score-po":"目数/计算量",
     "autoplay":"变化图自动模式",
     "tryplay":"试下",
     "back": "返回",
@@ -62,7 +62,7 @@ WGo.i18n[WGo.lang] = {
     "permalink": "链接",
     "sgflib": "棋谱",
     "scoremode": "点目",
-    "score": "目差",
+    "score": "目数",
     "playouts": "计算量",
     "bwin": "黑胜 $ 目",
     "wwin": "白胜 $ 目",
@@ -70,14 +70,14 @@ WGo.i18n[WGo.lang] = {
     "w-area-win": "白胜 $ 点",
     "help_score": "点击棋子或交叉点增减：空+对方死子，活子+空",
     "localSgf": "本地棋谱",
-    "findBlackScoreBlunder": "失误列表(黑)(目差)",
+    "findBlackScoreBlunder": "失误列表(黑)(目数)",
     "findBlackWinrateBlunder":"失误列表(黑)(胜率)",
     "auto": "自动",
     "stop": "停止",
     "winrateGraph":"胜率图",
     "accuracyLine":"吻合曲线",
     "findWhiteWinrateBlunder":"失误列表(白)(胜率)",
-    "findWhiteScoreBlunder":"失误列表(白)(目差)",
+    "findWhiteScoreBlunder":"失误列表(白)(目数)",
     "winrate": "胜率",
     "totalPlayouts": "总计算量",
     "longPlayouts":"计算量",
