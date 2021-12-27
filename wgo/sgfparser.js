@@ -136,14 +136,14 @@
                 node.engine=staticInfo[0];
                 if(getStrLen(staticInfo[0])>20)
                     node.enginemin=staticInfo[0].substring(0,getFirst10(staticInfo[0]));
-                    node.comment2 ="\n"+WGo.t("winrate")+":" + staticInfo[1] +"　"+WGo.t("totalPlayouts")+":"+ staticInfo[2];
+                    node.comment2 ="\n"+WGo.t("winrate")+":" + (100.0-staticInfo[1]) +"　"+WGo.t("totalPlayouts")+":"+ staticInfo[2];
             }
             if (staticInfo.length >= 4) {
                 // if (!node.comment)
                 node.engine=staticInfo[0];
                 if(getStrLen(staticInfo[0])>20)
                     node.enginemin=staticInfo[0].substring(0,getFirst10(staticInfo[0]));
-                    node.comment2 = "\n"+WGo.t("winrate")+":" + staticInfo[1] + "　"+WGo.t("score")+":" + staticInfo[3] + "　"+WGo.t("totalPlayouts")+":" + staticInfo[2];
+                    node.comment2 = "\n"+WGo.t("winrate")+":" + (100.0-staticInfo[1]) + "　"+WGo.t("score")+":" + staticInfo[3] + "　"+WGo.t("totalPlayouts")+":" + staticInfo[2];
             }
             var moveInfo = strs[1].split(" info ");
             // if(!node.comment)
