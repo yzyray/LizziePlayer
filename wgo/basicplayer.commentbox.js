@@ -1526,8 +1526,10 @@ var mark_branch= function (index) {
 				 comment = comment.replace(/\r\n/g,"<br>");
 				 comment = comment.replace(/\r/g,"<br>");
 				 comment = comment.replace(/\n/g,"<br>");
-			 }
-        if (bestMoves&&bestMoves[0])
+				 if(comment.endsWith("<br>"))
+					comment=comment.substring(0,comment.length-4);
+			}
+       if (bestMoves&&bestMoves[0])
         {
 		   if(comment)
 		   {
@@ -1543,7 +1545,7 @@ var mark_branch= function (index) {
         }
         if (comment)
         {
-                finalcomment = comment +"<br/>"+ moveComment;
+                finalcomment = comment + moveComment;
         }
         else{
             finalcomment = moveComment;
@@ -1679,6 +1681,7 @@ comment+="↑";
         // 	if(bestMoves[1])
         // 		if(bestMoves[1].coordinate)
         // return bestMoves[1].variation;
+		var trunkComment="";
         var moveComment = "";
         var finalcomment = "";
         if(node.children&&node.children.length>1)
@@ -1687,18 +1690,18 @@ comment+="↑";
             {
                 if(s==0)
                 {
-                    moveComment +="<p><a class=\"wgo-move-link2\">"+WGo.t("main")+"(A)</a>";
+                    trunkComment +="<p><a class=\"wgo-move-link2\">"+WGo.t("main")+"(A)</a>";
                 }
                 else{
                 if (s%5==1&&s!=1)
-                    moveComment +="<p><a class=\"wgo-move-link2\">"+WGo.t("branch")+"("+String.fromCharCode(65+s)+")";
+                    trunkComment +="<p><a class=\"wgo-move-link2\">"+WGo.t("branch")+"("+String.fromCharCode(65+s)+")";
                 else
-                    moveComment +="　　"+"<a class=\"wgo-move-link2\">"+WGo.t("branch")+"("+String.fromCharCode(65+s)+")";
+                    trunkComment +="　　"+"<a class=\"wgo-move-link2\">"+WGo.t("branch")+"("+String.fromCharCode(65+s)+")";
 
                 if(s%5==0||s==(node.children.length-1))
-                    moveComment +="</a></p>";
+                    trunkComment +="</a></p>";
                 else
-                    moveComment +="</a>";
+                    trunkComment +="</a>";
                 }
             }
         }
@@ -1743,12 +1746,14 @@ comment+="↑";
                         moveComment +="</a></p>";
                     }
             }
-			 if(comment)
+			if(comment)
 			 {
 				 comment = comment.replace(/\r\n/g,"<br>");
 				 comment = comment.replace(/\r/g,"<br>");
 				 comment = comment.replace(/\n/g,"<br>");
-			 }
+				 if(comment.endsWith("<br>"))
+					comment=comment.substring(0,comment.length-4);
+			}
         if (bestMoves&&bestMoves[0])
         {
 		   if(comment)
@@ -1757,7 +1762,7 @@ comment+="↑";
 			   if(reg.exec(comment)&&comment.indexOf("/")>0)
 				   comment="";
 			   if(WGo.curNode.comment2)
-				   comment=WGo.curNode.comment29+"<br/>"+comment;
+				   comment=WGo.curNode.comment2+"<br/>"+comment;
 		   }
 		   else
 			   if(WGo.curNode.comment2)
@@ -1765,10 +1770,10 @@ comment+="↑";
         }
         if (comment)
         {
-                finalcomment = comment +"<br/>"+ moveComment;
+                finalcomment = trunkComment+ comment + moveComment;
         }
         else{
-            finalcomment = moveComment;
+            finalcomment = trunkComment+moveComment;
         }
         if (finalcomment.length > 0) {
             var comm = finalcomment;//"<p>" + WGo.filterHTML(finalcomment).replace(/\n/g, "</p><p>") + "</p>";
