@@ -1523,8 +1523,11 @@ var mark_branch= function (index) {
             }
         if (bestMoves&&bestMoves[0])
         {
+            var reg = new RegExp("%.*\(.*\)");
+            if(reg.exec(comment)&&comment.indexOf("/")>0)
+               comment="";
             if(WGo.curNode.comment2)
-            comment="<p>"+WGo.curNode.comment2+"</p>";//+comment;
+            comment="<p>"+WGo.curNode.comment2+"</p>"+comment;
         }
         if (comment)
         {
@@ -1730,8 +1733,11 @@ comment+="↑";
             }
         if (bestMoves&&bestMoves[0])
         {
+            var reg = new RegExp("%.*\(.*\)");
+            if(reg.exec(comment)&&comment.indexOf("/")>0)
+               comment="";
             if(WGo.curNode.comment2)
-            comment="<p>"+WGo.curNode.comment2+"</p>";//+comment;
+            comment="<p>"+WGo.curNode.comment2+"</p>"+comment;
         }
         if (comment)
         {

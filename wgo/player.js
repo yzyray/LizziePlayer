@@ -1,4 +1,4 @@
-(function (WGo) {
+﻿(function (WGo) {
 
     "use strict";
 
@@ -450,6 +450,10 @@ if(WGo.badLastMark)
     }
 
     var mouse_click_pc = function () {
+        if (interval) {
+            clearInterval(interval);
+            interval = null;
+        }
         if(WGo.editMode)
             return;
         if(WGo.commentVarClicked)
