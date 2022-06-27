@@ -413,9 +413,9 @@
         var o = document.getElementById("main2");
 if(kifu.info.black&&kifu.info.black.name&&kifu.info.white&&kifu.info.white.name)
 {  if( WGo.uploader)
-        o.setAttribute( "download", WGo.uploader+"_"+kifu.info.black.name+"_vs"+kifu.info.white.name+getNowFormatDate() + ".sgf");
+        o.setAttribute( "download", kifu.info.black.name+"_vs_"+kifu.info.white.name+"_"+getNowFormatDate() +"_by_"+WGo.uploader+ ".sgf");
         else
-           o.setAttribute( "download", kifu.info.black.name+"_vs_"+kifu.info.white.name+getNowFormatDate() + ".sgf");
+           o.setAttribute( "download", kifu.info.black.name+"_vs_"+kifu.info.white.name+"_"+getNowFormatDate() + ".sgf");
 }
         //     o.setAttribute("download", kifu.info.black.name+"_vs_"+kifu.info.white.name+"_"+getNowFormatDate()+".sgf");
 
