@@ -1521,17 +1521,29 @@ var mark_branch= function (index) {
                         moveComment +="</a></p>";
                     }
             }
+			 if(comment)
+			 {
+				 comment = comment.replace(/\r\n/g,"<br>");
+				 comment = comment.replace(/\r/g,"<br>");
+				 comment = comment.replace(/\n/g,"<br>");
+			 }
         if (bestMoves&&bestMoves[0])
         {
-            var reg = new RegExp("%.*\(.*\)");
-            if(reg.exec(comment)&&comment.indexOf("/")>0)
-               comment="";
-            if(WGo.curNode.comment2)
-            comment="<p>"+WGo.curNode.comment2+"</p>"+comment;
+		   if(comment)
+		   {
+			   var reg = new RegExp("%.*\(.*\)");
+			   if(reg.exec(comment)&&comment.indexOf("/")>0)
+				   comment="";
+			   if(WGo.curNode.comment2)
+				   comment=WGo.curNode.comment2+"<br/>"+comment;
+		   }
+		   else
+			   if(WGo.curNode.comment2)
+				   comment=WGo.curNode.comment2+"<br/>"; 
         }
         if (comment)
         {
-                finalcomment = "<p>"+comment +"</p>"+ moveComment;
+                finalcomment = comment +"<br/>"+ moveComment;
         }
         else{
             finalcomment = moveComment;
@@ -1731,17 +1743,29 @@ comment+="↑";
                         moveComment +="</a></p>";
                     }
             }
+			 if(comment)
+			 {
+				 comment = comment.replace(/\r\n/g,"<br>");
+				 comment = comment.replace(/\r/g,"<br>");
+				 comment = comment.replace(/\n/g,"<br>");
+			 }
         if (bestMoves&&bestMoves[0])
         {
-            var reg = new RegExp("%.*\(.*\)");
-            if(reg.exec(comment)&&comment.indexOf("/")>0)
-               comment="";
-            if(WGo.curNode.comment2)
-            comment="<p>"+WGo.curNode.comment2+"</p>"+comment;
+		   if(comment)
+		   {
+			   var reg = new RegExp("%.*\(.*\)");
+			   if(reg.exec(comment)&&comment.indexOf("/")>0)
+				   comment="";
+			   if(WGo.curNode.comment2)
+				   comment=WGo.curNode.comment29+"<br/>"+comment;
+		   }
+		   else
+			   if(WGo.curNode.comment2)
+				   comment=WGo.curNode.comment2+"<br/>"; 
         }
         if (comment)
         {
-                finalcomment = "<p>"+comment +"</p>"+ moveComment;
+                finalcomment = comment +"<br/>"+ moveComment;
         }
         else{
             finalcomment = moveComment;
