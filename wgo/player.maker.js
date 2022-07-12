@@ -48,18 +48,27 @@
                 'markerStyle': 'LB',
                 'markerNum': 0
             });
-        } else if (menu._marker.config.markerStyle == 'LB' && menu._marker.config.markerNum == 0) {
+        }
+	//	else if (menu._marker.config.markerStyle == 'LB' && menu._marker.config.markerNum == 0) {
+    //        menu._marker.switchMaker({
+    //            'markerStyle': 'LB',
+   //             'markerNum': 5
+    //        });
+   //     } 
+		else if (menu._marker.config.markerStyle == 'LB' && menu._marker.config.markerNum == 0) {
             menu._marker.switchMaker({
                 'markerStyle': 'LB',
-                'markerNum': 5
+                'markerNum': 1
             });
-        } else if (menu._marker.config.markerStyle == 'LB' && menu._marker.config.markerNum == 5) {
+			
+        }
+		else if (menu._marker.config.markerStyle == 'LB' && menu._marker.config.markerNum == 1) {
             menu._marker.switchMaker({
                 'markerStyle': 'TRS',
                 'markerNum': 1
             });
+		}
             WGo.isShowingMoveNum = false;
-        }
     };
     WGo.toggleShowMoveNum=toggleShowMoveNum;
 
