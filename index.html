@@ -63,8 +63,6 @@ var isChinese;
                 btnLocal.innerHTML="LocalSgf";
                 var btnMain2=document.getElementById("main2");
                 btnMain2.innerHTML="Download";
-                var btnDownload=document.getElementById("download");
-                btnDownload.innerHTML="Download";
                 var lbl1=document.getElementById("lbl1");
                 lbl1.innerHTML="(From ";
                 var linkMain3=document.getElementById("main3");
@@ -86,45 +84,47 @@ var isChinese;
                 var lbl4=document.getElementById("lbl4");
                 lbl4.innerHTML="-WinrateLine,";
                 var lbl5=document.getElementById("lbl5");
-                lbl5.innerHTML="-ScoreLine";
-                var chrome=document.getElementById("chrome");
-                chrome.innerHTML="";
-                var chrome=document.getElementById("chrome1");
-                chrome.innerHTML="";
+                lbl5.innerHTML="-ScoreLine,Suggest to use: ";
                 var lbl6=document.getElementById("lbl6");
                 lbl6.innerHTML=",Use mouse wheel to control variation in computer";
-				
-				 var lbl11=document.getElementById("lbl11");
+                var lbl11=document.getElementById("lbl11");
                 lbl11.innerHTML="(From ";
                 var lbl21=document.getElementById("lbl21");
-                lbl21.innerHTML=") Candidates:";
+                lbl21.innerHTML="Candidates:";
                 var blue1=document.getElementById("blue1");
-                blue1.innerHTML="blue";
+                blue1.innerHTML="Blue";
                 var green1=document.getElementById("green1");
-                green1.innerHTML="green";
+                green1.innerHTML="Green";
                 var orange1=document.getElementById("orange1");
-                orange1.innerHTML="orange";
+                orange1.innerHTML="Orange";
                 var lbl31=document.getElementById("lbl31");
-                lbl31.innerHTML=",up-Winrate,down-Score/PO,";
+                lbl31.innerHTML="Up-Winrate,Down-Score/PO,";
                 var cyan1=document.getElementById("cyan1");
-                cyan1.innerHTML="cyan";
+                cyan1.innerHTML=",Cyan";
                 var purple1=document.getElementById("purple1");
-                purple1.innerHTML="purple";
+                purple1.innerHTML="Purple";
                 var lbl41=document.getElementById("lbl41");
                 lbl41.innerHTML="-WinrateLine,";
                 var lbl51=document.getElementById("lbl51");
                 lbl51.innerHTML="-ScoreLine";
+				var chrome=document.getElementById("chrome");
+                chrome.innerHTML="Chrome Browser";
                 var chrome11=document.getElementById("chrome11");
                 chrome11.innerHTML="";
+				var icp=document.getElementById("icp");
+                icp.innerHTML="";
+				var icp2=document.getElementById("icp2");
+                icp2.innerHTML="";
                 var chrome2=document.getElementById("chrome2");
                 chrome2.innerHTML="";
                 var lbl61=document.getElementById("lbl61");
                 lbl61.innerHTML=",Use mouse wheel to control variation in computer";
-				
                 var lbl7=document.getElementById("lbl7");
-                lbl7.innerHTML="    Current browser does not support WGo.js,";
+                lbl7.innerHTML="1             Current browser does not support WGo.js,";
                 var main4=document.getElementById("main4");
                 main4.innerHTML="click here to download sgf";
+                var btnDownload=document.getElementById("download");
+                btnDownload.innerHTML="Download";
             }
         }
     </script>
@@ -2181,7 +2181,7 @@ var isChinese;
                    <button id="openLocal" class="downbutton" style="height: 22px" onclick="opens()">本地棋谱</button>
                 <a id="main2" href="qp\test2.sgf" download="测试棋谱.sgf" style="display: none">下载棋谱</a>
                 <button id="download" class="downbutton" style="height: 22px;" onclick="download()">下载棋谱</button>
-                <nobr id="lbl21">选点说明:</nobr><nobr id="lbl31">上方胜率,下方目数/计算量,</nobr><font id="blue1" color="#00008b">蓝色</font>><font id="green1" color="green">绿色</font>><font id="orange1" color="orange">橙色</font>,<a href="https://beian.miit.gov.cn/">浙ICP</a>备20001934号-1<a id="lbl11" href="https://aistudio.baidu.com/aistudio/datasetdetail/116865">来自</a><nobr id="main3">LizzieYzy</nobr><font id="cyan1" color="#6495ed">,青色</font><nobr id="lbl41">-胜率曲线,</nobr><font id="purple1" color="#663399">紫色</font><nobr id="lbl51">-目数曲线</nobr><no id="chrome11">,建议使用</no><a id="chrome2" href="https://www.google.cn/intl/zh-CN/chrome/">Chrome浏览器</a><nobr id="lbl61">,电脑端可用滚轮控制变化图</nobr>
+                <nobr id="lbl21">选点说明:</nobr><nobr id="lbl31">上方胜率,下方目数/计算量,</nobr><font id="blue1" color="#00008b">蓝色</font>><font id="green1" color="green">绿色</font>><font id="orange1" color="orange">橙色</font>,<a id="icp" href="https://beian.miit.gov.cn/">浙ICP</a><no id=icp2>备20001934号-1</no><a id="lbl11" href="https://aistudio.baidu.com/aistudio/datasetdetail/116865">(来自</a><nobr id="main3">LizzieYzy)</nobr><font id="cyan1" color="#6495ed">,青色</font><nobr id="lbl41">-胜率曲线,</nobr><font id="purple1" color="#663399">紫色</font><nobr id="lbl51">-目数曲线</nobr><no id="chrome11">,建议使用</no><a id="chrome2" href="https://www.google.cn/intl/zh-CN/chrome/">Chrome浏览器</a><nobr id="lbl61">,电脑端可用滚轮控制变化图</nobr>
                 </div>
             <div style=" height:0px; overflow:hidden; position:absolute;">
                 <input type="file" id="up" onchange="check()"/></div></div>
